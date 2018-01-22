@@ -8,7 +8,7 @@ Prerequisite: MATH 12Repository for development of UBC's Introduction to Data Sc
 ## Expanded Course Description
 In recent years, virtually all areas of inquiry have seen an uptake in the use of Data Science tools. Skills in the areas of assembling, analyzing, and interpreting data are more critical than ever. This course is designed as a first experience in honing such skills. Students who have completed this course will be able to implement a Data Science workflow in the R programming language, by “scraping” (downloading) data from the internet, “wrangling” (managing) the data intelligently, and creating tables and/or figures that convey a justifiable story based on the data. They will be adept at using tools for finding patterns in data and making predictions about future data. There will be an emphasis on intelligent and reproducible workflow, and clear communications of findings. 
 
-## Coure Software Platforms
+## Course Software Platforms
 Students will learn to perform their analysis using the [R programming language](https://cran.r-project.org/). Analysis development and reports will be done using [RStudio](https://www.rstudio.com/) Server.
 
 ## Learning Outcomes
@@ -47,7 +47,7 @@ clear, reproducible, and shareable.
 ## Schedule
 | Week | Topic | Description |
 |------|-------|-------------|
-| 1 | Data wrangling and visualization | This week will be centered around an accessible case study that involves a full Data Science life-cycle – from scraping data off the web to producing figures and/or tables that tell a story. Students will be introduced to R and learn how to use [RStudio](https://www.rstudio.com/). |
+| 1 | Data wrangling and visualization | This week will be centered around an accessible case study that involves a full Data Science life-cycle – from scraping data off the web to producing figures and/or tables that tell a story. Students will be introduced to [R]((https://cran.r-project.org/)) and learn how to use [RStudio](https://www.rstudio.com/). |
 | 2 | Data wrangling and visualization, continued | This week will be centered around a slightly more challenging case study that again involves a full Data Science life-cycle. |
 | 3 | Data wrangling and visualization, continued |This week will be centered around a slightly more challenging case study that again involves a full Data Science life-cycle. |
 | 4 | Data wrangling and visualization, continued | This week will reflect on what we have learned from the three case-studies. What are generally good strategies for navigating along the Data Science life-cycle? There will be an explicit focus on workflow and reproducibility. |
