@@ -1,8 +1,7 @@
 # DSCI 100: Introduction to Data Science
+Jan-Apr 2019, Tues/Thurs 8:00 - 9:30 am, ORCH 4074
 
-Use of Data Science tools to summarize, visualize, and analyze data. Sensible workflows and clear interpretations are emphasized.
-
-Prerequisite: MATH 12
+Use of Data Science tools to summarize, visualize, and analyze data. Sensible workflows and clear interpretations are emphasized. Prerequisite: MATH 12
 
 ## Expanded Course Description
 In recent years, virtually all areas of inquiry have seen an uptake in the use of Data Science tools. Skills in the areas of assembling, analyzing, and interpreting data are more critical than ever. This course is designed as a first experience in honing such skills. Students who have completed this course will be able to implement a Data Science workflow in the R programming language, by “scraping” (downloading) data from the internet, “wrangling” (managing) the data intelligently, and creating tables and/or figures that convey a justifiable story based on the data. They will be adept at using tools for finding patterns in data and making predictions about future data. There will be an emphasis on intelligent and reproducible workflow, and clear communications of findings. 
@@ -27,11 +26,11 @@ By the end of the course, students will be able to:
 clear, reproducible, and shareable.
 
 ## Teaching Team
-| Position | Name  | email | office hours |
+| Position | Name  | email | office hours | office location |
 | :------: | :---: | :---: | :----------: |
-| Instructor | Tiffany Timbers | tiffany.timbers@stat.ubc.ca |
-| Teaching Assistant | TBD | |
-| Teaching Assistant | TBD| |
+| Instructor | Tiffany Timbers | tiffany.timbers@stat.ubc.ca | TBD | ESB 3152 |
+| Teaching Assistant | TBD | | | |
+| Teaching Assistant | TBD| | | |
 
 ## Assessment
 | Deliverable | % grade |
