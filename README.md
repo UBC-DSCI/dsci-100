@@ -27,7 +27,7 @@ clear, reproducible, and shareable.
 
 ## Teaching Team
 | Position | Name  | email | office hours | office location |
-| :------: | :---: | :---: | :----------: |
+| :------: | :---: | :---: | :----------: |:----------------|
 | Instructor | Tiffany Timbers | tiffany.timbers@stat.ubc.ca | TBD | ESB 3152 |
 | Teaching Assistant | TBD | | | |
 | Teaching Assistant | TBD| | | |
