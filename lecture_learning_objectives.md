@@ -1,6 +1,6 @@
 # DSCI 100 Lecture learning objectives
 
-## Introduction to Data Science
+## 1. Introduction to Data Science
 By the end of the chapter, students will be able to:
 
 * use a Jupyter notebook to execute provided R code
@@ -17,7 +17,7 @@ By the end of the chapter, students will be able to:
     - `ggplot`
     - `aes`
 
-## Reading in data locally and from the web
+## 2. Reading in data locally and from the web
 By the end of the chapter, students will be able to:
 
 * define the following:
@@ -33,7 +33,7 @@ By the end of the chapter, students will be able to:
 * use the `rvest` `html_nodes`, `html_text` and `html_attr` functions to scrape data from a `.html` file on the web
 * compare downloading tabular data from a plain text file (e.g., `.csv`) from the web versus scraping data from a `.html` file
 
-## Cleaning and wrangling data
+## 3. Cleaning and wrangling data
 By the end of the chapter, students will be able to:
 
 * define the term "tidy data"
@@ -47,7 +47,7 @@ By the end of the chapter, students will be able to:
     - `group_by`
     - `gather`
     
-  ## Effective data visualization
+  ## 4. Effective data visualization
   By the end of the chapter, students will be able to:
 
 * Define the three key aspects of ggplot objects:
@@ -63,7 +63,7 @@ By the end of the chapter, students will be able to:
 * List the rules of thumb for effective visualizations 
 * Given a visualization and a sentence describing it's intended task, evaluate it's effectiveness and suggest ways to improve the visualization with respect to that intended task
 
-## Classification
+## 5. Classification
 By the end of the chapter, students will be able to:
 
 * Recognize situations where a simple classifier would be appropriate for making predictions.
@@ -71,35 +71,33 @@ By the end of the chapter, students will be able to:
 * Interpret the output of a classifier.
 * Compute, by hand, the distance between points when there are two attributes.
 * Describe what a training data set is and how it is used in classification.
-* In a dataset with two attributes, perform k-nearest neighbour classification in R using caret::train(method = "knn", ...) to predict the class of a single new observation.
+* In a dataset with two attributes, perform k-nearest neighbour classification in R using `caret::train(method = "knn", ...)` to predict the class of a single new observation.
 
-## Classification, continued
+## 6. Classification, continued
 By the end of the chapter, students will be able to:
 
 * Describe what a test data set is and how it is used in classification.
-* Using R, evaluate classification accuracy using a test data set and appropriate metrics.
-* Using R, execute cross-validation in R to choose the number of neighbours.
+* Using R, evaluate k-nn classification accuracy using a test data set and appropriate metrics.
+* Using R, execute cross-validation in R to choose the number of neighbours for k-nn classification.
 * Identify when it is necessary to scale variables before classification and do this using R
-* In a dataset with > 2 attributes, perform k-nearest neighbour classification in R using caret::train(method = "knn", ...) to predict the class of a test dataset.
+* In a dataset with > 2 attributes, perform k-nearest neighbour classification in R using `caret::train(method = "knn", ...)` to predict the class of a test dataset.
 * Describe advantages and disadvantages of the k-nearest neighbour classification algorithm.
 
-## Clustering
+## 7. Clustering
 
 By the end of the chapter, students will be able to:
 
 * Describe a case where clustering would be an appropriate tool, and what insight it would bring from the data.
 * Explain the kmeans clustering algorithm.
 * Interpret the output of a kmeans cluster analysis.
-
-* Perform kmeans clustering in R using `kmeans`
-* Visualize the output of kmeans clustering in R using pair-wise scatter plots
-
-* Identify when it is necessary to scale variables before clustering and do this using R
-* Use the elbow method to choose the number of clusters for k-means
+* Perform kmeans clustering in R using `kmeans`.
+* Visualize the output of kmeans clustering in R using pair-wise scatter plots.
+* Identify when it is necessary to scale variables before clustering and do this using R.
+* Use the elbow method to choose the number of clusters for k-means.
 * Describe advantages, limitations and assumptions of the kmeans clustering algorithm.
 
 
-## Regression
+## 8. Regression
 By the end of the chapter, students will be able to:
 
 * Recognize situations where a simple regression analysis would be appropriate for making predictions.
@@ -107,21 +105,22 @@ By the end of the chapter, students will be able to:
 * Interpret the output of a k-nn regression.
 * In a dataset with two variables, perform k-nearest neighbour regression in R using `caret::knnregTrain()` to predict the values for a test dataset.
 * Using R, execute cross-validation in R to choose the number of neighbours.
-* Using R, evaluate classification accuracy using  a test data set and an appropriate metric (e.g., means square prediction error).
+* Using R, evaluate k-nn regression prediction accuracy using  a test data set and an appropriate metric (*e.g.*, means square prediction error).
 * Describe advantages and disadvantages of the k-nearest neighbour regression approach.
 
-## Regression, continued
+## 9. Regression, continued
 By the end of the chapter, students will be able to:
 
-* Explain the function of a simple regression analysis in the context of a prediction framework and contrast that with an inference framework.
-* Compare and contrast goodness of fit and prediction properties (namely MSE vs MSPE).
-* ~~In a dataset with > 2 variables, perform k-nearest neighbour regression in R using `caret::knnregTrain()` to predict the values for a test dataset.~~
+* In the context of k-nn regression, compare and contrast goodness of fit and prediction properties (namely MSE vs MSPE).
 * In a dataset with 2 variables, perform simple ordinary least squares regression in R using `lm()` to predict the values for a test dataset.
 * Compare and contrast predictions obtained from k-nearest neighbour regression to those obtained using simple ordinary least squares regression from the same dataset.
 
-## Regression, continued some more...
+## 10. Regression, continued some more...
 
 By the end of the chapter, students will be able to:
 
-* Placeholder
-
+* Define the terms population, sample and observation in the context of a statistical regression analysis.
+* Explain in words or using drawings, how bootstrap samples can be generated from a single sample.
+* From a single sample, generate multiple samples through bootstrapping using R.
+* In R, overlay the ordinary least squares regression lines from multiple bootstrapped samples on a single plot. 
+* Discuss what the collection of these slopes represents.
