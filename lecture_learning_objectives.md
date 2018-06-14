@@ -119,7 +119,6 @@ By the end of the chapter, students will be able to:
 
 By the end of the chapter, students will be able to:
 
-* Define the terms population, sample and observation in the context of a statistical regression analysis.
 * Explain in words or using drawings, how bootstrap samples can be generated from a single sample.
 * From a single sample, generate multiple samples through bootstrapping using R.
 * In R, overlay the ordinary least squares regression lines from multiple bootstrapped samples on a single plot. 
