@@ -16,6 +16,7 @@ By the end of the chapter, students will be able to:
     - `filter`
     - `ggplot`
     - `aes`
+* chain together two functions using the pipe operator, `%>%`
 
 ## 2. Reading in data locally and from the web
 By the end of the chapter, students will be able to:
