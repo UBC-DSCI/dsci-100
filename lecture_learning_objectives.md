@@ -39,7 +39,7 @@ By the end of the chapter, students will be able to:
 
 * define the term "tidy data"
 * discuss the advantages and disadvantages from storing data in a tidy data format
-* recall and use the following tidyverse functions for their intended data wrangling tasks:
+* recall and use the following tidyverse functions and operators for their intended data wrangling tasks:
     - `select`
     - `filter`
     - `map`
@@ -47,7 +47,8 @@ By the end of the chapter, students will be able to:
     - `summarise`
     - `group_by`
     - `gather`
-    
+    - `%in%`
+ 
   ## 4. Effective data visualization
   By the end of the chapter, students will be able to:
 
