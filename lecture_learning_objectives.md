@@ -26,7 +26,7 @@ By the end of the chapter, students will be able to:
     - relative file path
     - url
 * discuss why relative paths should be used over absolute paths in a Jupyter notebook
-* match the following `tidyverse` `read_*` function arguments to their descriptions:
+* match the following `tidyverse` `read_*` function argument descriptions to a simplified version of them:
     - `file`
     - `delim`
     - `col_names`
