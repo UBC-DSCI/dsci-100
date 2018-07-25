@@ -25,11 +25,13 @@ By the end of the chapter, students will be able to:
     - absolute file path
     - relative file path
     - url
+* discuss why relative paths should be used over absolute paths in a Jupyter notebook
 * match the following `tidyverse` `read_*` function arguments to their descriptions:
     - `file`
     - `delim`
     - `col_names`
     - `skip`
+* write a relative file path for the `file` argument of `tidyverse` `read_*` functions
 * choose the appropriate `tidyverse` `read_*` function and function arguments to load a given tabular data set into R
 * use the `rvest` `html_nodes`, `html_text` and `html_attr` functions to scrape data from a `.html` file on the web
 * compare downloading tabular data from a plain text file (e.g., `.csv`) from the web versus scraping data from a `.html` file
