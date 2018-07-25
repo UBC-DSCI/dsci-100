@@ -51,8 +51,8 @@ By the end of the chapter, students will be able to:
     - `gather`
     - `%in%`
  
-  ## 4. Effective data visualization
-  By the end of the chapter, students will be able to:
+## 4. Effective data visualization
+By the end of the chapter, students will be able to:
 
 * Define the three key aspects of ggplot objects:
      - aesthetic mappings
