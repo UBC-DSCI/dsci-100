@@ -25,6 +25,8 @@ By the end of the course, students will be able to:
 - Accomplish all of the above using workflows and communication strategies that are sensible,
 clear, reproducible, and shareable.
 
+*Learning outcomes per lecture are available [here](https://github.com/UBC-DSCI/dsci-100/blob/master/lecture_learning_objectives.md).*
+
 ## Teaching Team
 | Position | Name  | email | office hours | office location |
 | :------: | :---: | :---: | :----------: |:----------------|
