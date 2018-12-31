@@ -62,8 +62,23 @@ clear, reproducible, and shareable.
 | 11 | Chapter 9: Regression, continued | Continued explortion of k-nn regression in higher dimensions. We will also begin to compare k-nn to linear models in the context of regression. |
 | 12 | Chapter 10: Bootstrap applied to regression | This week will introduce the bootstrap, first by visualizing bootstrap samples and their fitted regression lines for cases where there is a response variable of interest and a single explanatory variable. An intuitive case will be made for what the ensemble of slopes represents, Then we work through examples from multiple regression, emphasizing the scientific interpretation and relevance of the mix of negative/positive slopes. We will emphasize that this is a jumping off point for the study of statistical inference. |
 
+## Late/absence policies
+Regular attendance to lecture and tutorials is expected of students. Students who are unavoidably absent because of illness or other reasons should inform the instructor(s) of the course as soon as possible, preferably, prior to the start of the lecture/tutorial. Students who miss a quiz or assignment need to provide a doctor’s note and make arrangements (e.g., schedule an oral make-up quiz) with tjhe Instructor as soon as possible. Failing to present a doctor’s note may result in a grade of zero.
+
+A late submission is defined as any work submitted after the deadline. For a late submission, the student will receive a 50% deducation of their grade for the first occurrence. Hence a maximum attainable grade for the first piece of work submitted late is 50%. Any additional pieces of work that are submitted late will receive a grade of 0 for subsequent occurrences. 
+
 ## Academic Integrity 
 The academic enterprise is founded on honesty, civility, and integrity. As members of this enterprise, all students are expected to know, understand, and follow the codes of conduct regarding academic integrity. At the most basic level, this means submitting only original work done by you and acknowledging all sources of information or ideas and attributing them to others as required. This also means you should not cheat, copy, or mislead others about what is your work. Violations of academic integrity (i.e., misconduct) lead to the breakdown of the academic enterprise, and therefore serious consequences arise and harsh sanctions are imposed. For example, incidences of plagiarism or cheating may result in a mark of zero on the
 assignment or exam and more serious consequences may apply if the matter is referred to the President’s Advisory Committee on Student Discipline. Careful records are kept in order to monitor and prevent recurrences.
 
 A more detailed description of academic integrity, including the University’s policies and procedures, may be found in the Academic Calendar at http://calendar.ubc.ca/vancouver/index.cfm?tree=3,54,111,0.
+
+#### Code Plagiarism
+Students must correctly cite any code that has been authored by someone else or by the student themselves for other assignments. Cases of code plagiarism may include, but are not limited to:
+
+the reproduction (copying and pasting) of code with none or minimal reformatting (e.g., changing the name of the variables)
+the translation of an algorithm or a script from a language to another the generation of code by automatic code-generations software An “adequate acknowledgement” requires a detailed identification of the (parts of the) code reused and a full citation of the original source code that has been reused.
+
+## Attribution
+
+Parts of this syllabus (particularly the policies) have been copied and derived from the [UBC MDS Policies](https://ubc-mds.github.io/policies/).
