@@ -47,7 +47,8 @@ clear, reproducible, and shareable.
 | Final Exam | 40 |
 
 - *It is necessary to pass the final examination to pass the course.*
-- *Specific dates for each assessment item are listed [here](https://github.com/UBC-DSCI/dsci-100/blob/master/assessment_schedule.md) and will be posted on Canvas.
+- *Specific dates for each assessment item are listed [here](https://github.com/UBC-DSCI/dsci-100/blob/master/assessment_schedule.md) and will be posted on Canvas.*
+
 ## Schedule
 
 *Lectures are held on Thursdays. The tutorials happen on Tuesdays and build on the concepts learned in lecture.* 
@@ -59,13 +60,14 @@ clear, reproducible, and shareable.
 | 2019-01-17 | Chapter 3: Cleaning and wrangling data | This week will be centered around tools for cleaning and wrangling data. Again, this will be in the context of a real world Data Science application and we will continue to practice working through a whole case study that includes downloading data from the web, wrangling the data into a useable format and creating an effective data visualization. | |
 | 2019-01-24 | Chapter 4: Effective data visualization | Expand your data visualization knowledge and tool set beyond what we have seen and practiced so far. We will move beyond scatter plots and learn other effective ways to visualize data, as well as some general rules of thumb to follow when creating visualations. All visualization tasks this week will be applied to real world data sets. Again, this will be in the context of a real world Data Science application and we will continue to practice working through a whole case study that includes downloading data from the web, wrangling the data into a useable format and creating an effective data visualization. | |
 | 2019-01-31 | Transition week  | Quiz #1|  |
-| 6 | Chapter 5: Classification | Introduction to classification using K-nearest neighbours (k-nn) | |
-| 7 | Chapter 6: Classification, continued | Classification continued | |
-| 8 | Chapter 7: Clustering | Introduction to clustering using K-means | |
-| 9 | Transition week | Quiz 2| |
-| 10 | Chapter 8: Regression | Introduction to regression using K-nearest neighbours (k-nn). We will focus on prediction in cases where there is a response variable of interest and a single explanatory variable.| |
-| 11 | Chapter 9: Regression, continued | Continued explortion of k-nn regression in higher dimensions. We will also begin to compare k-nn to linear models in the context of regression. | |
-| 12 | Chapter 10: Bootstrap applied to regression | This week will introduce the bootstrap, first by visualizing bootstrap samples and their fitted regression lines for cases where there is a response variable of interest and a single explanatory variable. An intuitive case will be made for what the ensemble of slopes represents, Then we work through examples from multiple regression, emphasizing the scientific interpretation and relevance of the mix of negative/positive slopes. We will emphasize that this is a jumping off point for the study of statistical inference. | |
+| 2019-02-07 | Chapter 5: Classification | Introduction to classification using K-nearest neighbours (k-nn) | |
+| 2019-02-14 | Chapter 6: Classification, continued | Classification continued | |
+| 2019-02-28 | Chapter 7: Clustering | Introduction to clustering using K-means | |
+| 2019-03-07 | Transition week | Quiz 2| |
+| 2019-03-14 | Chapter 8: Regression | Introduction to regression using K-nearest neighbours (k-nn). We will focus on prediction in cases where there is a response variable of interest and a single explanatory variable.| |
+| 2019-03-21 | Chapter 9: Regression, continued | Continued explortion of k-nn regression in higher dimensions. We will also begin to compare k-nn to linear models in the context of regression. | |
+| 2019-03-28 | Chapter 10: Bootstrap applied to regression | This week will introduce the bootstrap, first by visualizing bootstrap samples and their fitted regression lines for cases where there is a response variable of interest and a single explanatory variable. An intuitive case will be made for what the ensemble of slopes represents, Then we work through examples from multiple regression, emphasizing the scientific interpretation and relevance of the mix of negative/positive slopes. We will emphasize that this is a jumping off point for the study of statistical inference. | |
+| 2019-04-04 | Work on group project in class | | |
 
 ## Policies
 
