@@ -19,7 +19,7 @@
 | quiz 2 | 2019-03-07 @ 22:00 | In class, on paper |
 | submit group project milestone | 2019-03-13 @ 22:00 | upload Jupyter notebook file to Canvas |
 | worksheet_08 | 2019-03-16 @ 18:00 | [JupyterHub via Canvas](https://canvas.ubc.ca/courses/19078/assignments) |
-| peer review of group project | 2019-03-19 @ 22:00 | inclass |
+| peer review of group project | 2019-03-19 @ 22:00 | in class |
 | worksheet_09 | 2019-03-23 @ 18:00 | [JupyterHub via Canvas](https://canvas.ubc.ca/courses/19078/assignments) |
 | tutorial_08 | 2019-03-29 @ 22:00 | [JupyterHub via Canvas](https://canvas.ubc.ca/courses/19078/assignments) |
 | worksheet_10 | 2019-03-30 @ 18:00 | [JupyterHub via Canvas](https://canvas.ubc.ca/courses/19078/assignments) |
