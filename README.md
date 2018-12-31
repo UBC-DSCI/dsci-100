@@ -46,19 +46,19 @@ clear, reproducible, and shareable.
 | Two quizzes | 20 |
 | Final Exam | 40 |
 
-*It is necessary to pass the final examination to pass the course.*
-
+- *It is necessary to pass the final examination to pass the course.*
+- *Specific dates for each assessment item are listed [here](https://github.com/UBC-DSCI/dsci-100/blob/master/assessment_schedule.md) and will be posted on Canvas.
 ## Schedule
 
 *Lectures are held on Thursdays. The tutorials happen on Tuesdays and build on the concepts learned in lecture.* 
 
-| Week | Topic | Description | Lecture pre-reading |
+| Lecture date | Topic | Description | Lecture pre-reading |
 |------|-------|-------------|---------------------|
-| 1 | Chapter 1: Introduction to Data Science | Learn to use the R programming language and Jupyter notebooks as you walk through a real world Data Science application that includes downloading data from the web, wrangling the data into a useable format and creating an effective data visualization. | |
-| 2 | Chapter 2: Reading in data locally and from the web |  Learn to read in various cases of data sets locally and from the web. Once read in, these data sets will be used to walk through a real world Data Science application that includes wrangling the data into a useable format and creating an effective data visualization. | |
-| 3 | Chapter 3: Cleaning and wrangling data | This week will be centered around tools for cleaning and wrangling data. Again, this will be in the context of a real world Data Science application and we will continue to practice working through a whole case study that includes downloading data from the web, wrangling the data into a useable format and creating an effective data visualization. | |
-| 4 | Chapter 4: Effective data visualization | Expand your data visualization knowledge and tool set beyond what we have seen and practiced so far. We will move beyond scatter plots and learn other effective ways to visualize data, as well as some general rules of thumb to follow when creating visualations. All visualization tasks this week will be applied to real world data sets. Again, this will be in the context of a real world Data Science application and we will continue to practice working through a whole case study that includes downloading data from the web, wrangling the data into a useable format and creating an effective data visualization. | |
-| 5 | Transition week  | Quiz #1|  |
+| 2019-01-03 | Chapter 1: Introduction to Data Science | Learn to use the R programming language and Jupyter notebooks as you walk through a real world Data Science application that includes downloading data from the web, wrangling the data into a useable format and creating an effective data visualization. | |
+| 2019-01-10 | Chapter 2: Reading in data locally and from the web |  Learn to read in various cases of data sets locally and from the web. Once read in, these data sets will be used to walk through a real world Data Science application that includes wrangling the data into a useable format and creating an effective data visualization. | |
+| 2019-01-17 | Chapter 3: Cleaning and wrangling data | This week will be centered around tools for cleaning and wrangling data. Again, this will be in the context of a real world Data Science application and we will continue to practice working through a whole case study that includes downloading data from the web, wrangling the data into a useable format and creating an effective data visualization. | |
+| 2019-01-24 | Chapter 4: Effective data visualization | Expand your data visualization knowledge and tool set beyond what we have seen and practiced so far. We will move beyond scatter plots and learn other effective ways to visualize data, as well as some general rules of thumb to follow when creating visualations. All visualization tasks this week will be applied to real world data sets. Again, this will be in the context of a real world Data Science application and we will continue to practice working through a whole case study that includes downloading data from the web, wrangling the data into a useable format and creating an effective data visualization. | |
+| 2019-01-31 | Transition week  | Quiz #1|  |
 | 6 | Chapter 5: Classification | Introduction to classification using K-nearest neighbours (k-nn) | |
 | 7 | Chapter 6: Classification, continued | Classification continued | |
 | 8 | Chapter 7: Clustering | Introduction to clustering using K-means | |
