@@ -76,8 +76,11 @@ A more detailed description of academic integrity, including the University’s 
 #### Code Plagiarism
 Students must correctly cite any code that has been authored by someone else or by the student themselves for other assignments. Cases of code plagiarism may include, but are not limited to:
 
-the reproduction (copying and pasting) of code with none or minimal reformatting (e.g., changing the name of the variables)
-the translation of an algorithm or a script from a language to another the generation of code by automatic code-generations software An “adequate acknowledgement” requires a detailed identification of the (parts of the) code reused and a full citation of the original source code that has been reused.
+- the reproduction (copying and pasting) of code with none or minimal reformatting (e.g., changing the name of the variables)
+- the translation of an algorithm or a script from a language to another 
+- the generation of code by automatic code-generations software 
+
+An “adequate acknowledgement” requires a detailed identification of the (parts of the) code reused and a full citation of the original source code that has been reused.
 
 ## Attribution
 
