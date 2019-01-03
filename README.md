@@ -11,6 +11,7 @@ Students will learn to perform their analysis using the [R programming language]
 
 ## Learning Outcomes
 By the end of the course, students will be able to:
+
 - Download and scrape data off the world-wide-web.
 - Wrangle data from their original format into a fit-for-purpose format.
 - Create, and interpret, meaningful tables from wrangled data.
