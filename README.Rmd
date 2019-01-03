@@ -1,4 +1,8 @@
-# DSCI 100: Introduction to Data Science
+---
+title: "DSCI 100: Introduction to Data Science"
+output: html_document
+---
+
 Jan-Apr 2019, Tues/Thurs 8:00 - 9:30 am, ORCH 4074
 
 Use of Data Science tools to summarize, visualize, and analyze data. Sensible workflows and clear interpretations are emphasized. Prerequisite: MATH 12
