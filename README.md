@@ -9,6 +9,9 @@ In recent years, virtually all areas of inquiry have seen an uptake in the use o
 ## Course Software Platforms
 Students will learn to perform their analysis using the [R programming language](https://cran.r-project.org/). Worksheets and tutorial problem sets as well as the final project analysis, development, and reports will be done using [Jupyter Notebooks](http://jupyter.org/). Students will access the worksheets and tutorials in [Jupyter Notebooks] through [Canvas](https://canvas.ubc.ca/courses/19078). Students will require a laptop, chromebook or tablet in both lectures and tutorials. If a student does not their own laptop or chromebook, students may be able to [loan a laptop from the UBC library](https://services.library.ubc.ca/computers-technology/technology-borrowing/). 
 
+## Textbook
+We are using an open source textbook available free on the web: https://ubc-dsci.github.io/introduction-to-datascience/
+
 ## Learning Outcomes
 By the end of the course, students will be able to:
 
