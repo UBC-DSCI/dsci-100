@@ -35,7 +35,7 @@ clear, reproducible, and shareable.
 | Position | Name  | email | office hours | office location |
 | :------: | :---: | :---: | :----------: |:----------------|
 | Instructor | Tiffany Timbers | tiffany.timbers@stat.ubc.ca | Wednesdays at 3pm | ESB 3152 |
-| Teaching Assistant | Madison Friesen | NA | Tuesdays at 2pm | ESB 1043  |
+| Teaching Assistant | Ian Flores | NA | Tuesdays at 2pm | ESB 1043  |
 | Teaching Assistant | Harmeet Gill | NA | Thursdays at 4pm | ESB 3174  |
 | Teaching Assistant | Aaron Quinton | NA | Fridays at 10am | ESB 3174 |
 
