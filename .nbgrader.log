@@ -135,3 +135,27 @@
 [NotebookApp | INFO] Saving file at /slides/04_viz.ipynb
 [NotebookApp | INFO] Starting buffering for a2ca946e-1c6b-4245-ac61-28b81eea3d94:9f92246089ec4a778bdbd636a3608a59
 [NotebookApp | INFO] Starting buffering for 8410bebe-7ea3-4d59-9e6f-204f2af9e0ad:00ccb9f8d69042e59e13667984618df0
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/timberst/Documents/DSCI-100/dsci-100
+[NotebookApp | INFO] 0 active kernels
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/?token=52fbd26bba51b02539878c385cf5ee16d6936915f2460f0e
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=52fbd26bba51b02539878c385cf5ee16d6936915f2460f0e&token=52fbd26bba51b02539878c385cf5ee16d6936915f2460f0e
+[NotebookApp | WARNING] 404 GET /api/kernels/9c4ac024-c98e-44b7-ba74-b8381125132c/channels?session_id=96dba43a8a0d42ba8878e1bcc7b23a96 (::1): Kernel does not exist: 9c4ac024-c98e-44b7-ba74-b8381125132c
+[NotebookApp | WARNING] 404 GET /api/kernels/9c4ac024-c98e-44b7-ba74-b8381125132c/channels?session_id=96dba43a8a0d42ba8878e1bcc7b23a96 (::1) 46.12ms referer=None
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.6.0.dev. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] Replacing stale connection: 9c4ac024-c98e-44b7-ba74-b8381125132c:96dba43a8a0d42ba8878e1bcc7b23a96
+[NotebookApp | WARNING] 404 GET /nbextensions/nbdime/extension.js?v=20190126150805 (::1) 1.94ms referer=http://localhost:8888/notebooks/slides/04_viz.ipynb
+[NotebookApp | INFO] Kernel started: 75d43330-d037-4d84-9b43-fa18c3f4134e
+[NotebookApp | INFO] 302 GET /notebooks/slides/img/anscombes_quartet.png (::1) 1.86ms
+[NotebookApp | INFO] 302 GET /notebooks/slides/img/show_data.png (::1) 1.49ms
+[NotebookApp | INFO] 302 GET /notebooks/slides/img/pie.png (::1) 1.26ms
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel 75d43330-d037-4d84-9b43-fa18c3f4134e
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20190126150805 (::1) 2.52ms referer=http://localhost:8888/notebooks/slides/04_viz.ipynb
