@@ -101,3 +101,37 @@
 [NotebookApp | INFO] Saving file at /slides/04_viz.ipynb
 [NotebookApp | INFO] Saving file at /slides/04_viz.ipynb
 [NotebookApp | INFO] Saving file at /slides/04_viz.ipynb
+[NotebookApp | INFO] Starting buffering for 8410bebe-7ea3-4d59-9e6f-204f2af9e0ad:00ccb9f8d69042e59e13667984618df0
+[NotebookApp | INFO] Kernel restarted: 8410bebe-7ea3-4d59-9e6f-204f2af9e0ad
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel 8410bebe-7ea3-4d59-9e6f-204f2af9e0ad
+[NotebookApp | INFO] Restoring connection for 8410bebe-7ea3-4d59-9e6f-204f2af9e0ad:00ccb9f8d69042e59e13667984618df0
+[NotebookApp | INFO] Saving file at /slides/04_viz.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/slides/rise.css (::1): No such file or directory: slides/rise.css
+[NotebookApp | WARNING] 404 GET /notebooks/slides/rise.css (::1) 6.22ms referer=http://localhost:8890/notebooks/slides/04_viz.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/slides/04_viz.css (::1): No such file or directory: slides/04_viz.css
+[NotebookApp | WARNING] 404 GET /notebooks/slides/04_viz.css (::1) 1.74ms referer=http://localhost:8890/notebooks/slides/04_viz.ipynb
+[NotebookApp | INFO] Saving file at /slides/04_viz.ipynb
+[NotebookApp | INFO] Saving file at /slides/04_viz.ipynb
+[NotebookApp | INFO] Saving file at /slides/04_viz.ipynb
+[NotebookApp | INFO] Saving file at /slides/04_viz.ipynb
+[NotebookApp | WARNING] Notebook materials/worksheet_04/worksheet_04.ipynb is not trusted
+[NotebookApp | WARNING] 404 GET /nbextensions/nbdime/extension.js?v=20190123221024 (::1) 2.25ms referer=http://localhost:8890/notebooks/materials/worksheet_04/worksheet_04.ipynb
+[NotebookApp | INFO] Kernel started: a2ca946e-1c6b-4245-ac61-28b81eea3d94
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel a2ca946e-1c6b-4245-ac61-28b81eea3d94
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20190123221024 (::1) 3.15ms referer=http://localhost:8890/notebooks/materials/worksheet_04/worksheet_04.ipynb
+[NotebookApp | INFO] Saving file at /slides/04_viz.ipynb
+[NotebookApp | INFO] Saving file at /slides/04_viz.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/slides/rise.css (::1): No such file or directory: slides/rise.css
+[NotebookApp | WARNING] 404 GET /notebooks/slides/rise.css (::1) 1.66ms referer=http://localhost:8890/notebooks/slides/04_viz.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/slides/04_viz.css (::1): No such file or directory: slides/04_viz.css
+[NotebookApp | WARNING] 404 GET /notebooks/slides/04_viz.css (::1) 1.41ms referer=http://localhost:8890/notebooks/slides/04_viz.ipynb
+[NotebookApp | INFO] Saving file at /slides/04_viz.ipynb
+[NotebookApp | INFO] Saving file at /slides/04_viz.ipynb
+[NotebookApp | INFO] Saving file at /slides/04_viz.ipynb
+[NotebookApp | INFO] Saving file at /slides/04_viz.ipynb
+[NotebookApp | INFO] Saving file at /slides/04_viz.ipynb
+[NotebookApp | INFO] Saving file at /slides/04_viz.ipynb
+[NotebookApp | INFO] Saving file at /slides/04_viz.ipynb
+[NotebookApp | INFO] Saving file at /slides/04_viz.ipynb
+[NotebookApp | INFO] Starting buffering for a2ca946e-1c6b-4245-ac61-28b81eea3d94:9f92246089ec4a778bdbd636a3608a59
+[NotebookApp | INFO] Starting buffering for 8410bebe-7ea3-4d59-9e6f-204f2af9e0ad:00ccb9f8d69042e59e13667984618df0
