@@ -159,3 +159,4 @@
 [NotebookApp | INFO] 302 GET /notebooks/slides/img/pie.png (::1) 1.26ms
 [NotebookApp | INFO] Adapting to protocol v5.0 for kernel 75d43330-d037-4d84-9b43-fa18c3f4134e
 [NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20190126150805 (::1) 2.52ms referer=http://localhost:8888/notebooks/slides/04_viz.ipynb
+[NotebookApp | INFO] Starting buffering for 75d43330-d037-4d84-9b43-fa18c3f4134e:e9e4090f5abb4b8c80f0f1afea02ea8f
