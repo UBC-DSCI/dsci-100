@@ -8,15 +8,15 @@
 | tutorial_03 | 2019-01-23 @ 22:00 | [JupyterHub via Canvas](https://canvas.ubc.ca/courses/19078/assignments) |
 | worksheet_04 | 2019-01-26 @ 18:00 | [JupyterHub via Canvas](https://canvas.ubc.ca/courses/19078/assignments) |
 | tutorial_04 | 2019-01-30 @ 22:00 | [JupyterHub via Canvas](https://canvas.ubc.ca/courses/19078/assignments) |
-| quiz 1 | 2019-01-31 @ 22:00 | In class, on paper |
+| quiz 1 | 2019-01-31 @ 22:00 | In class, via Canvas |
 | worksheet_05 | 2019-02-09 @ 18:00 | [JupyterHub via Canvas](https://canvas.ubc.ca/courses/19078/assignments) |
 | tutorial_05 | 2019-02-13 @ 22:00 | [JupyterHub via Canvas](https://canvas.ubc.ca/courses/19078/assignments) |
 | worksheet_06 | 2019-02-16 @ 18:00 | [JupyterHub via Canvas](https://canvas.ubc.ca/courses/19078/assignments) |
-| submit group project proposal | 2019-02-17 @ 18:00 | upload Jupyter notebook file to Canvas |
+| submit group project proposal | 2019-02-16 @ 18:00 | upload Jupyter notebook file to Canvas |
 | tutorial_06 | 2019-01-27 @ 22:00 | [JupyterHub via Canvas](https://canvas.ubc.ca/courses/19078/assignments) |
 | worksheet_07 | 2019-03-02 @ 18:00 | [JupyterHub via Canvas](https://canvas.ubc.ca/courses/19078/assignments) |
 | tutorial_07 | 2019-03-06 @ 22:00 | [JupyterHub via Canvas](https://canvas.ubc.ca/courses/19078/assignments) |
-| quiz 2 | 2019-03-07 @ 22:00 | In class, on paper |
+| quiz 2 | 2019-03-07 @ 22:00 | In class, via Canvas |
 | submit group project milestone | 2019-03-13 @ 22:00 | upload Jupyter notebook file to Canvas |
 | worksheet_08 | 2019-03-16 @ 18:00 | [JupyterHub via Canvas](https://canvas.ubc.ca/courses/19078/assignments) |
 | peer review of group project | 2019-03-19 @ 22:00 | in class |
