@@ -11,10 +11,10 @@
 | quiz 1 | 2019-01-31 @ 22:00 | In class, on paper |
 | worksheet_05 | 2019-02-09 @ 18:00 | [JupyterHub via Canvas](https://canvas.ubc.ca/courses/19078/assignments) |
 | tutorial_05 | 2019-02-13 @ 22:00 | [JupyterHub via Canvas](https://canvas.ubc.ca/courses/19078/assignments) |
-| worksheet_06 | 2019-01-14 @ 18:00 | [JupyterHub via Canvas](https://canvas.ubc.ca/courses/19078/assignments) |
+| worksheet_06 | 2019-02-16 @ 18:00 | [JupyterHub via Canvas](https://canvas.ubc.ca/courses/19078/assignments) |
+| submit group project proposal | 2019-02-17 @ 18:00 | upload Jupyter notebook file to Canvas |
 | tutorial_06 | 2019-01-27 @ 22:00 | [JupyterHub via Canvas](https://canvas.ubc.ca/courses/19078/assignments) |
 | worksheet_07 | 2019-03-02 @ 18:00 | [JupyterHub via Canvas](https://canvas.ubc.ca/courses/19078/assignments) |
-| submit group project proposal | 2019-03-03 @ 18:00 | upload Jupyter notebook file to Canvas |
 | tutorial_07 | 2019-03-06 @ 22:00 | [JupyterHub via Canvas](https://canvas.ubc.ca/courses/19078/assignments) |
 | quiz 2 | 2019-03-07 @ 22:00 | In class, on paper |
 | submit group project milestone | 2019-03-13 @ 22:00 | upload Jupyter notebook file to Canvas |
