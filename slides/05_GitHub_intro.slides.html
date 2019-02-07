@@ -12193,6 +12193,322 @@ git config --global user.email 'tiffany.timbers@stat.ubc.ca'</code></pre>
 
 </div>
 </div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="(pause)">(pause)<a class="anchor-link" href="#(pause)">&#182;</a></h2>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="5.3-Make-changes-on-your-computer-to-send-to-GitHub">5.3 Make changes on your computer to send to GitHub<a class="anchor-link" href="#5.3-Make-changes-on-your-computer-to-send-to-GitHub">&#182;</a></h2><p>We previously edited our ReadMe file directly on Github, lets try to add more changes but on our local machine (the server)</p>
+<ol>
+<li>Navigate to the cloned repository and open the Readme text file</li>
+<li>Make changes to the readme file</li>
+<li>Go to terminal through the Jupyter Hub and navigate to the correct folder</li>
+<li>Type <code>git status</code> to view the changes</li>
+<li>Type <code>git add Readme.md</code></li>
+<li>Type <code>git status</code> to see our changes move to the staging area (not required)</li>
+<li>Type <code>git commit -m "updated readme file"</code> </li>
+<li>Type <code>git status</code> to see how the changes have moved into the directory (not required)</li>
+<li>Type <code>git push</code> to send the readme file to GitHub</li>
+<li>Go to Github to see the changes</li>
+</ol>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="5.4-View-your-Git-history">5.4 View your Git history<a class="anchor-link" href="#5.4-View-your-Git-history">&#182;</a></h2><p>We have made two commit's now to our ReadMe's. Lets take a look back in time! 
+There are two ways you can view the Git history of a project:</p>
+<ul>
+<li>On GitHub through the repo's code commit view</li>
+<li>On your local machine using git log </li>
+</ul>
+<p>Arguably, the best and easiest place to view the Git history of a project is on GitHub. So let's start there. But we'll explore both as sometimes the history on your local machine might differ from that on GitHub and that is when you might need to look at both.</p>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Let's-get-your-partner-up-to-speed!">Let's get your partner up to speed!<a class="anchor-link" href="#Let's-get-your-partner-up-to-speed!">&#182;</a></h2><ul>
+<li>open the terminal on Jupyter Hub</li>
+<li>navigate to your cloned repository</li>
+<li>type <code>git pull</code> to pull from the remote location (GitHub) which should have all the chanegs your partner has had</li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="6.-Deal-with-merge-conflicts-at-the-command-line">6. Deal with merge conflicts at the command line<a class="anchor-link" href="#6.-Deal-with-merge-conflicts-at-the-command-line">&#182;</a></h2><p>When working with version control, usually changes are happening in more than one place (e.g., your laptop and on GitHub). So changes of the same document in different places will have to happen. There are two types of changes you need to know about (and how Git deals with them):</p>
+<ol>
+<li><p>Changes to a document where different lines are modified (Git can automatically merge these).</p>
+</li>
+<li><p>Changes to a document where the same line(s) are modified (Git CANNOT automatically merge these).</p>
+</li>
+</ol>
+<p>I case #2 you (or some other human) has to deal with the conflict. Git kindly points you to where the problem is, and then will do no further work for you until you deal with the conflict.</p>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="6.1-How-do-you-know-you-have-a-merge-conflict?">6.1 How do you know you have a merge conflict?<a class="anchor-link" href="#6.1-How-do-you-know-you-have-a-merge-conflict?">&#182;</a></h2><p>If you do <code>git push</code> and you see something like:</p>
+
+<pre><code>To https://github.com/vlad/planets.git
+ ! [rejected]        master -&gt; master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/vlad/planets.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Merge the remote changes (e.g. 'git pull')
+hint: before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.</code></pre>
+<p><strong>and</strong> then you do a <code>git pull</code> and see something like this:</p>
+
+<pre><code>remote: Counting objects: 5, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 3 (delta 1)
+Unpacking objects: 100% (3/3), done.
+From https://github.com/vlad/planets
+ * branch            master     -&gt; FETCH_HEAD
+Auto-merging mars.txt
+CONFLICT (content): Merge conflict in mars.txt
+Automatic merge failed; fix conflicts and then commit the result.</code></pre>
+<p>You have a merge conflict.</p>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="6.2-What-do-you-do-to-fix-a-merge-conflict?">6.2 What do you do to fix a merge conflict?<a class="anchor-link" href="#6.2-What-do-you-do-to-fix-a-merge-conflict?">&#182;</a></h2><ol>
+<li>Pull the changes from Github</li>
+<li>Open the file that has a conflict (the output of <code>git pull</code> will tell you which files) in a plain text editor (e.g., Atom)</li>
+<li>Look for the conflict (hint - search for <code>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</code>)</li>
+<li>Fix the conflict and save the file</li>
+<li><code>git add</code> and <code>git commit</code> your changes, and then <code>git push</code> them up to GitHub</li>
+</ol>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="6.3-How-do-you-find-the-conflicts-in-a-file">6.3 How do you find the conflicts in a file<a class="anchor-link" href="#6.3-How-do-you-find-the-conflicts-in-a-file">&#182;</a></h2><p>Here's an example of a text file with a conflict:</p>
+
+<pre><code>Cold and dry, but everything is my favorite color
+The two moons may be a problem for Wolfman
+But the Mummy will appreciate the lack of humidity
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+We added a this line in our last commit
+=======
+This line was added somewhere else
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; dabb4c8c450e8475aee9b14b4383acc99f42af1d</code></pre>
+<ul>
+<li><code>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</code> precedes the change you made (that you couldn't push)</li>
+<li><code>=======</code> is a separator between the conflicting changes </li>
+<li><code>&gt;&gt;&gt;&gt;&gt;&gt;&gt; dabb4c8c450e8475aee9b14b4383acc99f42af1d</code> flags the end of the conflicting change you pulled from GitHub</li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="6.4-How-do-you-fix-the-conflicts-in-a-file?">6.4 How do you fix the conflicts in a file?<a class="anchor-link" href="#6.4-How-do-you-fix-the-conflicts-in-a-file?">&#182;</a></h2><ul>
+<li>edit this file to remove these markers and reconcile the changes</li>
+<li>We can do anything we want: <ul>
+<li>keep the change made in the local repository, </li>
+<li>keep the change made in the remote repository, </li>
+<li>write something new to replace both, </li>
+<li>or get rid of the change entirely. </li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>If we chose to write something new to replace both, it would look like this:</p>
+
+<pre><code>Cold and dry, but everything is my favorite color
+The two moons may be a problem for Wolfman
+But the Mummy will appreciate the lack of humidity
+We removed the conflict on this line</code></pre>
+<p>You then need to save, <code>git add</code>, <code>git commit</code> and <code>git push</code> the file to have these changes reflected on GitHub.</p>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="(pause)">(pause)<a class="anchor-link" href="#(pause)">&#182;</a></h2>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="6.5-What-about-merge-conflicts-Jupyter-notebooks???">6.5 What about merge conflicts Jupyter notebooks???<a class="anchor-link" href="#6.5-What-about-merge-conflicts-Jupyter-notebooks???">&#182;</a></h2>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="6.5-First---a-bit-about-what-a-Jupyter-notebook-is-made-up-of">6.5 First - a bit about what a Jupyter notebook is made up of<a class="anchor-link" href="#6.5-First---a-bit-about-what-a-Jupyter-notebook-is-made-up-of">&#182;</a></h2><ul>
+<li><code>.ipynb</code> files are "plain" text files, and we can view them in a plain text editor and make some sense of them</li>
+<li>The contents of the notebook are encoded in JSON</li>
+<li>When we run the notebook via <code>Jupyter notebook</code> the kernel is the part the can interpret and run the code</li>
+</ul>
+<p>For example, this notebook of 2 cells:</p>
+<p><img src="img/sample_notebook.png" alt="alt tag"></p>
+<p>is encoded by the following JSON:</p>
+
+<pre><code>{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# A Markdown header cell\n",
+    "\n",
+    "Below is a simple example of some code in Python:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "15\n"
+     ]
+    }
+   ],
+   "source": [
+    "x = 5\n",
+    "y = 10\n",
+    "\n",
+    "print(x + y)"
+   ]
+  }
+ ],
+ "metadata": {
+  "anaconda-cloud": {},
+  "kernelspec": {
+   "display_name": "Python [Root]",
+   "language": "python",
+   "name": "Python [Root]"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.5.1"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 0
+}</code></pre>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="6.5-Back-to-version-control-and-Jupyter-notebook">6.5 Back to version control and Jupyter notebook<a class="anchor-link" href="#6.5-Back-to-version-control-and-Jupyter-notebook">&#182;</a></h2><p>Because the notebooks are stored as plain text, we can use them for version control, but this is not without issues, which include:</p>
+
+<pre><code>- `git diff` looks horrendous because of the JSON
+- manually fixing conflicts is arduous because of the JSON
+
+</code></pre>
+<p>Strategies to help you not end up in conflict hell with Jupyter:</p>
+<ol>
+<li>Always <code>git pull</code> before you start doing ANY work!</li>
+<li>Clear output of your notebooks before you <code>git push</code> (although we need your output for MDS homework... so it depends here).</li>
+</ol>
+<p>But there is hope things are better (or will get better)! <a href="https://nbdime.readthedocs.io/en/stable/"><code>nbdime</code></a> is a project that helps solve these problems... You can try to test drive it, I have yet to have success with it yet however.</p>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="7.-Practicing-conflict-solution-in-pairs:">7. Practicing conflict solution in pairs:<a class="anchor-link" href="#7.-Practicing-conflict-solution-in-pairs:">&#182;</a></h2><p>Designate one partner as the Data Science repository "Owner" and one partner as the repository "Collaborator". The repository "Owner" needs to grant the Collaborator access.</p>
+<h5 id="Owner:">Owner:<a class="anchor-link" href="#Owner:">&#182;</a></h5><ul>
+<li>On GitHub, click the settings button on the right. </li>
+<li>Select Collaborators (top left), and enter your Collaborator's username.</li>
+</ul>
+<h5 id="Collaborator:">Collaborator:<a class="anchor-link" href="#Collaborator:">&#182;</a></h5><ul>
+<li>Go to your email to retrieve the <code>URL</code> to connect to the Owner's repository.</li>
+<li>Clone your partners repo:</li>
+</ul>
+
+<pre><code>$ git clone URL_from_Collaborator</code></pre>
+<p><code>git clone</code> creates a fresh local copy of a remote repository.</p>
+<h3 id="Stage-a-conflict:">Stage a conflict:<a class="anchor-link" href="#Stage-a-conflict:">&#182;</a></h3><p>Both partners modify the same line of the same file. And try to send the changes to GitHub. One of you should get a conflict. Work together to follow what was learned in lecture to resolve it.</p>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="8.-How-to-add-a-gitignore-file">8. How to add a gitignore file<a class="anchor-link" href="#8.-How-to-add-a-gitignore-file">&#182;</a></h2><ul>
+<li>create a git ignore file in your text editor called .gitignore</li>
+<li>type the files you want git to ignore in the text file so you do not push them to GitHub</li>
+</ul>
+
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
@@ -12205,7 +12521,7 @@ git config --global user.email 'tiffany.timbers@stat.ubc.ca'</code></pre>
 
 </div>
 </div>
-</div></section></section>
+</div>
 </div>
 </div>
 
