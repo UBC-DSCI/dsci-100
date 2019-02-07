@@ -273,3 +273,22 @@
 [NotebookApp | INFO] Saving file at /slides/06_classfication_intro.ipynb
 [NotebookApp | INFO] Saving file at /slides/06_classfication_intro.ipynb
 [NotebookApp | INFO] Saving file at /slides/06_classfication_intro.ipynb
+[NotebookApp | INFO] Starting buffering for 8b57cfa1-793d-4e75-af0e-725590c47ea1:9192c91ede1c4c3d8c6d6dd90fe396a8
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/timberst/Documents/DSCI-100/dsci-100
+[NotebookApp | INFO] 0 active kernels
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/?token=f4ff4553ec03ccf5105e6bd59311974b4e2f6e709f242929
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=f4ff4553ec03ccf5105e6bd59311974b4e2f6e709f242929&token=f4ff4553ec03ccf5105e6bd59311974b4e2f6e709f242929
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.6.0.dev. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] 404 GET /nbextensions/nbdime/extension.js?v=20190207074856 (::1) 9.01ms referer=http://localhost:8888/notebooks/slides/06_classfication_intro.ipynb
+[NotebookApp | INFO] Kernel started: 739c7d9c-79de-453c-9f1a-57c5a267de1e
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20190207074856 (::1) 1.57ms referer=http://localhost:8888/notebooks/slides/06_classfication_intro.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel 739c7d9c-79de-453c-9f1a-57c5a267de1e
