@@ -292,3 +292,23 @@
 [NotebookApp | INFO] Kernel started: 739c7d9c-79de-453c-9f1a-57c5a267de1e
 [NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20190207074856 (::1) 1.57ms referer=http://localhost:8888/notebooks/slides/06_classfication_intro.ipynb
 [NotebookApp | INFO] Adapting to protocol v5.0 for kernel 739c7d9c-79de-453c-9f1a-57c5a267de1e
+[NotebookApp | WARNING] 404 GET /notebooks/slides/rise.css (::1): No such file or directory: slides/rise.css
+[NotebookApp | WARNING] 404 GET /notebooks/slides/rise.css (::1) 1.58ms referer=http://localhost:8888/notebooks/slides/06_classfication_intro.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/slides/06_classfication_intro.css (::1): No such file or directory: slides/06_classfication_intro.css
+[NotebookApp | WARNING] 404 GET /notebooks/slides/06_classfication_intro.css (::1) 1.66ms referer=http://localhost:8888/notebooks/slides/06_classfication_intro.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/slides/rise.css (::1): No such file or directory: slides/rise.css
+[NotebookApp | WARNING] 404 GET /notebooks/slides/rise.css (::1) 1.80ms referer=http://localhost:8888/notebooks/slides/06_classfication_intro.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/slides/06_classfication_intro.css (::1): No such file or directory: slides/06_classfication_intro.css
+[NotebookApp | WARNING] 404 GET /notebooks/slides/06_classfication_intro.css (::1) 1.98ms referer=http://localhost:8888/notebooks/slides/06_classfication_intro.ipynb
+[NotebookApp | INFO] Saving file at /slides/06_classfication_intro.ipynb
+[NotebookApp | INFO] Saving file at /slides/06_classfication_intro.ipynb
+[NotebookApp | INFO] Saving file at /slides/06_classfication_intro.ipynb
+[NotebookApp | INFO] Saving file at /slides/06_classfication_intro.ipynb
+[NotebookApp | INFO] Saving file at /slides/06_classfication_intro.ipynb
+[NotebookApp | INFO] Saving file at /slides/06_classfication_intro.ipynb
+[NotebookApp | INFO] Saving file at /slides/06_classfication_intro.ipynb
+[NotebookApp | INFO] Saving file at /slides/06_classfication_intro.ipynb
+[NotebookApp | INFO] Saving file at /slides/06_classfication_intro.ipynb
+[NotebookApp | INFO] Saving file at /slides/06_classfication_intro.ipynb
+[NotebookApp | INFO] Saving file at /slides/06_classfication_intro.ipynb
+[NotebookApp | INFO] Starting buffering for 739c7d9c-79de-453c-9f1a-57c5a267de1e:bdefda75082e48c699db2774d570b7f4
