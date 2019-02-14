@@ -349,3 +349,8 @@
 [NotebookApp | INFO] Saving file at /slides/Untitled.ipynb
 [NotebookApp | INFO] Saving file at /slides/07_classification_continued.ipynb
 [NotebookApp | INFO] Saving file at /slides/07_classification_continued.ipynb
+[NotebookApp | INFO] Saving file at /slides/07_classification_continued.ipynb
+[NotebookApp | INFO] 302 GET /notebooks/slides/img/big_picture.png (::1) 2.42ms
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.6.0.dev. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | INFO] Saving file at /slides/07_classification_continued.ipynb
+[NotebookApp | INFO] Saving file at /slides/07_classification_continued.ipynb
