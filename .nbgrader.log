@@ -375,3 +375,26 @@
 [NotebookApp | INFO] Saving file at /slides/07_classification_continued.ipynb
 [NotebookApp | INFO] Starting buffering for cff37fe8-807f-464e-9137-a4d1e0b205c6:0840f3a8f28949c2894a1e6749fa78fe
 [NotebookApp | INFO] Starting buffering for 0dd91f2d-0571-47a7-b8c5-92b988de6d7c:3d4c11ed6dd24dd88cf7d31b31ecbcad
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/timberst/Documents/DSCI-100/dsci-100
+[NotebookApp | INFO] 0 active kernels
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8889/?token=993b2b9a25ef6f85c4b296d19cdfe2892d989a66cb78c6cd
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8889/?token=993b2b9a25ef6f85c4b296d19cdfe2892d989a66cb78c6cd&token=993b2b9a25ef6f85c4b296d19cdfe2892d989a66cb78c6cd
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.6.0.dev. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] Notebook materials/tutorial_07/tutorial_07.ipynb is not trusted
+[NotebookApp | WARNING] 404 GET /nbextensions/nbdime/extension.js?v=20190219102237 (::1) 8.07ms referer=http://localhost:8889/notebooks/materials/tutorial_07/tutorial_07.ipynb
+[NotebookApp | INFO] Kernel started: 2a4cf267-0edb-4a10-b233-42510d6563a9
+[NotebookApp | INFO] 302 GET /notebooks/materials/tutorial_07/img/MNIST.png (::1) 1.49ms
+[NotebookApp | INFO] 302 GET /notebooks/materials/tutorial_07/img/MNIST-Matrix.png (::1) 0.98ms
+[NotebookApp | INFO] 302 GET /notebooks/materials/tutorial_07/img/matrix_to_row.png (::1) 0.83ms
+[NotebookApp | INFO] 302 GET /notebooks/materials/tutorial_07/img/data_table.png (::1) 0.95ms
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20190219102237 (::1) 2.18ms referer=http://localhost:8889/notebooks/materials/tutorial_07/tutorial_07.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel 2a4cf267-0edb-4a10-b233-42510d6563a9
