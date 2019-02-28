@@ -68,7 +68,7 @@ clear, reproducible, and shareable.
 | 2019-02-14 | Chapter 7: Classification, continued | Classification continued | |
 | 2019-02-28 | Chapter 8: Regression | Introduction to regression using K-nearest neighbours (k-nn). We will focus on prediction in cases where there is a response variable of interest and a single explanatory variable. | |
 | 2019-03-07 | Transition week | Quiz 2| |
-| 2019-03-14 | Chapter 9: Regression, continued | Continued explortion of k-nn regression in higher dimensions. We will also begin to compare k-nn to linear models in the context of regression. | | |
+| 2019-03-14 | Chapter 9: Regression, continued | Continued exploration of k-nn regression in higher dimensions. We will also begin to compare k-nn to linear models in the context of regression. | | |
 | 2019-03-21 | Chapter 10: Bootstrap applied to regression | This week will introduce the bootstrap, first by visualizing bootstrap samples and their fitted regression lines for cases where there is a response variable of interest and a single explanatory variable. An intuitive case will be made for what the ensemble of slopes represents, Then we work through examples from multiple regression, emphasizing the scientific interpretation and relevance of the mix of negative/positive slopes. We will emphasize that this is a jumping off point for the study of statistical inference. |
 | 2019-03-28 | Chapter 11: Clustering |  Introduction to clustering using K-means  | | |
 | 2019-04-04 | Data Science wrap-up & Work on group project in class | | |
