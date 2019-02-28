@@ -399,3 +399,99 @@
 [NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20190219102237 (::1) 2.18ms referer=http://localhost:8889/notebooks/materials/tutorial_07/tutorial_07.ipynb
 [NotebookApp | INFO] Adapting to protocol v5.0 for kernel 2a4cf267-0edb-4a10-b233-42510d6563a9
 [NotebookApp | INFO] Starting buffering for 2a4cf267-0edb-4a10-b233-42510d6563a9:eca8ccdfeeda4c088d330ed8cb3bae80
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/timberst/Documents/DSCI-100/dsci-100
+[NotebookApp | INFO] 0 active kernels
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8889/?token=bbb5b975b02d0e69f7ae4efe8a9262cf1044549a5a40c5c1
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8889/?token=bbb5b975b02d0e69f7ae4efe8a9262cf1044549a5a40c5c1&token=bbb5b975b02d0e69f7ae4efe8a9262cf1044549a5a40c5c1
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.6.0.dev. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | INFO] Kernel started: df548e87-a3c4-4a39-b245-0fc9be1eabcf
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel df548e87-a3c4-4a39-b245-0fc9be1eabcf
+[NotebookApp | INFO] 302 GET /notebooks/slides/img/big_picture.png (::1) 1.73ms
+[NotebookApp | WARNING] 404 GET /nbextensions/nbdime/extension.js?v=20190227221240 (::1) 9.55ms referer=http://localhost:8889/notebooks/slides/07_classification_continued.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20190227221240 (::1) 1.54ms referer=http://localhost:8889/notebooks/slides/07_classification_continued.ipynb
+[NotebookApp | INFO] Creating new notebook in /slides
+[NotebookApp | INFO] Kernel started: 8548a4a0-5700-4030-bdc4-c7b10a50f814
+[NotebookApp | WARNING] 404 GET /nbextensions/nbdime/extension.js?v=20190227221240 (::1) 2.16ms referer=http://localhost:8889/notebooks/slides/Untitled.ipynb?kernel_name=ir
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20190227221240 (::1) 3.99ms referer=http://localhost:8889/notebooks/slides/Untitled.ipynb?kernel_name=ir
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel 8548a4a0-5700-4030-bdc4-c7b10a50f814
+[NotebookApp | INFO] Saving file at /slides/08_regression1.ipynb
+[NotebookApp | INFO] Saving file at /slides/07_classification_continued.ipynb
+[NotebookApp | INFO] Saving file at /slides/08_regression1.ipynb
+[NotebookApp | INFO] Saving file at /slides/08_regression1.ipynb
+[NotebookApp | INFO] Saving file at /slides/08_regression1.ipynb
+[NotebookApp | INFO] Saving file at /slides/08_regression1.ipynb
+[NotebookApp | INFO] Saving file at /slides/08_regression1.ipynb
+[NotebookApp | INFO] Saving file at /slides/07_classification_continued.ipynb
+[NotebookApp | INFO] Saving file at /slides/08_regression1.ipynb
+[NotebookApp | INFO] 302 GET /notebooks/slides/img/big_picture.png (::1) 1.43ms
+[NotebookApp | INFO] Saving file at /slides/08_regression1.ipynb
+[NotebookApp | INFO] Saving file at /slides/08_regression1.ipynb
+[NotebookApp | INFO] Saving file at /slides/08_regression1.ipynb
+[NotebookApp | INFO] Saving file at /slides/08_regression1.ipynb
+[NotebookApp | INFO] Saving file at /slides/08_regression1.ipynb
+[NotebookApp | INFO] Saving file at /slides/08_regression1.ipynb
+[NotebookApp | INFO] Saving file at /slides/07_classification_continued.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/slides/img/rmse.png (::1): No such file or directory: slides/img/rmse.png
+[NotebookApp | WARNING] 404 GET /notebooks/slides/img/rmse.png (::1) 4.44ms referer=http://localhost:8889/notebooks/slides/08_regression1.ipynb
+[NotebookApp | INFO] 302 GET /notebooks/slides/img/rmse.jpeg (::1) 1.48ms
+[NotebookApp | INFO] Saving file at /slides/08_regression1.ipynb
+[NotebookApp | INFO] 302 GET /notebooks/slides/img/k-nn_regr.jpeg (::1) 1.31ms
+[NotebookApp | INFO] Saving file at /slides/08_regression1.ipynb
+[NotebookApp | INFO] Saving file at /slides/08_regression1.ipynb
+[NotebookApp | INFO] Saving file at /slides/08_regression1.ipynb
+[NotebookApp | INFO] Saving file at /slides/08_regression1.ipynb
+[NotebookApp | INFO] Saving file at /slides/08_regression1.ipynb
+[NotebookApp | INFO] Saving file at /slides/08_regression1.ipynb
+[NotebookApp | INFO] Starting buffering for 8548a4a0-5700-4030-bdc4-c7b10a50f814:cf18c5d2cbae494c8a0c8ed4f12aafab
+[NotebookApp | WARNING] 404 GET /nbextensions/nbdime/extension.js?v=20190227221240 (::1) 1.72ms referer=http://localhost:8889/notebooks/slides/08_regression1.ipynb
+[NotebookApp | INFO] 302 GET /notebooks/slides/img/big_picture.png (::1) 1.34ms
+[NotebookApp | INFO] 302 GET /notebooks/slides/img/k-nn_regr.jpeg (::1) 1.20ms
+[NotebookApp | INFO] 302 GET /notebooks/slides/img/rmse.jpeg (::1) 0.99ms
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel 8548a4a0-5700-4030-bdc4-c7b10a50f814
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20190227221240 (::1) 2.71ms referer=http://localhost:8889/notebooks/slides/08_regression1.ipynb
+[NotebookApp | INFO] Saving file at /slides/08_regression1.ipynb
+[NotebookApp | INFO] Starting buffering for 8548a4a0-5700-4030-bdc4-c7b10a50f814:081e09fc842a4ec883d8842dc5537968
+[NotebookApp | WARNING] 404 GET /nbextensions/nbdime/extension.js?v=20190227221240 (::1) 1.48ms referer=http://localhost:8889/notebooks/slides/08_regression1.ipynb
+[NotebookApp | INFO] 302 GET /notebooks/slides/img/big_picture.png (::1) 1.39ms
+[NotebookApp | INFO] 302 GET /notebooks/slides/img/k-nn_regr.jpeg (::1) 1.12ms
+[NotebookApp | INFO] 302 GET /notebooks/slides/img/rmse.jpeg (::1) 1.04ms
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel 8548a4a0-5700-4030-bdc4-c7b10a50f814
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20190227221240 (::1) 2.13ms referer=http://localhost:8889/notebooks/slides/08_regression1.ipynb
+[NotebookApp | INFO] 302 GET /notebooks/slides/img/rmse-eg.jpeg (::1) 1.00ms
+[NotebookApp | INFO] Starting buffering for 8548a4a0-5700-4030-bdc4-c7b10a50f814:cddbb05075ea4cd697ca355d27661111
+[NotebookApp | INFO] 302 GET /notebooks/slides/img/big_picture.png (::1) 1.23ms
+[NotebookApp | INFO] 302 GET /notebooks/slides/img/k-nn_regr.jpeg (::1) 0.80ms
+[NotebookApp | INFO] 302 GET /notebooks/slides/img/rmse.jpeg (::1) 0.73ms
+[NotebookApp | WARNING] 404 GET /nbextensions/nbdime/extension.js?v=20190227221240 (::1) 1.76ms referer=http://localhost:8889/notebooks/slides/08_regression1.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel 8548a4a0-5700-4030-bdc4-c7b10a50f814
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20190227221240 (::1) 1.84ms referer=http://localhost:8889/notebooks/slides/08_regression1.ipynb
+[NotebookApp | INFO] 302 GET /notebooks/slides/img/rmse-eg.jpeg (::1) 0.99ms
+[NotebookApp | INFO] Starting buffering for 8548a4a0-5700-4030-bdc4-c7b10a50f814:8446ed5efb7f43d285c99ac75537a40a
+[NotebookApp | WARNING] 404 GET /nbextensions/nbdime/extension.js?v=20190227221240 (::1) 2.06ms referer=http://localhost:8889/notebooks/slides/08_regression1.ipynb
+[NotebookApp | INFO] 302 GET /notebooks/slides/img/big_picture.png (::1) 1.84ms
+[NotebookApp | INFO] 302 GET /notebooks/slides/img/k-nn_regr.jpeg (::1) 0.93ms
+[NotebookApp | INFO] 302 GET /notebooks/slides/img/rmse.jpeg (::1) 0.76ms
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel 8548a4a0-5700-4030-bdc4-c7b10a50f814
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20190227221240 (::1) 2.66ms referer=http://localhost:8889/notebooks/slides/08_regression1.ipynb
+[NotebookApp | INFO] 302 GET /notebooks/slides/img/rmse-eg.jpeg (::1) 1.07ms
+[NotebookApp | INFO] Saving file at /slides/08_regression1.ipynb
+[NotebookApp | INFO] Starting buffering for 8548a4a0-5700-4030-bdc4-c7b10a50f814:82d203929df54e949a4840ce46e600d0
+[NotebookApp | WARNING] 404 GET /nbextensions/nbdime/extension.js?v=20190227221240 (::1) 3.58ms referer=http://localhost:8889/notebooks/slides/08_regression1.ipynb
+[NotebookApp | INFO] 302 GET /notebooks/slides/img/big_picture.png (::1) 1.62ms
+[NotebookApp | INFO] 302 GET /notebooks/slides/img/k-nn_regr.jpeg (::1) 0.80ms
+[NotebookApp | INFO] 302 GET /notebooks/slides/img/rmse-eg.jpeg (::1) 0.78ms
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel 8548a4a0-5700-4030-bdc4-c7b10a50f814
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20190227221240 (::1) 1.95ms referer=http://localhost:8889/notebooks/slides/08_regression1.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/slides/img/rmse.jpeg (::1): No such file or directory: slides/img/rmse.jpeg
+[NotebookApp | WARNING] 404 GET /notebooks/slides/img/rmse.jpeg (::1) 1.67ms referer=http://localhost:8889/notebooks/slides/08_regression1.ipynb
+[NotebookApp | INFO] 302 GET /notebooks/slides/img/rmse.jpg (::1) 1.00ms
+[NotebookApp | INFO] Saving file at /slides/08_regression1.ipynb
