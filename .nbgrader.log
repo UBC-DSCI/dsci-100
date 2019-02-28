@@ -495,3 +495,4 @@
 [NotebookApp | WARNING] 404 GET /notebooks/slides/img/rmse.jpeg (::1) 1.67ms referer=http://localhost:8889/notebooks/slides/08_regression1.ipynb
 [NotebookApp | INFO] 302 GET /notebooks/slides/img/rmse.jpg (::1) 1.00ms
 [NotebookApp | INFO] Saving file at /slides/08_regression1.ipynb
+[NotebookApp | INFO] Starting buffering for df548e87-a3c4-4a39-b245-0fc9be1eabcf:b727e4220a1b4132a383faf7b7c77862
