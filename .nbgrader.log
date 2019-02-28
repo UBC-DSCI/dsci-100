@@ -398,3 +398,4 @@
 [NotebookApp | INFO] 302 GET /notebooks/materials/tutorial_07/img/data_table.png (::1) 0.95ms
 [NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20190219102237 (::1) 2.18ms referer=http://localhost:8889/notebooks/materials/tutorial_07/tutorial_07.ipynb
 [NotebookApp | INFO] Adapting to protocol v5.0 for kernel 2a4cf267-0edb-4a10-b233-42510d6563a9
+[NotebookApp | INFO] Starting buffering for 2a4cf267-0edb-4a10-b233-42510d6563a9:eca8ccdfeeda4c088d330ed8cb3bae80
