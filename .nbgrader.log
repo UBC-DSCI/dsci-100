@@ -513,3 +513,140 @@
 [NotebookApp | INFO] Saving file at /slides/08_regression1.ipynb
 [NotebookApp | INFO] Saving file at /slides/08_regression1.ipynb
 [NotebookApp | INFO] Starting buffering for 8548a4a0-5700-4030-bdc4-c7b10a50f814:db33725c6ba3407a85caa0724d59e8c3
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/timberst/Documents/DSCI-100/dsci-100
+[NotebookApp | INFO] 0 active kernels
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/?token=3b44306dd0543e5e3d7eafeb79ece2b0daf5a8e2e54d7e2c
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=3b44306dd0543e5e3d7eafeb79ece2b0daf5a8e2e54d7e2c&token=3b44306dd0543e5e3d7eafeb79ece2b0daf5a8e2e54d7e2c
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.6.0.dev. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] 404 GET /nbextensions/nbdime/extension.js?v=20190306142807 (::1) 11.27ms referer=http://localhost:8888/notebooks/slides/03_wrangling.ipynb
+[NotebookApp | INFO] Kernel started: e6afe7ee-6171-4d1c-85e9-935a007e100f
+[NotebookApp | INFO] 302 GET /notebooks/slides/img/whisperer.png (::1) 1.99ms
+[NotebookApp | INFO] 302 GET /notebooks/slides/img/on_balcony.png (::1) 1.24ms
+[NotebookApp | INFO] 302 GET /notebooks/slides/img/tame.png (::1) 1.57ms
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20190306142807 (::1) 8.08ms referer=http://localhost:8888/notebooks/slides/03_wrangling.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel e6afe7ee-6171-4d1c-85e9-935a007e100f
+[NotebookApp | WARNING] 404 GET /notebooks/slides/rise.css (::1): No such file or directory: slides/rise.css
+[NotebookApp | WARNING] 404 GET /notebooks/slides/rise.css (::1) 2.85ms referer=http://localhost:8888/notebooks/slides/03_wrangling.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/slides/03_wrangling.css (::1): No such file or directory: slides/03_wrangling.css
+[NotebookApp | WARNING] 404 GET /notebooks/slides/03_wrangling.css (::1) 2.55ms referer=http://localhost:8888/notebooks/slides/03_wrangling.ipynb
+[NotebookApp | INFO] Saving file at /slides/03_wrangling.ipynb
+[NotebookApp | INFO] Starting buffering for e6afe7ee-6171-4d1c-85e9-935a007e100f:52202cc36466412581f0e72765e63ac6
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/timberst/Documents/DSCI-100/dsci-100
+[NotebookApp | INFO] 0 active kernels
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/?token=ce3abbcb5e04606e0d0d959756eb872cf451865bac226039
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=ce3abbcb5e04606e0d0d959756eb872cf451865bac226039&token=ce3abbcb5e04606e0d0d959756eb872cf451865bac226039
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.6.0.dev. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] 404 GET /nbextensions/nbdime/extension.js?v=20190311122755 (::1) 10.11ms referer=http://localhost:8888/notebooks/slides/06_classfication_intro.ipynb
+[NotebookApp | INFO] Kernel started: 0d3950ea-b8f0-408c-9ac7-da2263d7b39b
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20190311122755 (::1) 2.14ms referer=http://localhost:8888/notebooks/slides/06_classfication_intro.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel 0d3950ea-b8f0-408c-9ac7-da2263d7b39b
+[NotebookApp | WARNING] 404 GET /notebooks/slides/rise.css (::1): No such file or directory: slides/rise.css
+[NotebookApp | WARNING] 404 GET /notebooks/slides/rise.css (::1) 1.63ms referer=http://localhost:8888/notebooks/slides/06_classfication_intro.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/slides/06_classfication_intro.css (::1): No such file or directory: slides/06_classfication_intro.css
+[NotebookApp | WARNING] 404 GET /notebooks/slides/06_classfication_intro.css (::1) 1.42ms referer=http://localhost:8888/notebooks/slides/06_classfication_intro.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/slides/rise.css (::1): No such file or directory: slides/rise.css
+[NotebookApp | WARNING] 404 GET /notebooks/slides/rise.css (::1) 1.53ms referer=http://localhost:8888/notebooks/slides/06_classfication_intro.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/slides/06_classfication_intro.css (::1): No such file or directory: slides/06_classfication_intro.css
+[NotebookApp | WARNING] 404 GET /notebooks/slides/06_classfication_intro.css (::1) 1.39ms referer=http://localhost:8888/notebooks/slides/06_classfication_intro.ipynb
+[NotebookApp | INFO] Saving file at /slides/06_classfication_intro.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/slides/rise.css (::1): No such file or directory: slides/rise.css
+[NotebookApp | WARNING] 404 GET /notebooks/slides/rise.css (::1) 1.48ms referer=http://localhost:8888/notebooks/slides/06_classfication_intro.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/slides/06_classfication_intro.css (::1): No such file or directory: slides/06_classfication_intro.css
+[NotebookApp | WARNING] 404 GET /notebooks/slides/06_classfication_intro.css (::1) 1.58ms referer=http://localhost:8888/notebooks/slides/06_classfication_intro.ipynb
+[NotebookApp | INFO] Saving file at /slides/06_classfication_intro.ipynb
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/timberst/Documents/DSCI-100/dsci-100
+[NotebookApp | INFO] 0 active kernels
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8889/?token=2a629596709d0b36c435fe69d723453a755601ca7bd584cb
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8889/?token=2a629596709d0b36c435fe69d723453a755601ca7bd584cb&token=2a629596709d0b36c435fe69d723453a755601ca7bd584cb
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.6.0.dev. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | INFO] Creating new notebook in /slides
+[NotebookApp | INFO] Kernel started: 4f495ffd-5211-4d79-a788-27bd954a11d3
+[NotebookApp | WARNING] 404 GET /nbextensions/nbdime/extension.js?v=20190313142331 (::1) 11.22ms referer=http://localhost:8889/notebooks/slides/Untitled.ipynb?kernel_name=ir
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20190313142331 (::1) 1.67ms referer=http://localhost:8889/notebooks/slides/Untitled.ipynb?kernel_name=ir
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel 4f495ffd-5211-4d79-a788-27bd954a11d3
+[NotebookApp | WARNING] 404 GET /nbextensions/nbdime/extension.js?v=20190313142331 (::1) 1.59ms referer=http://localhost:8889/notebooks/slides/08_regression1.ipynb
+[NotebookApp | INFO] Kernel started: f7e17da4-9649-4cc6-b1b0-e3bf3e1b935c
+[NotebookApp | INFO] 302 GET /notebooks/slides/img/big_picture.png (::1) 1.55ms
+[NotebookApp | INFO] 302 GET /notebooks/slides/img/k-nn_regr.jpeg (::1) 1.10ms
+[NotebookApp | INFO] 302 GET /notebooks/slides/img/rmse.jpg (::1) 1.13ms
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20190313142331 (::1) 2.42ms referer=http://localhost:8889/notebooks/slides/08_regression1.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel f7e17da4-9649-4cc6-b1b0-e3bf3e1b935c
+[NotebookApp | INFO] Saving file at /slides/09_regression2.ipynb
+[NotebookApp | INFO] Saving file at /slides/08_regression1.ipynb
+[NotebookApp | INFO] Saving file at /slides/09_regression2.ipynb
+[NotebookApp | INFO] Saving file at /slides/09_regression2.ipynb
+[NotebookApp | INFO] Saving file at /slides/09_regression2.ipynb
+[NotebookApp | INFO] Saving file at /slides/09_regression2.ipynb
+[NotebookApp | INFO] Saving file at /slides/09_regression2.ipynb
+[NotebookApp | INFO] Saving file at /slides/08_regression1.ipynb
+[NotebookApp | INFO] Saving file at /slides/09_regression2.ipynb
+[NotebookApp | INFO] Saving file at /slides/08_regression1.ipynb
+[NotebookApp | INFO] Saving file at /slides/09_regression2.ipynb
+[NotebookApp | INFO] Saving file at /slides/09_regression2.ipynb
+[NotebookApp | INFO] Saving file at /slides/09_regression2.ipynb
+[NotebookApp | INFO] Saving file at /slides/09_regression2.ipynb
+[NotebookApp | INFO] Saving file at /slides/09_regression2.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/slides/rise.css (::1): No such file or directory: slides/rise.css
+[NotebookApp | WARNING] 404 GET /notebooks/slides/rise.css (::1) 2.42ms referer=http://localhost:8889/notebooks/slides/09_regression2.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/slides/09_regression2.css (::1): No such file or directory: slides/09_regression2.css
+[NotebookApp | WARNING] 404 GET /notebooks/slides/09_regression2.css (::1) 2.00ms referer=http://localhost:8889/notebooks/slides/09_regression2.ipynb
+[NotebookApp | INFO] Saving file at /slides/09_regression2.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/slides/rise.css (::1): No such file or directory: slides/rise.css
+[NotebookApp | WARNING] 404 GET /notebooks/slides/rise.css (::1) 1.70ms referer=http://localhost:8889/notebooks/slides/09_regression2.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/slides/09_regression2.css (::1): No such file or directory: slides/09_regression2.css
+[NotebookApp | WARNING] 404 GET /notebooks/slides/09_regression2.css (::1) 1.53ms referer=http://localhost:8889/notebooks/slides/09_regression2.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/slides/rise.css (::1): No such file or directory: slides/rise.css
+[NotebookApp | WARNING] 404 GET /notebooks/slides/rise.css (::1) 1.49ms referer=http://localhost:8889/notebooks/slides/09_regression2.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/slides/09_regression2.css (::1): No such file or directory: slides/09_regression2.css
+[NotebookApp | WARNING] 404 GET /notebooks/slides/09_regression2.css (::1) 1.43ms referer=http://localhost:8889/notebooks/slides/09_regression2.ipynb
+[NotebookApp | INFO] Saving file at /slides/09_regression2.ipynb
+[NotebookApp | INFO] Saving file at /slides/09_regression2.ipynb
+[NotebookApp | INFO] Saving file at /slides/09_regression2.ipynb
+[NotebookApp | INFO] Saving file at /slides/09_regression2.ipynb
+[NotebookApp | INFO] Saving file at /slides/09_regression2.ipynb
+[NotebookApp | INFO] Saving file at /slides/09_regression2.ipynb
+[NotebookApp | INFO] Saving file at /slides/09_regression2.ipynb
+[NotebookApp | INFO] Saving file at /slides/09_regression2.ipynb
+[NotebookApp | INFO] Saving file at /slides/09_regression2.ipynb
+[NotebookApp | INFO] Saving file at /slides/09_regression2.ipynb
+[NotebookApp | INFO] Saving file at /slides/09_regression2.ipynb
+[NotebookApp | INFO] Saving file at /slides/09_regression2.ipynb
+[NotebookApp | INFO] Saving file at /slides/09_regression2.ipynb
+[NotebookApp | INFO] Saving file at /slides/09_regression2.ipynb
+[NotebookApp | INFO] Saving file at /slides/09_regression2.ipynb
+[NotebookApp | INFO] Saving file at /slides/09_regression2.ipynb
+[NotebookApp | INFO] Saving file at /slides/09_regression2.ipynb
+[NotebookApp | INFO] Saving file at /slides/09_regression2.ipynb
+[NotebookApp | INFO] Saving file at /slides/09_regression2.ipynb
+[NotebookApp | INFO] Starting buffering for 4f495ffd-5211-4d79-a788-27bd954a11d3:057aa435c5c74c798af585a95dbb10da
+[NotebookApp | INFO] Kernel restarted: 4f495ffd-5211-4d79-a788-27bd954a11d3
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel 4f495ffd-5211-4d79-a788-27bd954a11d3
+[NotebookApp | INFO] Restoring connection for 4f495ffd-5211-4d79-a788-27bd954a11d3:057aa435c5c74c798af585a95dbb10da
+[NotebookApp | INFO] Replaying 2 buffered messages
