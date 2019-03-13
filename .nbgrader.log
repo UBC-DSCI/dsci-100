@@ -650,3 +650,5 @@
 [NotebookApp | INFO] Adapting to protocol v5.0 for kernel 4f495ffd-5211-4d79-a788-27bd954a11d3
 [NotebookApp | INFO] Restoring connection for 4f495ffd-5211-4d79-a788-27bd954a11d3:057aa435c5c74c798af585a95dbb10da
 [NotebookApp | INFO] Replaying 2 buffered messages
+[NotebookApp | INFO] Saving file at /slides/09_regression2.ipynb
+[NotebookApp | INFO] Saving file at /slides/09_regression2.ipynb
