@@ -697,3 +697,50 @@
 [NotebookApp | INFO] Saving file at /slides/09_regression2.ipynb
 [NotebookApp | INFO] Starting buffering for 03fb8ad7-8cd2-40c8-8486-8bf77ef3a3e9:48ccbc635994487c96a81287aa050b50
 [NotebookApp | INFO] Starting buffering for 70e9a183-39e8-4136-8c10-e790a2c019f4:ca76a03242ee47d78c9d44cd69575554
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/timberst/Documents/DSCI-100/dsci-100
+[NotebookApp | INFO] 0 active kernels
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8889/?token=e60b48d195636cd38930066e7cfd304622d0b0256ac80a33
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8889/?token=e60b48d195636cd38930066e7cfd304622d0b0256ac80a33&token=e60b48d195636cd38930066e7cfd304622d0b0256ac80a33
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.6.0.dev. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | INFO] Creating new notebook in /slides
+[NotebookApp | INFO] Kernel started: 2b840202-dcd7-40a3-95c9-89f4b8713fb5
+[NotebookApp | WARNING] 404 GET /nbextensions/nbdime/extension.js?v=20190320220806 (::1) 12.13ms referer=http://localhost:8889/notebooks/slides/Untitled.ipynb?kernel_name=ir
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20190320220806 (::1) 1.55ms referer=http://localhost:8889/notebooks/slides/Untitled.ipynb?kernel_name=ir
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel 2b840202-dcd7-40a3-95c9-89f4b8713fb5
+[NotebookApp | WARNING] 404 GET /nbextensions/nbdime/extension.js?v=20190320220806 (::1) 1.31ms referer=http://localhost:8889/notebooks/slides/09_regression2.ipynb
+[NotebookApp | INFO] Kernel started: f3c0bf3b-159e-4700-ae0c-c17209b44126
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20190320220806 (::1) 2.10ms referer=http://localhost:8889/notebooks/slides/09_regression2.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel f3c0bf3b-159e-4700-ae0c-c17209b44126
+[NotebookApp | INFO] Saving file at /slides/10_regression3.ipynb
+[NotebookApp | INFO] Saving file at /slides/10_regression3.ipynb
+[NotebookApp | INFO] Saving file at /slides/09_regression2.ipynb
+[NotebookApp | INFO] Saving file at /slides/10_regression3.ipynb
+[NotebookApp | INFO] Saving file at /slides/10_regression3.ipynb
+[NotebookApp | INFO] Saving file at /slides/09_regression2.ipynb
+[NotebookApp | INFO] Saving file at /slides/10_regression3.ipynb
+[NotebookApp | INFO] Saving file at /slides/10_regression3.ipynb
+[NotebookApp | INFO] 302 GET /notebooks/slides/img/knn.png (::1) 1.18ms
+[NotebookApp | INFO] Saving file at /slides/10_regression3.ipynb
+[NotebookApp | INFO] 302 GET /notebooks/slides/img/lm.png (::1) 0.99ms
+[NotebookApp | INFO] Saving file at /slides/10_regression3.ipynb
+[NotebookApp | INFO] Saving file at /slides/10_regression3.ipynb
+[NotebookApp | INFO] Saving file at /slides/10_regression3.ipynb
+[NotebookApp | INFO] Saving file at /slides/10_regression3.ipynb
+[NotebookApp | INFO] Saving file at /slides/10_regression3.ipynb
+[NotebookApp | INFO] Saving file at /slides/10_regression3.ipynb
+[NotebookApp | INFO] Starting buffering for f3c0bf3b-159e-4700-ae0c-c17209b44126:7ab5d2e06d90489eb9d57f54aa1bb2e6
+[NotebookApp | INFO] 302 GET /notebooks/slides/img/sampling.001.jpeg (::1) 1.06ms
+[NotebookApp | INFO] Saving file at /slides/10_regression3.ipynb
+[NotebookApp | INFO] Saving file at /slides/10_regression3.ipynb
+[NotebookApp | INFO] Saving file at /slides/10_regression3.ipynb
+[NotebookApp | INFO] 302 GET /notebooks/slides/img/sampling.002.jpeg (::1) 1.03ms
+[NotebookApp | INFO] Saving file at /slides/10_regression3.ipynb
