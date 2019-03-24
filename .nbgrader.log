@@ -160,3 +160,55 @@
 [NotebookApp | INFO] Adapting to protocol v5.0 for kernel 75d43330-d037-4d84-9b43-fa18c3f4134e
 [NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20190126150805 (::1) 2.52ms referer=http://localhost:8888/notebooks/slides/04_viz.ipynb
 [NotebookApp | INFO] Starting buffering for 75d43330-d037-4d84-9b43-fa18c3f4134e:e9e4090f5abb4b8c80f0f1afea02ea8f
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/aaronquinton/Documents/UBC-MDS/DSCI_100_TA/dsci-100
+[NotebookApp | INFO] 0 active kernels
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/?token=68396a018667efea65cceb064447879edb511fb4717686f3
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=68396a018667efea65cceb064447879edb511fb4717686f3&token=68396a018667efea65cceb064447879edb511fb4717686f3
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | INFO] Kernel started: cb1ea93d-2339-4fc3-81e5-25aebd36d88e
+[NotebookApp | INFO] 302 GET /notebooks/slides/img/sample_notebook.png (::1) 1.87ms
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel cb1ea93d-2339-4fc3-81e5-25aebd36d88e
+[NotebookApp | INFO] Saving file at /slides/05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /slides/05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /slides/05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /slides/05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /slides/05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /slides/05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /slides/05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /slides/05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /slides/05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /slides/05_GitHub_intro.ipynb
+[NotebookApp | INFO] Starting buffering for cb1ea93d-2339-4fc3-81e5-25aebd36d88e:92a35ffa88ee401f8c137638af27ea3c
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/aaronquinton/Documents/UBC-MDS/DSCI_100_TA/dsci-100
+[NotebookApp | INFO] 0 active kernels
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/?token=a2cca8dd2a3a93182a89b2054b9c2e5e7ca6c31e52bcfbd4
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=a2cca8dd2a3a93182a89b2054b9c2e5e7ca6c31e52bcfbd4&token=a2cca8dd2a3a93182a89b2054b9c2e5e7ca6c31e52bcfbd4
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | INFO] Kernel started: cf338e0f-ad7e-477f-864e-93d3c4028762
+[NotebookApp | INFO] 302 GET /notebooks/slides/img/sample_notebook.png (::1) 1.82ms
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel cf338e0f-ad7e-477f-864e-93d3c4028762
+[NotebookApp | WARNING] 404 GET /notebooks/slides/rise.css (::1): No such file or directory: slides/rise.css
+[NotebookApp | WARNING] 404 GET /notebooks/slides/rise.css (::1) 10.74ms referer=http://localhost:8888/notebooks/slides/05_GitHub_intro.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/slides/05_GitHub_intro.css (::1): No such file or directory: slides/05_GitHub_intro.css
+[NotebookApp | WARNING] 404 GET /notebooks/slides/05_GitHub_intro.css (::1) 2.09ms referer=http://localhost:8888/notebooks/slides/05_GitHub_intro.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/slides/rise.css (::1): No such file or directory: slides/rise.css
+[NotebookApp | WARNING] 404 GET /notebooks/slides/rise.css (::1) 4.21ms referer=http://localhost:8888/notebooks/slides/05_GitHub_intro.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/slides/05_GitHub_intro.css (::1): No such file or directory: slides/05_GitHub_intro.css
+[NotebookApp | WARNING] 404 GET /notebooks/slides/05_GitHub_intro.css (::1) 3.51ms referer=http://localhost:8888/notebooks/slides/05_GitHub_intro.ipynb
+[NotebookApp | INFO] Starting buffering for cf338e0f-ad7e-477f-864e-93d3c4028762:93b31cb6936949d382d14471061c53c2

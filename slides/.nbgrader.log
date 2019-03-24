@@ -1,0 +1,56 @@
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/aaronquinton/Documents/UBC-MDS/DSCI_100_TA/dsci-100/slides
+[NotebookApp | INFO] 0 active kernels
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/?token=1ad4519be95a5b2fce2fd9080d800f22562d1548c9a47927
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=1ad4519be95a5b2fce2fd9080d800f22562d1548c9a47927&token=1ad4519be95a5b2fce2fd9080d800f22562d1548c9a47927
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/aaronquinton/Documents/UBC-MDS/DSCI_100_TA/dsci-100/slides
+[NotebookApp | INFO] 0 active kernels
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/?token=37b352abf6ef18514dbf33c5478c218ff26b1c3a508dc144
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=37b352abf6ef18514dbf33c5478c218ff26b1c3a508dc144&token=37b352abf6ef18514dbf33c5478c218ff26b1c3a508dc144
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | WARNING] Notebook 05_GitHub_intro.ipynb is not trusted
+[NotebookApp | INFO] Kernel started: 8e75cb0c-f058-4967-8267-e4bad1c4d2b4
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 8e75cb0c-f058-4967-8267-e4bad1c4d2b4
+[NotebookApp | INFO] Saving file at /05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /05_GitHub_intro.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/imgs/sample_notebook.png (::1): No such file or directory: imgs/sample_notebook.png
+[NotebookApp | WARNING] 404 GET /notebooks/imgs/sample_notebook.png (::1) 25.45ms referer=http://localhost:8888/notebooks/05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /05_GitHub_intro.ipynb
+[NotebookApp | INFO] 302 GET /notebooks/img/sample_notebook.png (::1) 1.37ms
+[NotebookApp | INFO] Saving file at /05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /05_GitHub_intro.ipynb
+[NotebookApp | INFO] Starting buffering for 8e75cb0c-f058-4967-8267-e4bad1c4d2b4:6e0bce5d12a44f3282f90b3058409f43
