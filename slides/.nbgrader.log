@@ -1,0 +1,222 @@
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/aaronquinton/Documents/UBC-MDS/DSCI_100_TA/dsci-100/slides
+[NotebookApp | INFO] 0 active kernels
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/?token=1ad4519be95a5b2fce2fd9080d800f22562d1548c9a47927
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=1ad4519be95a5b2fce2fd9080d800f22562d1548c9a47927&token=1ad4519be95a5b2fce2fd9080d800f22562d1548c9a47927
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/aaronquinton/Documents/UBC-MDS/DSCI_100_TA/dsci-100/slides
+[NotebookApp | INFO] 0 active kernels
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/?token=37b352abf6ef18514dbf33c5478c218ff26b1c3a508dc144
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=37b352abf6ef18514dbf33c5478c218ff26b1c3a508dc144&token=37b352abf6ef18514dbf33c5478c218ff26b1c3a508dc144
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | WARNING] Notebook 05_GitHub_intro.ipynb is not trusted
+[NotebookApp | INFO] Kernel started: 8e75cb0c-f058-4967-8267-e4bad1c4d2b4
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 8e75cb0c-f058-4967-8267-e4bad1c4d2b4
+[NotebookApp | INFO] Saving file at /05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /05_GitHub_intro.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/imgs/sample_notebook.png (::1): No such file or directory: imgs/sample_notebook.png
+[NotebookApp | WARNING] 404 GET /notebooks/imgs/sample_notebook.png (::1) 25.45ms referer=http://localhost:8888/notebooks/05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /05_GitHub_intro.ipynb
+[NotebookApp | INFO] 302 GET /notebooks/img/sample_notebook.png (::1) 1.37ms
+[NotebookApp | INFO] Saving file at /05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /05_GitHub_intro.ipynb
+[NotebookApp | INFO] Saving file at /05_GitHub_intro.ipynb
+[NotebookApp | INFO] Starting buffering for 8e75cb0c-f058-4967-8267-e4bad1c4d2b4:6e0bce5d12a44f3282f90b3058409f43
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/aaronquinton/Documents/UBC-MDS/DSCI_100_TA/github_PUBLIC_directory/dsci-100/slides
+[NotebookApp | INFO] 0 active kernels
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/?token=b7bb19ec65a6217601e418f806d7565595174abf9d6ffd7e
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=b7bb19ec65a6217601e418f806d7565595174abf9d6ffd7e&token=b7bb19ec65a6217601e418f806d7565595174abf9d6ffd7e
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | WARNING] Notebook 10_regression3.ipynb is not trusted
+[NotebookApp | INFO] Kernel started: d4f0c343-58f3-4e3e-b77b-6d6269203149
+[NotebookApp | INFO] 302 GET /notebooks/img/lm.png (::1) 2.07ms
+[NotebookApp | INFO] 302 GET /notebooks/img/sampling.001.jpeg (::1) 1.64ms
+[NotebookApp | INFO] 302 GET /notebooks/img/sampling.002.jpeg (::1) 1.03ms
+[NotebookApp | INFO] 302 GET /notebooks/img/knn.png (::1) 1.43ms
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel d4f0c343-58f3-4e3e-b77b-6d6269203149
+[NotebookApp | INFO] Saving file at /10_regression3.ipynb
+[NotebookApp | INFO] Copying 10_regression3.ipynb to 
+[NotebookApp | INFO] Kernel started: 6b27948e-adcf-4718-bb68-25a577e75fcb
+[NotebookApp | INFO] 302 GET /notebooks/img/knn.png (::1) 2.39ms
+[NotebookApp | INFO] 302 GET /notebooks/img/lm.png (::1) 1.80ms
+[NotebookApp | INFO] 302 GET /notebooks/img/sampling.001.jpeg (::1) 1.90ms
+[NotebookApp | INFO] 302 GET /notebooks/img/sampling.002.jpeg (::1) 2.14ms
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel 6b27948e-adcf-4718-bb68-25a577e75fcb
+[NotebookApp | INFO] Starting buffering for d4f0c343-58f3-4e3e-b77b-6d6269203149:175b854781324c018bc8eea414f6fc6c
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/rise.css (::1): No such file or directory: rise.css
+[NotebookApp | WARNING] 404 GET /notebooks/rise.css (::1) 20.39ms referer=http://localhost:8888/notebooks/11_clustering.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/11_clustering.css (::1): No such file or directory: 11_clustering.css
+[NotebookApp | WARNING] 404 GET /notebooks/11_clustering.css (::1) 1.95ms referer=http://localhost:8888/notebooks/11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/rise.css (::1): No such file or directory: rise.css
+[NotebookApp | WARNING] 404 GET /notebooks/rise.css (::1) 3.59ms referer=http://localhost:8888/notebooks/11_clustering.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/11_clustering.css (::1): No such file or directory: 11_clustering.css
+[NotebookApp | WARNING] 404 GET /notebooks/11_clustering.css (::1) 1.90ms referer=http://localhost:8888/notebooks/11_clustering.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/rise.css (::1): No such file or directory: rise.css
+[NotebookApp | WARNING] 404 GET /notebooks/rise.css (::1) 1.72ms referer=http://localhost:8888/notebooks/11_clustering.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/11_clustering.css (::1): No such file or directory: 11_clustering.css
+[NotebookApp | WARNING] 404 GET /notebooks/11_clustering.css (::1) 2.73ms referer=http://localhost:8888/notebooks/11_clustering.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/rise.css (::1): No such file or directory: rise.css
+[NotebookApp | WARNING] 404 GET /notebooks/rise.css (::1) 2.11ms referer=http://localhost:8888/notebooks/11_clustering.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/11_clustering.css (::1): No such file or directory: 11_clustering.css
+[NotebookApp | WARNING] 404 GET /notebooks/11_clustering.css (::1) 1.73ms referer=http://localhost:8888/notebooks/11_clustering.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/rise.css (::1): No such file or directory: rise.css
+[NotebookApp | WARNING] 404 GET /notebooks/rise.css (::1) 2.02ms referer=http://localhost:8888/notebooks/11_clustering.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/11_clustering.css (::1): No such file or directory: 11_clustering.css
+[NotebookApp | WARNING] 404 GET /notebooks/11_clustering.css (::1) 1.62ms referer=http://localhost:8888/notebooks/11_clustering.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/rise.css (::1): No such file or directory: rise.css
+[NotebookApp | WARNING] 404 GET /notebooks/rise.css (::1) 2.10ms referer=http://localhost:8888/notebooks/11_clustering.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/11_clustering.css (::1): No such file or directory: 11_clustering.css
+[NotebookApp | WARNING] 404 GET /notebooks/11_clustering.css (::1) 1.98ms referer=http://localhost:8888/notebooks/11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/rise.css (::1): No such file or directory: rise.css
+[NotebookApp | WARNING] 404 GET /notebooks/rise.css (::1) 16.46ms referer=http://localhost:8888/notebooks/11_clustering.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/11_clustering.css (::1): No such file or directory: 11_clustering.css
+[NotebookApp | WARNING] 404 GET /notebooks/11_clustering.css (::1) 3.26ms referer=http://localhost:8888/notebooks/11_clustering.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/rise.css (::1): No such file or directory: rise.css
+[NotebookApp | WARNING] 404 GET /notebooks/rise.css (::1) 1.88ms referer=http://localhost:8888/notebooks/11_clustering.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/11_clustering.css (::1): No such file or directory: 11_clustering.css
+[NotebookApp | WARNING] 404 GET /notebooks/11_clustering.css (::1) 1.88ms referer=http://localhost:8888/notebooks/11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] 302 GET /notebooks/img/netflix.png (::1) 22.75ms
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] 302 GET /notebooks/img/amazon.png (::1) 16.26ms
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/11_clustering.css (::1): No such file or directory: 11_clustering.css
+[NotebookApp | WARNING] 404 GET /notebooks/11_clustering.css (::1) 30.44ms referer=http://localhost:8888/notebooks/11_clustering.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/rise.css (::1): No such file or directory: rise.css
+[NotebookApp | WARNING] 404 GET /notebooks/rise.css (::1) 2.14ms referer=http://localhost:8888/notebooks/11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] 302 GET /notebooks/img/kmeans-1.png (::1) 15.11ms
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] 302 GET /notebooks/img/kmeans-8.png (::1) 1.20ms
+[NotebookApp | INFO] 302 GET /notebooks/img/kmeans-2.png (::1) 1.14ms
+[NotebookApp | INFO] 302 GET /notebooks/img/kmeans-3.png (::1) 1.18ms
+[NotebookApp | INFO] 302 GET /notebooks/img/kmeans-4.png (::1) 1.16ms
+[NotebookApp | INFO] 302 GET /notebooks/img/kmeans-5.png (::1) 1.17ms
+[NotebookApp | INFO] 302 GET /notebooks/img/kmeans-6.png (::1) 1.17ms
+[NotebookApp | INFO] 302 GET /notebooks/img/kmeans-7.png (::1) 1.17ms
+[NotebookApp | INFO] 302 GET /notebooks/img/kmeans-9.png (::1) 1.13ms
+[NotebookApp | INFO] 302 GET /notebooks/img/kmeans-10.png (::1) 1.20ms
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] 302 GET /notebooks/img/kmeans-11.png (::1) 1.16ms
+[NotebookApp | INFO] 302 GET /notebooks/img/kmeans-12.png (::1) 1.09ms
+[NotebookApp | WARNING] 404 GET /notebooks/img/kmeans-15.png (::1): No such file or directory: img/kmeans-15.png
+[NotebookApp | WARNING] 404 GET /notebooks/img/kmeans-15.png (::1) 109.21ms referer=http://localhost:8888/notebooks/11_clustering.ipynb
+[NotebookApp | INFO] 302 GET /notebooks/img/kmeans-13.png (::1) 1.17ms
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] 302 GET /notebooks/img/kmeans_motion-1.gif (::1) 12.62ms
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/11_clustering.css (::1): No such file or directory: 11_clustering.css
+[NotebookApp | WARNING] 404 GET /notebooks/11_clustering.css (::1) 3.29ms referer=http://localhost:8888/notebooks/11_clustering.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/rise.css (::1): No such file or directory: rise.css
+[NotebookApp | WARNING] 404 GET /notebooks/rise.css (::1) 1.57ms referer=http://localhost:8888/notebooks/11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/rise.css (::1): No such file or directory: rise.css
+[NotebookApp | WARNING] 404 GET /notebooks/rise.css (::1) 2.14ms referer=http://localhost:8888/notebooks/11_clustering.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/11_clustering.css (::1): No such file or directory: 11_clustering.css
+[NotebookApp | WARNING] 404 GET /notebooks/11_clustering.css (::1) 1.64ms referer=http://localhost:8888/notebooks/11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Saving file at /11_clustering.ipynb
+[NotebookApp | INFO] Starting buffering for 6b27948e-adcf-4718-bb68-25a577e75fcb:dbb1fe5d6e854075940e16a2e21d53e3
