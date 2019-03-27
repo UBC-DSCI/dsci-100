@@ -1,0 +1,202 @@
+---
+title: "cluster"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(broom)
+library(gganimate)
+library(gridExtra)
+```
+
+
+
+```{r}
+## Code to do each iteration of Kmeans and prepare the data for future plotting
+# I Definetly should be able to clean up this code with a loop or function but i cannot think right now...
+
+set.seed(1230)
+
+
+# Initialize Clustering
+iris_sample0 <- iris %>%
+  select(x = Sepal.Length, y = Sepal.Width) %>% 
+  mutate(iter0 = factor(sample(c(1,2,3), size = n(), replace = TRUE)))
+
+iris_means0 <- iris_sample0 %>% 
+  select(group = iter0, x, y) %>%
+  group_by(group) %>% 
+  summarize(center_x = mean(x), center_y = mean(y)) %>% 
+  mutate(iteration = "iter0")
+
+
+# Perform First Iteration
+iris_sample1 <- iris_sample0 %>% 
+  mutate(dist1 = sqrt((x - iris_means0$center_x[1])^2 + (y - iris_means0$center_y[1])^2),
+         dist2 = sqrt((x - iris_means0$center_x[2])^2 + (y - iris_means0$center_y[2])^2),
+         dist3 = sqrt((x - iris_means0$center_x[3])^2 + (y - iris_means0$center_y[3])^2),
+         iter1 = case_when(
+           pmin(dist1, dist2, dist3) == dist1 ~ 1,
+           pmin(dist1, dist2, dist3) == dist2 ~ 2,
+           pmin(dist1, dist2, dist3) == dist3 ~ 3),
+         iter1 = factor(iter1)) %>% 
+  select(-starts_with("dist"))
+           
+iris_means1 <- iris_sample1 %>% 
+  select(group = iter1, x, y) %>%
+  group_by(group) %>% 
+  summarize(center_x = mean(x), center_y = mean(y)) %>% 
+  mutate(iteration = "iter1")
+
+
+# Perform Second Iteration
+iris_sample2 <- iris_sample1 %>% 
+  mutate(dist1 = sqrt((x - iris_means1$center_x[1])^2 + (y - iris_means1$center_y[1])^2),
+         dist2 = sqrt((x - iris_means1$center_x[2])^2 + (y - iris_means1$center_y[2])^2),
+         dist3 = sqrt((x - iris_means1$center_x[3])^2 + (y - iris_means1$center_y[3])^2),
+         iter2 = case_when(
+           pmin(dist1, dist2, dist3) == dist1 ~ 1,
+           pmin(dist1, dist2, dist3) == dist2 ~ 2,
+           pmin(dist1, dist2, dist3) == dist3 ~ 3),
+         iter2 = factor(iter2)) %>% 
+  select(-starts_with("dist"))
+           
+iris_means2 <- iris_sample2 %>% 
+  select(group = iter2, x, y) %>%
+  group_by(group) %>% 
+  summarize(center_x = mean(x), center_y = mean(y)) %>% 
+  mutate(iteration = "iter2")
+
+
+# Perform Third Iteration
+iris_sample3 <- iris_sample2 %>% 
+  mutate(dist1 = sqrt((x - iris_means2$center_x[1])^2 + (y - iris_means2$center_y[1])^2),
+         dist2 = sqrt((x - iris_means2$center_x[2])^2 + (y - iris_means2$center_y[2])^2),
+         dist3 = sqrt((x - iris_means2$center_x[3])^2 + (y - iris_means2$center_y[3])^2),
+         iter3 = case_when(
+           pmin(dist1, dist2, dist3) == dist1 ~ 1,
+           pmin(dist1, dist2, dist3) == dist2 ~ 2,
+           pmin(dist1, dist2, dist3) == dist3 ~ 3),
+         iter3 = factor(iter3)) %>% 
+  select(-starts_with("dist"))
+           
+iris_means3 <- iris_sample3 %>% 
+  select(group = iter3, x, y) %>%
+  group_by(group) %>% 
+  summarize(center_x = mean(x), center_y = mean(y)) %>% 
+  mutate(iteration = "iter3")
+
+
+# Perform Fourth Iteration
+iris_sample4 <- iris_sample3 %>% 
+  mutate(dist1 = sqrt((x - iris_means3$center_x[1])^2 + (y - iris_means3$center_y[1])^2),
+         dist2 = sqrt((x - iris_means3$center_x[2])^2 + (y - iris_means3$center_y[2])^2),
+         dist3 = sqrt((x - iris_means3$center_x[3])^2 + (y - iris_means3$center_y[3])^2),
+         iter4 = case_when(
+           pmin(dist1, dist2, dist3) == dist1 ~ 1,
+           pmin(dist1, dist2, dist3) == dist2 ~ 2,
+           pmin(dist1, dist2, dist3) == dist3 ~ 3),
+         iter4 = factor(iter4)) %>% 
+  select(-starts_with("dist"))
+           
+iris_means4 <- iris_sample4 %>% 
+  select(group = iter4, x, y) %>% 
+  group_by(group) %>% 
+  summarize(center_x = mean(x), center_y = mean(y)) %>% 
+  mutate(iteration = "iter4")
+
+# Perform Fifth Iteration
+iris_sample5 <- iris_sample4 %>% 
+  mutate(dist1 = sqrt((x - iris_means4$center_x[1])^2 + (y - iris_means4$center_y[1])^2),
+         dist2 = sqrt((x - iris_means4$center_x[2])^2 + (y - iris_means4$center_y[2])^2),
+         dist3 = sqrt((x - iris_means4$center_x[3])^2 + (y - iris_means4$center_y[3])^2),
+         iter5 = case_when(
+           pmin(dist1, dist2, dist3) == dist1 ~ 1,
+           pmin(dist1, dist2, dist3) == dist2 ~ 2,
+           pmin(dist1, dist2, dist3) == dist3 ~ 3),
+         iter5 = factor(iter5)) %>% 
+  select(-starts_with("dist"))
+           
+iris_means5 <- iris_sample5 %>% 
+  select(group = iter5, x, y) %>% 
+  group_by(group) %>% 
+  summarize(center_x = mean(x), center_y = mean(y)) %>% 
+  mutate(iteration = "iter5")
+
+
+
+df_kmeans_example <- iris_sample5
+df_kmeans_ex_center <- bind_rows(iris_means0, iris_means1, iris_means2, iris_means3, iris_means4, iris_means5)
+```
+
+
+
+
+```{r kmeans_facet}
+
+# Create facet plot for  K means algorithm
+
+
+df_kmeans_centers <- df_kmeans_ex_center %>% 
+  mutate(sample = 1) %>% 
+  bind_rows(df_kmeans_ex_center) %>% 
+  replace_na(list(sample = 2)) %>% 
+  mutate(iteration = case_when(
+            sample == 1 ~ paste(iteration, "b", sep = ""),
+            sample == 2 ~ paste("iter", as.numeric(str_sub(iteration, start = -1)) + 1, "a", sep = ""))) %>% 
+  select(-sample, cluster = group) %>% 
+  filter(iteration != "iter6a")
+
+df_kmeans <- df_kmeans_example %>% 
+  rename(iter0a = iter0, iter1a = iter1, iter2a = iter2,
+         iter3a = iter3, iter4a = iter4, iter5a = iter5) %>% 
+  mutate(iter0b = iter0a, iter1b = iter1a, iter2b = iter2a,
+         iter3b = iter3a, iter4b = iter4a, iter5b = iter5a) %>% 
+  gather(starts_with("iter"), key = "iteration", value = "group") %>% 
+  mutate(iteration = factor(iteration)) %>% 
+  rename(cluster = group)
+
+
+iris_sample0 %>% 
+  ggplot(aes(x,y, col = "NA")) +
+    geom_point() +
+    scale_color_manual(values= c("#000000")) +
+    labs(title = "K Means Clustering Algorithm",
+         col = "cluster")
+
+
+df_kmeans %>% 
+  filter(str_detect(iteration, "b")) %>% 
+  ggplot(aes(x = x, y = y, col = cluster)) +
+    geom_point(alpha = 0.6) +
+    geom_point(data = filter(df_kmeans_centers, str_detect(iteration, "b")),
+               aes(x = center_x, y = center_y, fill = cluster), shape = 21, col = "black",size = 3) +
+    facet_wrap(~iteration) +
+    labs(title = "K Means Clustering Algorithm")
+  
+
+```
+
+
+```{r kmeans_motion}
+
+# Create gganimation for kmeans algorithm
+
+df_kmeans %>% 
+  mutate(group = seq_len(nrow(df_kmeans))) %>% 
+  ggplot(aes(x = x, y = y, col = cluster, group = group)) +
+    geom_point(alpha = 0.8) +
+    geom_point(data = df_kmeans_centers, aes(x = center_x, y = center_y, fill = cluster, group = cluster), shape = 21, col = "black",size = 6) +
+    labs(title = "{closest_state}") +
+    transition_states(iteration, transition_length = 5, state_length = 10) +
+    enter_fade() + 
+    exit_fade() +
+    ease_aes('sine-in-out')
+
+
+```
