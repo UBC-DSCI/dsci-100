@@ -182,6 +182,72 @@ df_kmeans %>%
 
 ```
 
+```{r kmeans}
+
+tot <- df_kmeans %>% 
+  filter(iteration == "iter5b") %>% 
+  summarize(center_x = mean(x), center_y = mean(y)) %>% 
+  mutate(cluster = "total")
+
+
+df_kmeans %>% 
+  filter(iteration == "iter5b") %>% 
+  ggplot(aes(x = x, y = y, col = cluster)) +
+    geom_point(alpha = 0.6) +
+    geom_point(data = filter(df_kmeans_centers, iteration == "iter5b"),
+               aes(x = center_x, y = center_y, fill = cluster), shape = 21, col = "black",size = 4) +
+    geom_point(data = tot,
+               aes(x = center_x, y = center_y),
+               shape = 3, col = "black",size = 7) +
+    labs(title = "K Means Clustering Algorithm")
+
+
+
+
+
+
+```
+
+```{r kmeans_modelselection}
+
+df <- iris %>%
+  select(x = Sepal.Length, y = Sepal.Width)
+
+for(k in 1:9){
+ 
+  model <- kmeans(df, centers = k, nstart = 20) 
+  
+  clusters <- tibble(k = model$cluster)
+  
+  df <- df %>% bind_cols(clusters)
+}
+
+df %>% 
+  gather(-x, -y, key = "Number_of_clusters", value = "Value") %>% 
+  mutate(No_of_Clusters = factor(sort(rep(1:9, times = 150)))) %>% 
+  ggplot(aes(x, y, col = factor(Value))) +
+    geom_point() +
+    facet_wrap(~No_of_Clusters) +
+    labs(title = "K means models with varying K", 
+         col = "Cluster")
+  
+
+tibble(k = 1:9) %>%
+  mutate(clusts = map(k, ~kmeans(df, .x, nstart = 20)),
+         glanced = map(clusts, glance)) %>% 
+  unnest(glanced) %>% 
+  ggplot(aes(x = k, y = tot.withinss)) +
+    geom_line() +
+    geom_point() +
+    scale_x_continuous(breaks = 1:9) +
+    labs(title = "K Means Elbow Plot")
+
+
+
+```
+
+
+
 
 ```{r kmeans_motion}
 
