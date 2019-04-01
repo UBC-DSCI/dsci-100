@@ -751,3 +751,28 @@
 [NotebookApp | INFO] Saving file at /slides/10_regression3.ipynb
 [NotebookApp | INFO] Saving file at /slides/10_regression3.ipynb
 [NotebookApp | INFO] Starting buffering for 2b840202-dcd7-40a3-95c9-89f4b8713fb5:e3025b5b55a9409b8cb64f5c8e159aac
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/timberst/Documents/DSCI-100/dsci-100
+[NotebookApp | INFO] 0 active kernels
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/?token=36566621b503befadec30467d560f6b95e510396f3366fa3
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=36566621b503befadec30467d560f6b95e510396f3366fa3&token=36566621b503befadec30467d560f6b95e510396f3366fa3
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | ERROR] The version of the Assignment List nbextension does not match the server extension; the nbextension version is 0.5.4 while the server version is 0.6.0.dev. This can happen if you have recently upgraded nbgrader, and may cause this extension to not work correctly. To fix the problem, please see the nbgrader installation instructions: http://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
+[NotebookApp | WARNING] Notebook materials/tutorial_11/tutorial_11.ipynb is not trusted
+[NotebookApp | WARNING] 404 GET /nbextensions/nbdime/extension.js?v=20190401095922 (::1) 7.75ms referer=http://localhost:8888/notebooks/materials/tutorial_11/tutorial_11.ipynb
+[NotebookApp | INFO] Kernel started: 81333efa-7237-4413-8f6d-c6c25040644d
+[NotebookApp | INFO] 302 GET /notebooks/materials/tutorial_11/imgs/multiple_initializations.png (::1) 1.36ms
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20190401095922 (::1) 2.86ms referer=http://localhost:8888/notebooks/materials/tutorial_11/tutorial_11.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.0 for kernel 81333efa-7237-4413-8f6d-c6c25040644d
+[NotebookApp | INFO] Starting buffering for 81333efa-7237-4413-8f6d-c6c25040644d:1e56021c516d429faf29bf13af24334b
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] Shutdown confirmed
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | INFO] Kernel shutdown: 81333efa-7237-4413-8f6d-c6c25040644d
