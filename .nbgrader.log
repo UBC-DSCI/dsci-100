@@ -889,3 +889,21 @@
 [NotebookApp | INFO] Saving file at /slides/12_high_dim_viz_and_wrap_up.ipynb
 [NotebookApp | INFO] Saving file at /slides/12_high_dim_viz_and_wrap_up.ipynb
 [NotebookApp | INFO] Saving file at /slides/12_high_dim_viz_and_wrap_up.ipynb
+[NotebookApp | INFO] Saving file at /slides/12_high_dim_viz_and_wrap_up.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/slides/rise.css (::1): No such file or directory: slides/rise.css
+[NotebookApp | WARNING] 404 GET /notebooks/slides/rise.css (::1) 5.75ms referer=http://localhost:8888/notebooks/slides/12_high_dim_viz_and_wrap_up.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/slides/12_high_dim_viz_and_wrap_up.css (::1): No such file or directory: slides/12_high_dim_viz_and_wrap_up.css
+[NotebookApp | WARNING] 404 GET /notebooks/slides/12_high_dim_viz_and_wrap_up.css (::1) 1.65ms referer=http://localhost:8888/notebooks/slides/12_high_dim_viz_and_wrap_up.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/slides/rise.css (::1): No such file or directory: slides/rise.css
+[NotebookApp | WARNING] 404 GET /notebooks/slides/rise.css (::1) 2.15ms referer=http://localhost:8888/notebooks/slides/12_high_dim_viz_and_wrap_up.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/slides/12_high_dim_viz_and_wrap_up.css (::1): No such file or directory: slides/12_high_dim_viz_and_wrap_up.css
+[NotebookApp | WARNING] 404 GET /notebooks/slides/12_high_dim_viz_and_wrap_up.css (::1) 1.64ms referer=http://localhost:8888/notebooks/slides/12_high_dim_viz_and_wrap_up.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/slides/rise.css (::1): No such file or directory: slides/rise.css
+[NotebookApp | WARNING] 404 GET /notebooks/slides/rise.css (::1) 1.76ms referer=http://localhost:8888/notebooks/slides/12_high_dim_viz_and_wrap_up.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/slides/12_high_dim_viz_and_wrap_up.css (::1): No such file or directory: slides/12_high_dim_viz_and_wrap_up.css
+[NotebookApp | WARNING] 404 GET /notebooks/slides/12_high_dim_viz_and_wrap_up.css (::1) 1.50ms referer=http://localhost:8888/notebooks/slides/12_high_dim_viz_and_wrap_up.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/slides/rise.css (::1): No such file or directory: slides/rise.css
+[NotebookApp | WARNING] 404 GET /notebooks/slides/rise.css (::1) 1.66ms referer=http://localhost:8888/notebooks/slides/12_high_dim_viz_and_wrap_up.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/slides/12_high_dim_viz_and_wrap_up.css (::1): No such file or directory: slides/12_high_dim_viz_and_wrap_up.css
+[NotebookApp | WARNING] 404 GET /notebooks/slides/12_high_dim_viz_and_wrap_up.css (::1) 1.90ms referer=http://localhost:8888/notebooks/slides/12_high_dim_viz_and_wrap_up.ipynb
+[NotebookApp | INFO] Saving file at /slides/12_high_dim_viz_and_wrap_up.ipynb
