@@ -1,5 +1,5 @@
 # DSCI 100: Introduction to Data Science
-Jan-Apr 2019, Tues/Thurs 8:00 - 9:30 am, ORCH 4074
+Sept-Dec 2019, Tues/Thurs 12:30 - 2:00 apm, ORCH 4074
 
 Use of Data Science tools to summarize, visualize, and analyze data. Sensible workflows and clear interpretations are emphasized. Prerequisite: MATH 12
 
@@ -34,10 +34,8 @@ clear, reproducible, and shareable.
 ## Teaching Team
 | Position | Name  | email | office hours | office location |
 | :------: | :---: | :---: | :----------: |:----------------|
-| Instructor | Tiffany Timbers | tiffany.timbers@stat.ubc.ca | Wednesdays at 3pm | ESB 3152 |
-| Teaching Assistant | Ian Flores | NA | Tuesdays at 2pm | ESB 1043  |
-| Teaching Assistant | Harmeet Gill | NA | Thursdays at 4pm | ESB 3174  |
-| Teaching Assistant | Aaron Quinton | NA | Fridays at 10am | ESB 3174 |
+| Instructor | Tiffany Timbers | tiffany.timbers@stat.ubc.ca |  |  |
+| Instructor  | Trevor Campbell | trevor@stat.ubc.ca |  |  |
 
 
 ## Assessment
@@ -45,10 +43,16 @@ clear, reproducible, and shareable.
 |------------|----------|
 | Lecture worksheets | 5 |
 | Tutorial problem sets | 15 |
-| Group project | 15 |
-| Peer-review of other groups projects | 5 |
-| Two quizzes | 20 |
-| Final Exam | 40 |
+| Group project | 20 |
+| Three quizzes | 60 |
+
+### Group project breakdown
+| Deliverable | % grade |
+|------------|----------|
+| Proposal | 3 |
+| Peer review | 2 |
+| Final report | 10 |
+| Team work | 5 |
 
 - *It is necessary to pass the final examination to pass the course.*
 - *Specific dates for each assessment item are listed [here](https://github.com/UBC-DSCI/dsci-100/blob/master/assessment_schedule.md) and will be posted on Canvas.*
@@ -59,19 +63,19 @@ clear, reproducible, and shareable.
 
 | Lecture date | Topic | Description | Lecture pre-reading |
 |------|-------|-------------|---------------------|
-| 2019-01-03 | Chapter 1: Introduction to Data Science | Learn to use the R programming language and Jupyter notebooks as you walk through a real world Data Science application that includes downloading data from the web, wrangling the data into a useable format and creating an effective data visualization. | [Introduction to Data Science](https://ubc-dsci.github.io/introduction-to-datascience/index.html) |
-| 2019-01-10 | Chapter 2: Reading in data locally and from the web |  Learn to read in various cases of data sets locally and from the web. Once read in, these data sets will be used to walk through a real world Data Science application that includes wrangling the data into a useable format and creating an effective data visualization. | [Reading in data locally and from the web](https://ubc-dsci.github.io/introduction-to-datascience/reading.html) |
-| 2019-01-17 | Chapter 3: Cleaning and wrangling data | This week will be centered around tools for cleaning and wrangling data. Again, this will be in the context of a real world Data Science application and we will continue to practice working through a whole case study that includes downloading data from the web, wrangling the data into a useable format and creating an effective data visualization. | |
-| 2019-01-24 | Chapter 4: Effective data visualization | Expand your data visualization knowledge and tool set beyond what we have seen and practiced so far. We will move beyond scatter plots and learn other effective ways to visualize data, as well as some general rules of thumb to follow when creating visualations. All visualization tasks this week will be applied to real world data sets. Again, this will be in the context of a real world Data Science application and we will continue to practice working through a whole case study that includes downloading data from the web, wrangling the data into a useable format and creating an effective data visualization. | |
-| 2019-01-31 | Transition week  | Quiz 1|  |
-| 2019-02-07 | Chapter 6: Classification | Introduction to classification using K-nearest neighbours (k-nn) | |
-| 2019-02-14 | Chapter 7: Classification, continued | Classification continued | |
-| 2019-02-28 | Chapter 8: Regression | Introduction to regression using K-nearest neighbours (k-nn). We will focus on prediction in cases where there is a response variable of interest and a single explanatory variable. | |
-| 2019-03-07 | Transition week | Quiz 2| |
-| 2019-03-14 | Chapter 9: Regression, continued | Continued exploration of k-nn regression in higher dimensions. We will also begin to compare k-nn to linear models in the context of regression. | | |
-| 2019-03-21 | Chapter 10: Bootstrap applied to regression | This week will introduce the bootstrap, first by visualizing bootstrap samples and their fitted regression lines for cases where there is a response variable of interest and a single explanatory variable. An intuitive case will be made for what the ensemble of slopes represents, Then we work through examples from multiple regression, emphasizing the scientific interpretation and relevance of the mix of negative/positive slopes. We will emphasize that this is a jumping off point for the study of statistical inference. |
-| 2019-03-28 | Chapter 11: Clustering |  Introduction to clustering using K-means  | | |
-| 2019-04-04 | Data Science wrap-up & Work on group project in class | | |
+|  | Chapter 1: Introduction to Data Science | Learn to use the R programming language and Jupyter notebooks as you walk through a real world Data Science application that includes downloading data from the web, wrangling the data into a useable format and creating an effective data visualization. | [Introduction to Data Science](https://ubc-dsci.github.io/introduction-to-datascience/index.html) |
+|  | Chapter 2: Reading in data locally and from the web |  Learn to read in various cases of data sets locally and from the web. Once read in, these data sets will be used to walk through a real world Data Science application that includes wrangling the data into a useable format and creating an effective data visualization. | [Reading in data locally and from the web](https://ubc-dsci.github.io/introduction-to-datascience/reading.html) |
+| | Chapter 3: Cleaning and wrangling data | This week will be centered around tools for cleaning and wrangling data. Again, this will be in the context of a real world Data Science application and we will continue to practice working through a whole case study that includes downloading data from the web, wrangling the data into a useable format and creating an effective data visualization. | |
+| | Chapter 4: Effective data visualization | Expand your data visualization knowledge and tool set beyond what we have seen and practiced so far. We will move beyond scatter plots and learn other effective ways to visualize data, as well as some general rules of thumb to follow when creating visualations. All visualization tasks this week will be applied to real world data sets. Again, this will be in the context of a real world Data Science application and we will continue to practice working through a whole case study that includes downloading data from the web, wrangling the data into a useable format and creating an effective data visualization. | |
+| | Transition week  | Quiz 1|  |
+| | Chapter 6: Classification | Introduction to classification using K-nearest neighbours (k-nn) | |
+|  | Chapter 7: Classification, continued | Classification continued | |
+|| Chapter 8: Regression | Introduction to regression using K-nearest neighbours (k-nn). We will focus on prediction in cases where there is a response variable of interest and a single explanatory variable. | |
+|  | Transition week | Quiz 2| |
+|  | Chapter 9: Regression, continued | Continued exploration of k-nn regression in higher dimensions. We will also begin to compare k-nn to linear models in the context of regression. | | |
+| | Chapter 10: Bootstrap applied to regression | This week will introduce the bootstrap, first by visualizing bootstrap samples and their fitted regression lines for cases where there is a response variable of interest and a single explanatory variable. An intuitive case will be made for what the ensemble of slopes represents, Then we work through examples from multiple regression, emphasizing the scientific interpretation and relevance of the mix of negative/positive slopes. We will emphasize that this is a jumping off point for the study of statistical inference. |
+|  | Chapter 11: Clustering |  Introduction to clustering using K-means  | | |
+|  | Data Science wrap-up & Work on group project in class | | |
 
 ## Policies
 
