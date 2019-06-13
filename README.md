@@ -34,8 +34,8 @@ clear, reproducible, and shareable.
 ## Teaching Team
 | Position | Name  | email | office hours | office location |
 | :------: | :---: | :---: | :----------: |:----------------|
-| Instructor | Tiffany Timbers | tiffany.timbers@stat.ubc.ca |  |  |
-| Instructor  | Trevor Campbell | trevor@stat.ubc.ca |  |  |
+| Instructor | [Tiffany Timbers](https://www.tiffanytimbers.com/) | tiffany.timbers@stat.ubc.ca |  |  |
+| Instructor  | [Trevor Campbell](https://trevorcampbell.me/) | trevor@stat.ubc.ca |  |  |
 
 
 ## Assessment
