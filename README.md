@@ -36,11 +36,13 @@ clear, reproducible, and shareable.
 | :------: | :---: | :---: | :----------: |:----------------|
 | Instructor | [Tiffany Timbers](https://www.tiffanytimbers.com/) | tiffany.timbers@stat.ubc.ca |  |  |
 | Instructor  | [Trevor Campbell](https://trevorcampbell.me/) | trevor@stat.ubc.ca |  |  |
+| TA | Daniel Alimohd | | | | |
 | TA | Alex Chow | | | | |
+| TA | Jordan Bourak | | | | |
 | TA | Grandon Seto | | | | |
 | TA | Petal Vitis | | | | |
-| TA | Jordan Bourak | | | | |
-| TA | Daniel Alimohd | | | | |
+
+
 
 
 ## Assessment
