@@ -1,3 +1,11 @@
+---
+title: "DSCI 100: Introduction to Data Science"
+output: 
+  html_document:
+    keep_md: true
+  pdf_document: default
+---
+
 # DSCI 100: Introduction to Data Science
 
 ## Time and Place
