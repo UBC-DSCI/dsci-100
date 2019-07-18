@@ -1,16 +1,22 @@
 # DSCI 100: Introduction to Data Science
-Sept-Dec 2019, Tues/Thurs 12:30 - 2:00 apm, ORCH 4074
 
-Use of Data Science tools to summarize, visualize, and analyze data. Sensible workflows and clear interpretations are emphasized. Prerequisite: MATH 12
+## Time and Place
+Sept-Dec 2019, Tues/Thurs 12:30 - 2:00 pm, ORCH 4074
+
+## Description
+Use of Data Science tools to summarize, visualize, and analyze data. Sensible workflows and clear interpretations are emphasized. 
+
+## Prerequisite
+MATH 12
+
+## Textbook
+We are using an open source textbook available free on the web: https://ubc-dsci.github.io/introduction-to-datascience/
 
 ## Expanded Course Description
 In recent years, virtually all areas of inquiry have seen an uptake in the use of Data Science tools. Skills in the areas of assembling, analyzing, and interpreting data are more critical than ever. This course is designed as a first experience in honing such skills. Students who have completed this course will be able to implement a Data Science workflow in the R programming language, by “scraping” (downloading) data from the internet, “wrangling” (managing) the data intelligently, and creating tables and/or figures that convey a justifiable story based on the data. They will be adept at using tools for finding patterns in data and making predictions about future data. There will be an emphasis on intelligent and reproducible workflow, and clear communications of findings. No previous programming skills necessary; beginners are welcome!
 
 ## Course Software Platforms
 Students will learn to perform their analysis using the [R programming language](https://cran.r-project.org/). Worksheets and tutorial problem sets as well as the final project analysis, development, and reports will be done using [Jupyter Notebooks](http://jupyter.org/). Students will access the worksheets and tutorials in [Jupyter Notebooks](https://ubc-dsci.github.io/introduction-to-datascience/index.html#jupyter-notebooks) through [Canvas](https://canvas.ubc.ca/courses/19078). Students will require a laptop, chromebook or tablet in both lectures and tutorials. If a student does not their own laptop or chromebook, students may be able to [loan a laptop from the UBC library](https://services.library.ubc.ca/computers-technology/technology-borrowing/). 
-
-## Textbook
-We are using an open source textbook available free on the web: https://ubc-dsci.github.io/introduction-to-datascience/
 
 ## Learning Outcomes
 By the end of the course, students will be able to:
@@ -35,7 +41,7 @@ clear, reproducible, and shareable.
 | Position | Name  | email | office hours | office location |
 | :------: | :---: | :---: | :----------: |:----------------|
 | Instructor | [Tiffany Timbers](https://www.tiffanytimbers.com/) | tiffany.timbers@stat.ubc.ca |  |  |
-| Instructor  | [Trevor Campbell](https://trevorcampbell.me/) | trevor@stat.ubc.ca |  |  |
+| Instructor  | [Trevor Campbell](https://trevorcampbell.me/) | trevor@stat.ubc.ca | Thursday 2pm | ESB3116 |
 | TA | Daniel Alimohd | | | | |
 | TA | Alex Chow | | | | |
 | TA | Jordan Bourak | | | | |
@@ -43,9 +49,9 @@ clear, reproducible, and shareable.
 | TA | Petal Vitis | | | | |
 
 
-
-
 ## Assessment
+
+### Course breakdown
 | Deliverable | % grade |
 |------------|----------|
 | Lecture worksheets | 5 |
@@ -86,7 +92,7 @@ clear, reproducible, and shareable.
 
 ## Policies
 
-### Late/absence policies
+### Late/Absence
 Regular attendance to lecture and tutorials is expected of students. Students who are unavoidably absent because of illness or other reasons should inform the instructor(s) of the course as soon as possible, preferably, prior to the start of the lecture/tutorial. Students who miss a quiz or assignment need to provide a doctor’s note and make arrangements (e.g., schedule an oral make-up quiz) with the Instructor as soon as possible. Failing to present a doctor’s note may result in a grade of zero.
 
 A late submission is defined as any work submitted after the deadline. For a late submission, the student will receive a 50% deducation of their grade for the first occurrence. Hence a maximum attainable grade for the first piece of work submitted late is 50%. Any additional pieces of work that are submitted late will receive a grade of 0 for subsequent occurrences. 
@@ -100,7 +106,7 @@ assignment or exam and more serious consequences may apply if the matter is refe
 
 A more detailed description of academic integrity, including the University’s policies and procedures, may be found in the Academic Calendar at http://calendar.ubc.ca/vancouver/index.cfm?tree=3,54,111,0.
 
-#### Code Plagiarism
+### Code Plagiarism
 Students must correctly cite any code that has been authored by someone else or by the student themselves for other assignments. Cases of code plagiarism may include, but are not limited to:
 
 - the reproduction (copying and pasting) of code with none or minimal reformatting (e.g., changing the name of the variables)
