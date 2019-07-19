@@ -1,8 +1,3 @@
----
-title: "The DSCI 100 Code of Conduct"
-output: html_document
----
-
 ### Introduction
 For DSCI 100, we are committed to creating a friendly and respectful place for learning, teaching and contributing. 
 All participants in our course and communications are expected to show respect and courtesy to others.
