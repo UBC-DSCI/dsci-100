@@ -1,3 +1,5 @@
 **.DS_Store
 **.ipynb_checkpoints
 .Rhistory
+.nbgrader.log
+slides/.nbgrader.log
