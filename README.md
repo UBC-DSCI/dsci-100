@@ -90,7 +90,7 @@ clear, reproducible, and shareable.
 ## Policies
 
 ### Late/Absence
-Regular attendance to lecture and tutorials is expected of students. Students who are unavoidably absent because of illness or other reasons should inform the instructor(s) of the course as soon as possible, preferably, prior to the start of the lecture/tutorial. Students who miss a quiz or assignment need to provide a doctor’s note and make arrangements (e.g., schedule an oral make-up quiz) with the Instructor as soon as possible. Failing to present a doctor’s note may result in a grade of zero.
+Regular attendance to lecture and tutorials is expected of students. Students who are unavoidably absent because of illness or other reasons should inform the instructor(s) of the course as soon as possible, preferably, prior to the start of the lecture/tutorial. Students who miss quizzes 1 or 2 or an assignment need to provide a doctor’s note and make arrangements (e.g., schedule an oral make-up quiz) with the Instructor as soon as possible. Failing to present a doctor’s note may result in a grade of zero.
 
 A late submission is defined as any work submitted after the deadline. For a late submission, the student will receive a 50% deducation of their grade for the first occurrence. Hence a maximum attainable grade for the first piece of work submitted late is 50%. Any additional pieces of work that are submitted late will receive a grade of 0 for subsequent occurrences. 
 
