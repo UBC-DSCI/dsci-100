@@ -57,7 +57,8 @@ clear, reproducible, and shareable.
 | Lecture worksheets | 5 |
 | Tutorial problem sets | 15 |
 | Group project | 20 |
-| Three quizzes | 60 |
+| Two quizzes | 40 |
+| Final exam | 20 |
 
 ### Group project breakdown
 | Deliverable | % grade |
@@ -94,7 +95,7 @@ Regular attendance to lecture and tutorials is expected of students. Students wh
 
 A late submission is defined as any work submitted after the deadline. For a late submission, the student will receive a 50% deducation of their grade for the first occurrence. Hence a maximum attainable grade for the first piece of work submitted late is 50%. Any additional pieces of work that are submitted late will receive a grade of 0 for subsequent occurrences. 
 
-### Missed Final Quiz 
+### Missed Final Exam 
 Students who miss the final exam must report to their Faculty advising office within 72 hours of the missed exam, and must supply supporting documentation. Only your Faculty Advising office can grant deferred standing in a course. You must also notify your instructor prior to (if possible) or immediately after the exam. Your instructor will let you know when you are expected to write your deferred exam. Deferred exams will ONLY be provided to students who have applied for and received deferred standing from their Faculty.
 
 ### Re-grading
