@@ -6,8 +6,13 @@ Sept-Dec 2019, Tues/Thurs 12:30 - 2:00 pm, ORCH 4074
 ## Description
 Use of Data Science tools to summarize, visualize, and analyze data. Sensible workflows and clear interpretations are emphasized. 
 
-## Prerequisite
-MATH 12
+## Prerequisite Mathematical Knowledge
+- distance between points on a graph
+- percentages, average
+- powers, roots, basic operations, logarithm, exponential
+- equation of a line / plane
+
+As an example, British Columbia's Math 12 or Pre-Calculus 12 courses would satisfy the prerequisite.
 
 ## Textbook
 We are using an open source textbook available free on the web: https://ubc-dsci.github.io/introduction-to-datascience/
