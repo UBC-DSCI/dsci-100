@@ -4,7 +4,7 @@
 Sept-Dec 2019, Tues/Thurs 12:30 - 2:00 pm, ORCH 4074
 
 ## Description
-Use of Data Science tools to summarize, visualize, and analyze data. Sensible workflows and clear interpretations are emphasized. 
+Use of data science tools to summarize, visualize, and analyze data. Sensible workflows and clear interpretations are emphasized. 
 
 ## Prerequisite Mathematical Knowledge
 - distance between points on a graph
