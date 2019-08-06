@@ -82,11 +82,12 @@ clear, reproducible, and shareable.
 | | Chapter 6: Classification | Introduction to classification using K-nearest neighbours (k-nn) | |
 |  | Chapter 7: Classification, continued | Classification continued | |
 || Chapter 8: Regression | Introduction to regression using K-nearest neighbours (k-nn). We will focus on prediction in cases where there is a response variable of interest and a single explanatory variable. | |
-|  | Transition week | Quiz 2| |
 |  | Chapter 9: Regression, continued | Continued exploration of k-nn regression in higher dimensions. We will also begin to compare k-nn to linear models in the context of regression. | | |
-| | Chapter 10: Bootstrap applied to regression | This week will introduce the bootstrap, first by visualizing bootstrap samples and their fitted regression lines for cases where there is a response variable of interest and a single explanatory variable. An intuitive case will be made for what the ensemble of slopes represents, Then we work through examples from multiple regression, emphasizing the scientific interpretation and relevance of the mix of negative/positive slopes. We will emphasize that this is a jumping off point for the study of statistical inference. |
-|  | Chapter 11: Clustering |  Introduction to clustering using K-means  | | |
-|  | Data Science wrap-up & Work on group project in class | | |
+|  | Transition week | Quiz 2| |
+|  | Chapter 10: Clustering |  Introduction to clustering using K-means  | | |
+|  | Chapter 11: Visualizing high dimensional data | | |
+|  | Chapter 12: Introduction to statistical inference | Introduce the idea of statistical inference for estimation. |
+|   |  Exam period  | Final Exam |  |
 
 ## Policies
 
