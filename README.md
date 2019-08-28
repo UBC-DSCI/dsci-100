@@ -45,13 +45,9 @@ clear, reproducible, and shareable.
 ## Teaching Team
 | Position | Name  | email | office hours | office location |
 | :------: | :---: | :---: | :----------: |:----------------|
-| Instructor | [Tiffany Timbers](https://www.tiffanytimbers.com/) | tiffany.timbers@stat.ubc.ca |  |  |
-| Instructor  | [Trevor Campbell](https://trevorcampbell.me/) | trevor@stat.ubc.ca | Thursday 2pm | ESB3116 |
-| TA | Daniel Alimohd | | | | |
-| TA | Alex Chow | | | | |
-| TA | Jordan Bourak | | | | |
-| TA | Grandon Seto | | | | |
-| TA | Petal Vitis | | | | |
+| Instructor | [Tiffany Timbers](https://www.tiffanytimbers.com/) | tiffany.timbers@stat.ubc.ca | Tuesday 3:30pm | ESB 3152  |
+| Instructor  | [Trevor Campbell](https://trevorcampbell.me/) | trevor@stat.ubc.ca | Thursday 2pm | ESB 3116 |
+| TAs | Daniel Alimohd, Alex Chow, Jordan Bourak, Grandon Seto & Petal Vitis | | | Wednesday 10am & 3:30pm, Friday 11am | ESB 3174 |
 
 
 ## Assessment
