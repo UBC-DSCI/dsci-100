@@ -71,7 +71,7 @@ clear, reproducible, and shareable.
 
 ## Schedule
 
-*Lectures are held on Thursdays. The tutorials happen on Tuesdays and build on the concepts learned in lecture.* 
+*Lectures are held on Thursdays. Tutorials are held on Tuesdays and build on the concepts learned in lecture.* 
 
 | Lecture date | Topic | Description | Lecture pre-reading |
 |------|-------|-------------|---------------------|
