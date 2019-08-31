@@ -86,8 +86,8 @@ clear, reproducible, and shareable.
 |  | Chapter 9: Regression, continued | Continued exploration of k-nn regression in higher dimensions. We will also begin to compare k-nn to linear models in the context of regression. | | |
 |  | Transition week | Quiz 2| |
 |  | Chapter 10: Clustering |  Introduction to clustering using K-means  | | |
-|  | Chapter 11: Visualizing high dimensional data | | |
-|  | Chapter 12: Introduction to statistical inference | Introduce the idea of statistical inference for estimation. |
+|  | Chapter 11: Introduction to statistical inference | Introduce sampling and estimation for sample means and proportions. | |
+|  | Chapter 12: Introduction to statistical inference, continued | Introduce confidence intervals, and calculating them via boostrapping.  |
 |   |  Exam period  | Final Exam |  |
 
 ## Policies
