@@ -5,7 +5,7 @@ All participants in our course and communications are expected to show respect a
 To make clear what is expected, everyone participating in DSCI 100 activities is required to conform to the Code of Conduct. 
 This Code of Conduct applies to all spaces managed by DSCI 100 including, but not limited to, class meetings, email communication, and online forums such as Piazza and GitHub. The DSCI 100 teaching team are expected to assist with the enforcement of the Code of Conduct.
 
-The DSCI 100 Instructor is responsible for enforcing the Code of Conduct. They can be contacted by emailing tiffany.timbers@stat.ubc.ca. All reports will be reviewed by the Instructor and will be kept confidential.
+The DSCI 100 Instructor is responsible for enforcing the Code of Conduct. They can be contacted by emailing tiffany.timbers@stat.ubc.ca and/or trevor@stat.ubc.ca. All reports will be reviewed by the Instructor and will be kept confidential.
 
 ### The DSCI 100 Code of Conduct
 For DSCI 100, we are dedicated to providing a welcoming and supportive environment for all people, regardless of background or identity. As such, we do not tolerate behaviour that is disrespectful to our teachers or learners or that excludes, intimidates, or causes discomfort to others. We do not tolerate discrimination or harassment based on characteristics that include, but are not limited to, gender identity and expression, sexual orientation, disability, physical appearance, body size, citizenship, nationality, ethnic or social origin, pregnancy, familial status, veteran status, genetic information, religion or belief (or lack thereof), membership of a national minority, property, age, education, socio-economic status, technical choices, and experience level.
@@ -49,13 +49,13 @@ Participants who are asked to stop any inappropriate behavior are expected to co
 ### Incident Reporting Guidelines
 
 #### Contact points
-If someone violates the Code of Conduct during a DSCI 100 event we ask that you report it to a member of the teaching team. The person you have talked to should make a report to the DSCI 100 Instructor about the incident by emailing tiffany.timbers@stat.ubc.ca. If this is not possible for some reason, we would be very grateful if you could report the incident yourself.
+If someone violates the Code of Conduct during a DSCI 100 event we ask that you report it to a member of the teaching team. The person you have talked to should make a report to the DSCI 100 Instructor about the incident by emailing tiffany.timbers@stat.ubc.ca and/or trevor@stat.ubc.ca. If this is not possible for some reason, we would be very grateful if you could report the incident yourself.
 
-If a violation occurs in an online space outside of organised events, please email tiffany.timbers@stat.ubc.ca about the incident.
+If a violation occurs in an online space outside of organised events, please email tiffany.timbers@stat.ubc.ca and/or trevor@stat.ubc.ca about the incident.
 
 #### 1.2 Alternate contact points
 
-An email to tiffany.timbers@stat.ubc.ca will be seen by Tiffany Timbers, who is the current instructor of DSCI 100. To report a DSCI 100 code of conduct violation that will not be seen by Tiffany Timbers, an alternative contact person is Bruce Dunham, Professor of Teaching in the Department of Statistics at UBC. His email is: b.dunham@stat.ubc.ca
+An email to tiffany.timbers@stat.ubc.ca will be seen by Tiffany Timbers, and to trevor@stat.ubc.ca will be seen by Trevor Campbell, the current instructors of DSCI 100. To report a DSCI 100 code of conduct violation that will not be seen by Tiffany Timbers or Trevor Campbell, an alternative contact person is Bruce Dunham, Professor of Teaching in the Department of Statistics at UBC. His email is b.dunham@stat.ubc.ca
 
 ## Attribution 
 - Derived from the [Carpentries Code of Conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html)
