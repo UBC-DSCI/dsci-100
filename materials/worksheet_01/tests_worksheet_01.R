@@ -112,7 +112,7 @@ test_7.4.1 <- function(){
         })
     test_that('marathon_male bmi and/or km10_time_seconds column(s) contains the incorrect values', {
         expect_equal(digest(sum(marathon_male$bmi)), '206ea048affbda5298ce20573b9cb321') # we hid the answer to the test here so you can't see it, but we can still run the test
-        expect_equal(digest(sum(marathon_male$km10_time_seconds)), '9c9393e1464352cd4fbea94dfadfa02a') # we hid the answer to the test here so you can't see it, but we can still run the test
+        expect_equal(digest(sum(as.numeric(marathon_male$km10_time_seconds))), '9c9393e1464352cd4fbea94dfadfa02a') # we hid the answer to the test here so you can't see it, but we can still run the test
         })
 print("Success!")
     }
