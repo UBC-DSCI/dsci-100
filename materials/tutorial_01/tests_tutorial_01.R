@@ -116,13 +116,6 @@ test_1.8 <- function(){
 print("Success!")
     }
 
-test_1.9 <- function(){
-    test_that('Solution is incorrect', {
-        expect_equal(digest(answer1.9), '3a5505c06543876fe45598b5e5e5195d') # we hid the answer to the test here so you can't see it, but we can still run the test
-        })
-print("Success!")
-    }
-
 test_1.10 <- function(){
     test_that('Did not create a plot named age_vs_time', {
         expect_true(exists("age_vs_time")) 
@@ -139,13 +132,6 @@ test_1.10 <- function(){
     test_that('Labels on the axes should be descriptive and human readable.', {
         expect_that((age_vs_time$labels$y) == 'km5_time_minutes', is_false())
         expect_that((age_vs_time$labels$x) == 'age', is_false())
-        })
-print("Success!")
-    }
-
-test_1.11 <- function(){
-    test_that('Solution is incorrect', {
-        expect_equal(digest(answer1.11), '6d3265246ef060791e91797fea6a0e8e') # we hid the answer to the test here so you can't see it, but we can still run the test
         })
 print("Success!")
     }
@@ -206,40 +192,6 @@ test_2.5 <- function(){
     test_that('Columns in bike_filter contain incorrect values.', {
         expect_equal(digest(as.integer(sum(bike_filter$total_users))), '051a1e8b9293438bbc0cb8ed6fa4e959') # we hid the answer to the test here so you can't see it, but we can still run the test
         expect_equal(digest(as.integer(sum(bike_filter$temperature, na.rm = TRUE))), '15865a3cff7594d62b7897f23fb27fa8') # we hid the answer to the test here so you can't see it, but we can still run the test
-        })
-print("Success!")
-    }
-
-test_2.6 <- function(){
-    test_that('Did not create an object named bike_select', {
-        expect_true(exists("bike_select")) 
-        })
-    test_that('bike_select does not contain the correct number of rows and/or columns.', {
-        expect_equal(dim(bike_select), c(181, 2))
-        })
-    test_that('Columns in bike_select contain incorrect values.', {
-        expect_equal(digest(as.integer(sum(bike_select$total_users))), '051a1e8b9293438bbc0cb8ed6fa4e959') # we hid the answer to the test here so you can't see it, but we can still run the test
-        expect_equal(digest(as.integer(sum(bike_select$temperature, na.rm = TRUE))), '15865a3cff7594d62b7897f23fb27fa8') # we hid the answer to the test here so you can't see it, but we can still run the test
-        })
-print("Success!")
-    }
-
-test_2.7 <- function(){
-    test_that('Did not create a plot named bike_plot_spring', {
-        expect_true(exists("bike_plot_spring")) 
-        })
-    test_that('temperature should be on the x-axis.', {
-        expect_that("temperature" %in% c(rlang::get_expr(bike_plot_spring$mapping$x),rlang::get_expr(bike_plot_spring$layers[[1]]$mapping$x)), is_true())
-        })
-    test_that('total_users should be on the y-axis.', {
-        expect_that("total_users" %in% c(rlang::get_expr(bike_plot_spring$mapping$y), rlang::get_expr(bike_plot_spring$layers[[1]]$mapping$y)) , is_true())
-        })
-    test_that('bike_plot_spring should be a scatter plot.', {
-        expect_that("GeomPoint" %in% c(class(bike_plot_spring$layers[[1]]$geom)) , is_true())
-        })
-    test_that('Labels on the axes should be descriptive and human readable.', {
-        expect_that((bike_plot_spring$labels$y) == 'total_users', is_false())
-        expect_that((bike_plot_spring$labels$x) == 'temperature', is_false())
         })
 print("Success!")
     }
