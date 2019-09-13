@@ -121,7 +121,7 @@ test_3.6.1 <- function(){
         })
     test_that('happy_semi_df does not contain the correct information.', {
         expect_equal(dim(happy_semi_df), c(155, 5))
-        expect_equal(digest(as.integer(sum(happy_semi_df$freedom))), '5dfdba537fcd9880bb235099a0b2d71b') # we hid the answer to the test here so you can't see it, but we can still run the test
+        expect_equal(digest(sum(as.numeric(happy_semi_df$freedom))), '9c9393e1464352cd4fbea94dfadfa02a') # we hid the answer to the test here so you can't see it, but we can still run the test
         expect_equal(colnames(happy_semi_df), c("country", "happiness_score", "GDP_per_capita", "life_expectancy", "freedom"))
         })
 print("Success!")
@@ -136,7 +136,7 @@ test_3.6.2 <- function(){
         })
     test_that('happy_semi_df2 does not contain the correct information.', {
         expect_equal(dim(happy_semi_df2), c(155, 5))
-        expect_equal(digest(as.integer(sum(happy_semi_df2$happiness_score))), 'c7f66da1cae4f223b9bae717f05900f7') # we hid the answer to the test here so you can't see it, but we can still run the test
+        expect_equal(digest(as.integer(sum(happy_semi_df2$happiness_score))), 'c3ad708acb2b90a9e40e48f729083e69') # we hid the answer to the test here so you can't see it, but we can still run the test
         expect_equal(colnames(happy_semi_df2), c("country", "happiness_score", "GDP_per_capita", "life_expectancy", "freedom"))
         })
 print("Success!")
