@@ -13657,54 +13657,20 @@ cols(
 </div>
 </div>
 
-</div>
+</div></div></section></section><section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-r"><pre><span></span><span class="nf">head</span><span class="p">(</span><span class="n">gapminder</span><span class="p">)</span>
+<div class=" highlight hl-r"><pre><span></span><span class="c1">#preview data frame</span>
 </pre></div>
 
     </div>
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-<div class="output_html rendered_html output_subarea ">
-<table>
-<caption>A tibble: 6 × 6</caption>
-<thead>
-	<tr><th scope=col>country</th><th scope=col>year</th><th scope=col>pop</th><th scope=col>continent</th><th scope=col>lifeExp</th><th scope=col>gdpPercap</th></tr>
-	<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
-</thead>
-<tbody>
-	<tr><td>Afghanistan</td><td>1952</td><td> 8425333</td><td>Asia</td><td>28.801</td><td>779.4453</td></tr>
-	<tr><td>Afghanistan</td><td>1957</td><td> 9240934</td><td>Asia</td><td>30.332</td><td>820.8530</td></tr>
-	<tr><td>Afghanistan</td><td>1962</td><td>10267083</td><td>Asia</td><td>31.997</td><td>853.1007</td></tr>
-	<tr><td>Afghanistan</td><td>1967</td><td>11537966</td><td>Asia</td><td>34.020</td><td>836.1971</td></tr>
-	<tr><td>Afghanistan</td><td>1972</td><td>13079460</td><td>Asia</td><td>36.088</td><td>739.9811</td></tr>
-	<tr><td>Afghanistan</td><td>1977</td><td>14880372</td><td>Asia</td><td>38.438</td><td>786.1134</td></tr>
-</tbody>
-</table>
-
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div></div></section></section><section><section>
+</div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -13714,50 +13680,13 @@ cols(
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-r"><pre><span></span><span class="nf">library</span><span class="p">(</span><span class="n">tidyverse</span><span class="p">)</span>
-<span class="n">gap_2007</span> <span class="o">&lt;-</span> <span class="n">gapminder</span> <span class="o">%&gt;%</span> 
-    <span class="nf">filter</span><span class="p">(</span><span class="n">year</span> <span class="o">==</span> <span class="m">2007</span><span class="p">)</span>
-<span class="nf">head</span><span class="p">(</span><span class="n">gap_2007</span><span class="p">)</span>
+<div class=" highlight hl-r"><pre><span></span>
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-<div class="output_html rendered_html output_subarea ">
-<table>
-<caption>A tibble: 6 × 6</caption>
-<thead>
-	<tr><th scope=col>country</th><th scope=col>year</th><th scope=col>pop</th><th scope=col>continent</th><th scope=col>lifeExp</th><th scope=col>gdpPercap</th></tr>
-	<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
-</thead>
-<tbody>
-	<tr><td>Afghanistan</td><td>2007</td><td>31889923</td><td>Asia    </td><td>43.828</td><td>  974.5803</td></tr>
-	<tr><td>Albania    </td><td>2007</td><td> 3600523</td><td>Europe  </td><td>76.423</td><td> 5937.0295</td></tr>
-	<tr><td>Algeria    </td><td>2007</td><td>33333216</td><td>Africa  </td><td>72.301</td><td> 6223.3675</td></tr>
-	<tr><td>Angola     </td><td>2007</td><td>12420476</td><td>Africa  </td><td>42.731</td><td> 4797.2313</td></tr>
-	<tr><td>Argentina  </td><td>2007</td><td>40301927</td><td>Americas</td><td>75.320</td><td>12779.3796</td></tr>
-	<tr><td>Australia  </td><td>2007</td><td>20434176</td><td>Oceania </td><td>81.235</td><td>34435.3674</td></tr>
-</tbody>
-</table>
-
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -13765,56 +13694,20 @@ cols(
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Now-let's-use-group_by-+-summarize-to-iterate">Now let's use <code>group_by</code> + <code>summarize</code> to iterate<a class="anchor-link" href="#Now-let's-use-group_by-+-summarize-to-iterate">&#182;</a></h2><p>Goal: calculate average life expectancy for each continent</p>
+<h2 id="Now-let's-use-group_by-+-summarize-to-iterate">Now let's use <code>group_by</code> + <code>summarize</code> to iterate<a class="anchor-link" href="#Now-let's-use-group_by-+-summarize-to-iterate">&#182;</a></h2><p>Goal: calculate average life expectancy in 2007 for each continent</p>
 
 </div>
 </div>
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-r"><pre><span></span><span class="n">avg_lifeExp_2007</span> <span class="o">&lt;-</span> <span class="n">gap_2007</span> <span class="o">%&gt;%</span> 
-    <span class="nf">group_by</span><span class="p">(</span><span class="n">continent</span><span class="p">)</span> <span class="o">%&gt;%</span> 
-    <span class="nf">summarize</span><span class="p">(</span><span class="n">avg_lifeExp</span> <span class="o">=</span> <span class="nf">mean</span><span class="p">(</span><span class="n">lifeExp</span><span class="p">))</span>
-<span class="n">avg_lifeExp_2007</span>
+<div class=" highlight hl-r"><pre><span></span>
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-<div class="output_html rendered_html output_subarea ">
-<table>
-<caption>A tibble: 5 × 2</caption>
-<thead>
-	<tr><th scope=col>continent</th><th scope=col>avg_lifeExp</th></tr>
-	<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
-</thead>
-<tbody>
-	<tr><td>Africa  </td><td>54.80604</td></tr>
-	<tr><td>Americas</td><td>73.60812</td></tr>
-	<tr><td>Asia    </td><td>70.72848</td></tr>
-	<tr><td>Europe  </td><td>77.64860</td></tr>
-	<tr><td>Oceania </td><td>80.71950</td></tr>
-</tbody>
-</table>
-
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -13832,7 +13725,7 @@ cols(
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="nf">head</span><span class="p">(</span><span class="n">USArrests</span><span class="p">)</span>
@@ -13880,49 +13773,20 @@ cols(
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="use-*map*-to-iterate">use <code>*map*</code> to iterate<a class="anchor-link" href="#use-*map*-to-iterate">&#182;</a></h2>
+<h2 id="use-*map*-to-iterate">use <code>*map*</code> to iterate<a class="anchor-link" href="#use-*map*-to-iterate">&#182;</a></h2><p>Calculate the average/mean of each column:</p>
+
 </div>
 </div>
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-r"><pre><span></span><span class="n">USavg</span> <span class="o">&lt;-</span> <span class="nf">map</span><span class="p">(</span><span class="n">USArrests</span><span class="p">,</span> <span class="n">mean</span><span class="p">)</span>
-<span class="n">USavg</span>
+<div class=" highlight hl-r"><pre><span></span>
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-<div class="output_html rendered_html output_subarea ">
-<dl>
-	<dt>$Murder</dt>
-		<dd>7.788</dd>
-	<dt>$Assault</dt>
-		<dd>170.76</dd>
-	<dt>$UrbanPop</dt>
-		<dd>65.54</dd>
-	<dt>$Rape</dt>
-		<dd>21.232</dd>
-</dl>
-
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -13984,43 +13848,13 @@ cols(
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-r"><pre><span></span><span class="n">USavg</span> <span class="o">&lt;-</span> <span class="nf">map_df</span><span class="p">(</span><span class="n">USArrests</span><span class="p">,</span> <span class="n">mean</span><span class="p">)</span>
-<span class="n">USavg</span>
+<div class=" highlight hl-r"><pre><span></span>
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-<div class="output_html rendered_html output_subarea ">
-<table>
-<caption>A tibble: 1 × 4</caption>
-<thead>
-	<tr><th scope=col>Murder</th><th scope=col>Assault</th><th scope=col>UrbanPop</th><th scope=col>Rape</th></tr>
-	<tr><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
-</thead>
-<tbody>
-	<tr><td>7.788</td><td>170.76</td><td>65.54</td><td>21.232</td></tr>
-</tbody>
-</table>
-
-</div>
-
-</div>
-
 </div>
 </div>
 
