@@ -14045,83 +14045,20 @@ cols(
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Class-activity-1">Class activity 1<a class="anchor-link" href="#Class-activity-1">&#182;</a></h2><p>Calculate the mean petal length for the Iris (flower) species in the <code>iris</code> dataset:</p>
+<h2 id="Class-activity-1">Class activity 1<a class="anchor-link" href="#Class-activity-1">&#182;</a></h2><p>Calculate the mean petal length for each of the Iris (flower) species in the <code>iris</code> dataset. Post your answer on Piazza when you are done.</p>
 
 </div>
 </div>
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-r"><pre><span></span><span class="nf">library</span><span class="p">(</span><span class="n">tidyverse</span><span class="p">)</span>
-<span class="nf">head</span><span class="p">(</span><span class="n">iris</span><span class="p">)</span>
-<span class="n">petal_length</span> <span class="o">&lt;-</span> <span class="n">iris</span> <span class="o">%&gt;%</span> 
-    <span class="nf">group_by</span><span class="p">(</span><span class="n">Species</span><span class="p">)</span> <span class="o">%&gt;%</span> 
-    <span class="nf">summarise</span><span class="p">(</span><span class="n">mean_length</span> <span class="o">=</span> <span class="nf">mean</span><span class="p">(</span><span class="n">Petal.Length</span><span class="p">))</span>
-<span class="n">petal_length</span>
+<div class=" highlight hl-r"><pre><span></span>
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-<div class="output_html rendered_html output_subarea ">
-<table>
-<caption>A data.frame: 6 × 5</caption>
-<thead>
-	<tr><th scope=col>Sepal.Length</th><th scope=col>Sepal.Width</th><th scope=col>Petal.Length</th><th scope=col>Petal.Width</th><th scope=col>Species</th></tr>
-	<tr><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;fct&gt;</th></tr>
-</thead>
-<tbody>
-	<tr><td>5.1</td><td>3.5</td><td>1.4</td><td>0.2</td><td>setosa</td></tr>
-	<tr><td>4.9</td><td>3.0</td><td>1.4</td><td>0.2</td><td>setosa</td></tr>
-	<tr><td>4.7</td><td>3.2</td><td>1.3</td><td>0.2</td><td>setosa</td></tr>
-	<tr><td>4.6</td><td>3.1</td><td>1.5</td><td>0.2</td><td>setosa</td></tr>
-	<tr><td>5.0</td><td>3.6</td><td>1.4</td><td>0.2</td><td>setosa</td></tr>
-	<tr><td>5.4</td><td>3.9</td><td>1.7</td><td>0.4</td><td>setosa</td></tr>
-</tbody>
-</table>
-
-</div>
-
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-<div class="output_html rendered_html output_subarea ">
-<table>
-<caption>A tibble: 3 × 2</caption>
-<thead>
-	<tr><th scope=col>Species</th><th scope=col>mean_length</th></tr>
-	<tr><th scope=col>&lt;fct&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
-</thead>
-<tbody>
-	<tr><td>setosa    </td><td>1.462</td></tr>
-	<tr><td>versicolor</td><td>4.260</td></tr>
-	<tr><td>virginica </td><td>5.552</td></tr>
-</tbody>
-</table>
-
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -14129,56 +14066,24 @@ cols(
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Class-activity-2">Class activity 2<a class="anchor-link" href="#Class-activity-2">&#182;</a></h2><p>Use <code>map_df</code> to caclulate the mean of each of the numerical columns in the <code>iris</code> dataset.</p>
+<h2 id="Class-activity-2">Class activity 2<a class="anchor-link" href="#Class-activity-2">&#182;</a></h2><p>Use <code>map_df</code> to caclulate the mean of each of the numerical columns in the <code>iris</code> dataset. Post your answer on Piazza when you are done.</p>
 
 </div>
 </div>
-</div>
+</div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-r"><pre><span></span><span class="n">avg_all</span> <span class="o">&lt;-</span> <span class="n">iris</span> <span class="o">%&gt;%</span> 
-    <span class="nf">select</span><span class="p">(</span><span class="o">-</span><span class="n">Species</span><span class="p">)</span> <span class="o">%&gt;%</span> 
-    <span class="nf">map_df</span><span class="p">(</span><span class="n">mean</span><span class="p">)</span>
-<span class="n">avg_all</span>
+<div class=" highlight hl-r"><pre><span></span>
 </pre></div>
 
     </div>
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-<div class="output_html rendered_html output_subarea ">
-<table>
-<caption>A tibble: 1 × 4</caption>
-<thead>
-	<tr><th scope=col>Sepal.Length</th><th scope=col>Sepal.Width</th><th scope=col>Petal.Length</th><th scope=col>Petal.Width</th></tr>
-	<tr><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
-</thead>
-<tbody>
-	<tr><td>5.843333</td><td>3.057333</td><td>3.758</td><td>1.199333</td></tr>
-</tbody>
-</table>
-
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div></section></section><section><section>
+</div></div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
