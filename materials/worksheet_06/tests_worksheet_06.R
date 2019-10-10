@@ -260,7 +260,7 @@ print("Success!")
 
 test_2.4 <- function(){
 test_that('Solution is incorrect', {
-    expect_equal(digest(answer2.4), '891e8a631267b478c03e25594808709d') # we hid the answer to the test here so you can't see it, but we can still run the test
+    expect_equal(digest(answer2.4), '9c8cb5538e7778bf0b1bd53e45fb78c9') # we hid the answer to the test here so you can't see it, but we can still run the test
     
 })
 print("Success!")
@@ -284,7 +284,7 @@ print("Success!")
 
 test_2.7 <- function(){
 test_that('Solution is incorrect', {
-    expect_equal(digest(answer2.7), '863dfc36ab2bfe97404cc8fc074a5241') # we hid the answer to the test here so you can't see it, but we can still run the test
+    expect_equal(digest(answer2.7), '0590b0427c1b19a6eb612d19888aa52f') # we hid the answer to the test here so you can't see it, but we can still run the test
     
 })
 print("Success!")
