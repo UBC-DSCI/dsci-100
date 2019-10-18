@@ -428,15 +428,15 @@ test_that('test_results does not contain correct information.', {
     expect_equal(c("apple", "lemon", "mandarin", "orange") %in% colnames(test_results$table), c(TRUE, TRUE, TRUE, TRUE))
     }) 
 test_that('prediction accuracy is not correct', {
-    expect_equal(round(test_results$overall[[1]], 2), 0.62)
+    expect_equal(round(test_results$overall[[1]], digits=2), 1.)
     })
 print("Success!")
     }
 
 test_5.2 <- function(){
 test_that('Solution is incorrect', {
-    expect_true(answer5.2 > 0.59)
-    expect_true(answer5.2 < 0.65)
+    expect_true(answer5.2 > .95)
+    expect_true(answer5.2 < 1.05)
 })
 print("Success!")
     }
