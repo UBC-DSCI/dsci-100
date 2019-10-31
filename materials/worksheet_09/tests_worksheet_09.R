@@ -45,7 +45,7 @@ test_2.2 <- function() {
 
 test_2.3 <- function() {
     test_that('Solution is incorrect', {
-        expect_equal(digest(answer1.1), '475bf9280aab63a82af60791302736f6')
+        expect_equal(digest(answer2.3), '475bf9280aab63a82af60791302736f6')
     })
     print("Success!")
 }
@@ -179,14 +179,14 @@ test_3.4 <- function() {
 
 test_3.5 <- function() {
     test_that('lm_rmse is incorrect', {
-        expect_equal(digest(round(lm_rmse, 1)), 'af04a6f39588915a4dcac626c46434de')
+        expect_equal(digest(round(lm_rmse, 3)), '788b714543df6e5fa9954cdefb85fde8')
     })
     print("Success!")
 }
 
 test_3.6 <- function() {
     test_that('lm_rmspe is incorrect', {
-        expect_equal(digest(round(lm_rmspe, 1)), 'af04a6f39588915a4dcac626c46434de')
+        expect_equal(digest(round(lm_rmspe, 3)), '53a185c37dade264b27beeead0c1e823')
     })
     print("Success!")
 }
