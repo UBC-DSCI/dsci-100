@@ -66,9 +66,6 @@ test_1.2 <- function(){
     test_that('clean_beer should be a data frame.', {
         expect_true('data.frame' %in% class(clean_beer))
     })
-    test_that('clean_beer does not contain the correct number of rows and/or columns.', {
-        expect_equal(dim(clean_beer), c(1405, 2))
-    })
     test_that('clean_beer should only contain the columns ibu and abv', {
         expect_that("ibu" %in% colnames(clean_beer), is_true())
         expect_that("abv" %in% colnames(clean_beer), is_true())
@@ -78,6 +75,10 @@ test_1.2 <- function(){
         expect_that("brewery_id" %in% colnames(clean_beer), is_false())
         expect_that("ounces" %in% colnames(clean_beer), is_false())
         })
+    test_that('clean_beer does not contain the correct number of rows and/or columns.', {
+        expect_equal(dim(clean_beer), c(1405, 2))
+    })
+
     print("Success!")
     }
 
@@ -248,27 +249,6 @@ test_2.1 <- function(){
 print("Success!")
     }
 
-test_2.2 <- function(){
-    test_that('Did not create a plot named choose_beer_k', {
-    expect_true(exists("choose_beer_k")) 
-    })
-test_that('choose_beer_k contains incorrect information.', {
-    expect_equal(digest(choose_beer_k$data$k), 'c08951d2c283a799ab013bf845ed822e')
-    expect_equal(digest(choose_beer_k$data$tot.withinss), '11d131cf0b717bfbe3acbed4eacad2c6')
-    })
-test_that('k should be on the x-axis.', {
-    expect_that("k" %in% c(rlang::get_expr(choose_beer_k $mapping$x),rlang::get_expr(choose_beer_k $layers[[1]]$mapping$x)), is_true())
-    })
-test_that('tot.withinss should be on the y-axis.', {
-    expect_true(as.character(rlang::get_expr(choose_beer_k$mapping$y)) %in% c("tot.withinss"))
-    })
-test_that('choose_beer_k should be a scatter plot and a line plot.', {
-    expect_that('GeomPoint' %in% c(class(rlang::get_expr(choose_beer_k $layers[[1]]$geom)), class(rlang::get_expr(choose_beer_k $layers[[2]]$geom))), is_true())
-    expect_that('GeomLine' %in% c(class(rlang::get_expr(choose_beer_k $layers[[1]]$geom)), class(rlang::get_expr(choose_beer_k $layers[[2]]$geom))), is_true())
-    })
-print("Success!")
-    }
-
 
 test_2.2 <- function(){
     properties <- c(choose_beer_k$layers[[1]]$mapping, choose_beer_k$mapping)
@@ -276,18 +256,17 @@ test_2.2 <- function(){
     test_that('Did not create a plot named choose_beer_k', {
         expect_true(exists("choose_beer_k")) 
         })
-    test_that('choose_beer_k should contain information from beer_clustering_unnested', {
-        expect_equal(digest(choose_beer_k$data$k), 'c08951d2c283a799ab013bf845ed822e')
-        expect_equal(digest(choose_beer_k$data$tot.withinss), '11d131cf0b717bfbe3acbed4eacad2c6')
-        })
     test_that('# clusters should be on the x-axis.', {
         expect_true("k" == rlang::get_expr(properties$x))
         })
     test_that('total within-cluster sum-of-squares should be on the y-axis.', {
         expect_true("tot.withinss" == rlang::get_expr(properties$y))
         })
-    test_that('choose_beer_k should be a scatter plot.', {
-        expect_that("GeomLine" %in% c(class(choose_beer_k$layers[[1]]$geom)) , is_true())
+    test_that('choose_beer_k should be a line and scatter plot.', {
+        expect_that("GeomLine" %in% c(class(choose_beer_k$layers[[1]]$geom),class(choose_beer_k$layers[[2]]$geom)) , is_true())
+        })
+    test_that('choose_beer_k should be a line and scatter plot.', {
+        expect_that("GeomPoint" %in% c(class(choose_beer_k$layers[[1]]$geom),class(choose_beer_k$layers[[2]]$geom)) , is_true())
         })
     test_that('Labels on the axes should be descriptive and human readable.', {
         expect_that((labels$y) == 'tot.withinss', is_false())
