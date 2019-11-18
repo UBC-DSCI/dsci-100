@@ -41,7 +41,7 @@ test_that('pm_pairs should be a pairwise plot matrix.', {
     expect_true('ggmatrix' %in% c(class(pm_pairs)))
     })
 test_that('pm_pairs should plot columns 5 to 11', {
-    expect_equal(pm_pairs$yAxisLabels %in% (c("Total", "HP", "Attack", "Defense", "Sp. Atk", "Sp. Def", "Speed")), c(TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE))
+    expect_equal(pm_pairs$yAxisLabels %in% c("Total", "HP", "Attack", "Defense", "Sp. Atk", "Sp. Def", "Speed"), c(TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE))
     })
 print("Success!")
     }
@@ -72,7 +72,8 @@ print("Success!")
 
 test_1.3 <- function(){
     test_that('km_data should contain the columns Speed and Defense', {
-    expect_equal(colnames(km_data), c('Speed', 'Defense'))
+    expect_true('Speed' %in% colnames(km_data))
+    expect_true('Defense' %in% colnames(km_data))
     })
 test_that('km_data should contain 800 rows and 2 columns.', {
     expect_equal(ncol(km_data), 2)
@@ -87,7 +88,8 @@ test_1.4.2 <- function(){
     })
 test_that('The pokemon_clusters model should be using Speed and Defense to create the clusters.', {
     expect_equal(ncol(pokemon_clusters$centers), 2)
-    expect_equal(colnames(pokemon_clusters$centers), c('Speed', 'Defense'))
+    expect_true('Speed' %in% colnames(pokemon_clusters$centers))
+    expect_true('Defense' %in% colnames(pokemon_clusters$centers))
     })
 test_that('The pokemon_clusters model should be of class kmeans', {
     expect_equal(class(pokemon_clusters), 'kmeans')
