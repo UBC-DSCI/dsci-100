@@ -42,7 +42,7 @@ clear, reproducible, and shareable.
 ## Teaching Team
 
 | Position | Name  | Email | Office Hours | Office Location |
-|------|---|---|----------|----------------|
+|----------|-------|-------|--------------|-----------------|
 | Instructor  | [Trevor Campbell](https://trevorcampbell.me/) | trevor@stat.ubc.ca | Tuesday 5pm | HENN 200 or ESB 3116 |
 | Instructor | [Melissa Lee](https://www.stat.ubc.ca/users/melissa-lee) | melissa.lee@stat.ubc.ca | TBD | TBD  |
 | TAs | Daniel Alimohd, Alex Chow, Jordan Bourak, Grandon Seto, Yuru Liu, Kevin Le, Connor McDonald, Michela Minerva, Hayden McTavish | | TBD | TBD |
@@ -53,7 +53,7 @@ clear, reproducible, and shareable.
 ### Course breakdown
 
 | Deliverable | Percent Grade |
-|------------|----------|
+|-------------|---------------|
 | Lecture worksheets | 5 |
 | Tutorial problem sets | 15 |
 | Group project | 20 |
@@ -63,7 +63,7 @@ clear, reproducible, and shareable.
 ### Group project breakdown
 
 | Deliverable | Percent Grade |
-|------------|----------|
+|-------------|---------------|
 | Proposal | 3 |
 | Peer review | 2 |
 | Final report | 10 |
