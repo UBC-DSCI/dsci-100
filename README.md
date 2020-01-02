@@ -40,6 +40,7 @@ By the end of the course, students will be able to:
 clear, reproducible, and shareable.
 
 ## Teaching Team
+
 | Position | Name  | Email | Office Hours | Office Location |
 |------|---|---|----------|----------------|
 | Instructor  | [Trevor Campbell](https://trevorcampbell.me/) | trevor@stat.ubc.ca | Tuesday 5pm | HENN 200 or ESB 3116 |
@@ -50,6 +51,7 @@ clear, reproducible, and shareable.
 ## Assessment
 
 ### Course breakdown
+
 | Deliverable | Percent Grade |
 |------------|----------|
 | Lecture worksheets | 5 |
@@ -59,6 +61,7 @@ clear, reproducible, and shareable.
 | Final exam | 20 |
 
 ### Group project breakdown
+
 | Deliverable | Percent Grade |
 |------------|----------|
 | Proposal | 3 |
