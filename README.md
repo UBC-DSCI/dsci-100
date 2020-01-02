@@ -1,7 +1,7 @@
 # DSCI 100: Introduction to Data Science
 
 ## Time and Place
-Sept-Dec 2019, Tues/Thurs 12:30 - 2:00 pm, ORCH 4074
+Jan-Apr 2020, Tues/Thurs 3:30-5pm, HENN 200
 
 ## Description
 Use of data science tools to summarize, visualize, and analyze data. Sensible workflows and clear interpretations are emphasized. 
@@ -26,10 +26,9 @@ Students will learn to perform their analysis using the [R programming language]
 ## Learning Outcomes
 By the end of the course, students will be able to:
 
-- Download and scrape data off the world-wide-web.
+- Read data from a variety of common sources (`.csv` files, databases) into R.
 - Wrangle data from their original format into a fit-for-purpose format.
-- Create, and interpret, meaningful tables from wrangled data.
-- Create, and interpret, impactful figures from wrangled data.
+- Create, and interpret, meaningful tables and effective visualizations from wrangled data.
 - Apply, and interpret the output of, a simple classifier.
 - Make and evaluate predictions using a simple classifier.
 - Apply, and interpret the output of, a simple clustering algorithm.
@@ -40,14 +39,12 @@ By the end of the course, students will be able to:
 - Accomplish all of the above using workflows and communication strategies that are sensible,
 clear, reproducible, and shareable.
 
-*Learning outcomes per lecture are available [here](https://github.com/UBC-DSCI/dsci-100/blob/master/lecture_learning_objectives.md).*
-
 ## Teaching Team
 | Position | Name  | email | office hours | office location |
 | :------: | :---: | :---: | :----------: |:----------------|
-| Instructor | [Tiffany Timbers](https://www.tiffanytimbers.com/) | tiffany.timbers@stat.ubc.ca | Tuesday 3:00pm | ESB 3152  |
-| Instructor  | [Trevor Campbell](https://trevorcampbell.me/) | trevor@stat.ubc.ca | Thursday 2pm | ESB 3116 |
-| TAs | Daniel Alimohd, Alex Chow, Jordan Bourak, Grandon Seto & Petal Vitis | | Wednesday 10am & 3:30pm, Friday 11am | ESB 3174 |
+| Instructor  | [Trevor Campbell](https://trevorcampbell.me/) | trevor@stat.ubc.ca | Tuesday 5pm | HENN 200 or ESB 3116 |
+| Instructor | [Melissa Lee](https://www.stat.ubc.ca/users/melissa-lee) | melissa.lee@stat.ubc.ca | TBD | TBD  |
+| TAs | Daniel Alimohd, Alex Chow, Jordan Bourak, Grandon Seto, Yuru Liu, Kevin Le, Connor McDonald, Michela Minerva, Hayden McTavish | | TBD | TBD |
 
 
 ## Assessment
@@ -71,7 +68,7 @@ clear, reproducible, and shareable.
 
 ## Schedule
 
-*Lectures are held on Thursdays. Tutorials are held on Tuesdays and build on the concepts learned in lecture.* 
+*Lectures are held on Tuesdays. Tutorials are held on Thursdays and build on the concepts learned in lecture.* 
 
 | Lecture date | Topic | Description | Lecture pre-reading |
 |------|-------|-------------|---------------------|
@@ -97,15 +94,24 @@ Regular attendance to lecture and tutorials is expected of students. Students wh
 
 A late submission is defined as any work submitted after the deadline. For a late submission, the student will receive a 50% deducation of their grade for the first occurrence. Hence a maximum attainable grade for the first piece of work submitted late is 50%. Any additional pieces of work that are submitted late will receive a grade of 0 for subsequent occurrences. 
 
+### Autograder Policy
+Many of the questions in assignments are graded automatically by software. The grading computer has exactly the same hardware setup as the server that students work on. No assignment, when completed, should take longer than 5 minutes to run on the server. The autograder will automatically stop (time out) for each student assignment after a maximum of 5 minutes; **any ungraded questions at that point will receive a score of 0.**
+
+Furthermore, students are responsible for making sure their assignments are *reproducible*, and run from beginning to end on the autograding computer. In particular, **please ensure that any data that needs to be downloaded is done so by the assignment notebook with the correct filename to the correct folder.** A common mistake is to manually download data when working on the assignment, making the autograder unable to find the data and often resulting in an assignment grade of 0.
+
+In short: whatever grade the autograder returns after 4 minutes (assuming the teaching team did not make an error) is the grade that will be assigned.
+
+### Re-grading
+If you have concerns about the way your work was graded, please contact the TA who graded it within one week of having the grade returned to you. After this one-week window, we may deny your request for re-evaluation. Also, please keep in mind that your grade may go up or down as a result of re-grading.
+
+### Device/Browser
+Students are responsible for using a device and browser compatible with all functionality of Canvas. Chrome or Firefox browsers are recommended; Safari has had issues with Canvas quizzes in the past.
+
 ### Missed Final Exam 
 Students who miss the final exam must report to their faculty advising office within 72 hours of the missed exam, and must supply supporting documentation. Only your faculty advising office can grant deferred standing in a course. You must also notify your instructor prior to (if possible) or immediately after the exam. Your instructor will let you know when you are expected to write your deferred exam. Deferred exams will ONLY be provided to students who have applied for and received deferred standing from their faculty.
 
 ### Academic Concession Policy
-
 Please see [UBC's concession policy](http://www.calendar.ubc.ca/vancouver/index.cfm?tree=3,329,0,0) for detailed information on dealing with missed coursework, quizzes, and exams under circumstances of an acute and unanticipated nature.
-
-### Re-grading
-If you have concerns about the way your work was graded, please contact the TA who graded it within one week of having the grade returned to you. After this one-week window, we may deny your request for re-evaluation. Also, please keep in mind that your grade may go up or down as a result of re-grading.
 
 ### Academic Integrity 
 The academic enterprise is founded on honesty, civility, and integrity. As members of this enterprise, all students are expected to know, understand, and follow the codes of conduct regarding academic integrity. At the most basic level, this means submitting only original work done by you and acknowledging all sources of information or ideas and attributing them to others as required. This also means you should not cheat, copy, or mislead others about what is your work. Violations of academic integrity (i.e., misconduct) lead to the breakdown of the academic enterprise, and therefore serious consequences arise and harsh sanctions are imposed. For example, incidences of plagiarism or cheating may result in a mark of zero on the

@@ -7,7 +7,6 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
-<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -158,6 +157,18 @@ summary {
 }
 </style>
 
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
 <!-- code folding -->
 
 
@@ -185,14 +196,14 @@ summary {
 <h3>Introduction</h3>
 <p>For DSCI 100, we are committed to creating a friendly and respectful place for learning, teaching and contributing. All participants in our course and communications are expected to show respect and courtesy to others.</p>
 <p>To make clear what is expected, everyone participating in DSCI 100 activities is required to conform to the Code of Conduct. This Code of Conduct applies to all spaces managed by DSCI 100 including, but not limited to, class meetings, email communication, and online forums such as Piazza and GitHub. The DSCI 100 teaching team are expected to assist with the enforcement of the Code of Conduct.</p>
-<p>The DSCI 100 Instructor is responsible for enforcing the Code of Conduct. They can be contacted by emailing <a href="mailto:tiffany.timbers@stat.ubc.ca">tiffany.timbers@stat.ubc.ca</a> and/or <a href="mailto:trevor@stat.ubc.ca">trevor@stat.ubc.ca</a>. All reports will be reviewed by the Instructor and will be kept confidential.</p>
+<p>The DSCI 100 Instructor(s) is responsible for enforcing the Code of Conduct. All reports will be reviewed by the Instructor(s) and will be kept confidential.</p>
 </div>
 <div id="the-dsci-100-code-of-conduct" class="section level3">
 <h3>The DSCI 100 Code of Conduct</h3>
 <p>For DSCI 100, we are dedicated to providing a welcoming and supportive environment for all people, regardless of background or identity. As such, we do not tolerate behaviour that is disrespectful to our teachers or learners or that excludes, intimidates, or causes discomfort to others. We do not tolerate discrimination or harassment based on characteristics that include, but are not limited to, gender identity and expression, sexual orientation, disability, physical appearance, body size, citizenship, nationality, ethnic or social origin, pregnancy, familial status, veteran status, genetic information, religion or belief (or lack thereof), membership of a national minority, property, age, education, socio-economic status, technical choices, and experience level.</p>
 <p>Everyone who participates in DSCI 100 activities is required to conform to this Code of Conduct. It applies to all spaces managed by DSCI 100 including, but not limited to, class meetings, email communication, and online forums such as Piazza and GitHub. The DSCI 100 teaching team are expected to assist with the enforcement of the Code of Conduct.</p>
 <div id="expected-behavior" class="section level4">
-<h4>2.1 Expected Behavior</h4>
+<h4>Expected Behavior</h4>
 <p>All participants in our events and communications are expected to show respect and courtesy to others. All interactions should be professional regardless of platform: either online or in-person. In order to foster a positive and professional learning environment we encourage the following kinds of behaviours in all DSCI 100 events and platforms:</p>
 <ul>
 <li>Use welcoming and inclusive language</li>
@@ -204,7 +215,7 @@ summary {
 <p>Note: See the <a href="https://www.recurse.com/manual#sub-sec-social-rules">four social rules</a> for further recommendations.</p>
 </div>
 <div id="unacceptable-behavior" class="section level4">
-<h4>2.2 Unacceptable Behavior</h4>
+<h4>Unacceptable Behavior</h4>
 <p>Examples of unacceptable behavior by participants at any DSCI 100 event/platform include:</p>
 <ul>
 <li>written or verbal comments which have the effect of excluding people on the basis of membership of any specific group</li>
@@ -222,21 +233,13 @@ summary {
 </ul>
 </div>
 <div id="consequences-of-unacceptable-behavior" class="section level4">
-<h4>2.3 Consequences of Unacceptable Behavior</h4>
+<h4>Consequences of Unacceptable Behavior</h4>
 <p>Participants who are asked to stop any inappropriate behavior are expected to comply immediately. This applies to any DSCI 100 events and platforms, either online or in-person. If a participant engages in behavior that violates this code of conduct, the teaching team may warn the offender and or engage the DSCI 100 Instructor to investigate the Code of Conduct violation and impose appropriate sanctions.</p>
 </div>
 </div>
 <div id="incident-reporting-guidelines" class="section level3">
 <h3>Incident Reporting Guidelines</h3>
-<div id="contact-points" class="section level4">
-<h4>Contact points</h4>
-<p>If someone violates the Code of Conduct during a DSCI 100 event we ask that you report it to a member of the teaching team. The person you have talked to should make a report to the DSCI 100 Instructor about the incident by emailing <a href="mailto:tiffany.timbers@stat.ubc.ca">tiffany.timbers@stat.ubc.ca</a> and/or <a href="mailto:trevor@stat.ubc.ca">trevor@stat.ubc.ca</a>. If this is not possible for some reason, we would be very grateful if you could report the incident yourself.</p>
-<p>If a violation occurs in an online space outside of organised events, please email <a href="mailto:tiffany.timbers@stat.ubc.ca">tiffany.timbers@stat.ubc.ca</a> and/or <a href="mailto:trevor@stat.ubc.ca">trevor@stat.ubc.ca</a> about the incident.</p>
-</div>
-<div id="alternate-contact-points" class="section level4">
-<h4>1.2 Alternate contact points</h4>
-<p>An email to <a href="mailto:tiffany.timbers@stat.ubc.ca">tiffany.timbers@stat.ubc.ca</a> will be seen by Tiffany Timbers, and to <a href="mailto:trevor@stat.ubc.ca">trevor@stat.ubc.ca</a> will be seen by Trevor Campbell, the current instructors of DSCI 100. To report a DSCI 100 code of conduct violation that will not be seen by Tiffany Timbers or Trevor Campbell, an alternative contact person is Bruce Dunham, Professor of Teaching in the Department of Statistics at UBC. His email is <a href="mailto:b.dunham@stat.ubc.ca">b.dunham@stat.ubc.ca</a></p>
-</div>
+<p>If someone violates the Code of Conduct during a DSCI 100 event or in an online space outside of organised events, we ask that you report it to the Instructor(s). The current instructors of DSCI100 are Trevor Campbell and Melissa Lee. An email to <a href="mailto:trevor@stat.ubc.ca">trevor@stat.ubc.ca</a> will be seen by Trevor Campbell, and an email to <a href="mailto:melissa.lee@stat.ubc.ca">melissa.lee@stat.ubc.ca</a> will be seen by Melissa Lee. To report a DSCI 100 code of conduct violation that will not be seen by Trevor Campbell or Melissa Lee, an alternative contact person is Bruce Dunham, Professor of Teaching in the Department of Statistics at UBC. His email is <a href="mailto:b.dunham@stat.ubc.ca">b.dunham@stat.ubc.ca</a> .</p>
 </div>
 <div id="attribution" class="section level2">
 <h2>Attribution</h2>
@@ -262,23 +265,6 @@ $(document).ready(function () {
 
 
 </script>
-
-<!-- tabsets -->
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
-<!-- code folding -->
-
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
