@@ -45,7 +45,15 @@ clear, reproducible, and shareable.
 |----------|-------|-------|--------------|-----------------|
 | Instructor  | [Trevor Campbell](https://trevorcampbell.me/) | trevor@stat.ubc.ca | Tuesday 5pm | HENN 200 or ESB 3116 |
 | Instructor | [Melissa Lee](https://www.stat.ubc.ca/users/melissa-lee) | melissa.lee@stat.ubc.ca | TBD | TBD  |
-| TAs | Daniel Alimohd, Alex Chow, Jordan Bourak, Grandon Seto, Yuru Liu, Kevin Le, Connor McDonald, Michela Minerva, Hayden McTavish | | TBD | TBD |
+| TA | Daniel Alimohd| | TBD | TBD |
+| TA | Alex Chow| | TBD | TBD |
+| TA | Jordan Bourak| | TBD | TBD |
+| TA | Grandon Seto| | TBD | TBD |
+| TA | Yuru Liu| | TBD | TBD |
+| TA | Kevin Le| | TBD | TBD |
+| TA | Connor McDonald| | TBD | TBD |
+| TA | Michela Minerva| | TBD | TBD |
+| TA | Hayden McTavish | | TBD | TBD |
 
 
 ## Assessment
