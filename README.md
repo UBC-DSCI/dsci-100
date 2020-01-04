@@ -122,14 +122,16 @@ assignment or exam and more serious consequences may apply if the matter is refe
 
 A more detailed description of academic integrity, including the University’s policies and procedures, may be found in the Academic Calendar at http://calendar.ubc.ca/vancouver/index.cfm?tree=3,54,111,0.
 
-### Code Plagiarism
-Students must correctly cite any code that has been authored by someone else or by the student themselves for other assignments. Cases of code plagiarism may include, but are not limited to:
+### Plagiarism
+Students must correctly cite any code or text that has been authored by someone else or by the student themselves for other assignments. Cases of plagiarism may include, but are not limited to:
 
-- the reproduction (copying and pasting) of code with none or minimal reformatting (e.g., changing the name of the variables)
+- the reproduction (copying and pasting) of code or text with none or minimal reformatting (e.g., changing the name of the variables)
 - the translation of an algorithm or a script from a language to another 
-- the generation of code by automatic code-generations software 
+- the generation of code by automatic code-generation software 
 
-An “adequate acknowledgement” requires a detailed identification of the (parts of the) code reused and a full citation of the original source code that has been reused.
+An “adequate acknowledgement” requires a detailed identification of the (parts of the) code or text reused and a full citation of the original source code that has been reused.
+
+The above attribution policy applies only to assignments. **No code or text may be copied (with or without attribution) from any source during a quiz or exam. Answers must always be in your own words. Copying will result in a grade of 0 for the related question.**
 
 ## Attribution
 
