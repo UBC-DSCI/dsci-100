@@ -44,7 +44,7 @@ clear, reproducible, and shareable.
 | Position | Name  | Email | Office Hours | Office Location |
 |----------|-------|-------|--------------|-----------------|
 | Instructor  | [Trevor Campbell](https://trevorcampbell.me/) | trevor@stat.ubc.ca | Tuesday 5pm | HENN 200 or ESB 3116 |
-| Instructor | [Melissa Lee](https://www.stat.ubc.ca/users/melissa-lee) | melissa.lee@stat.ubc.ca | TBD | TBD  |
+| Instructor | [Melissa Lee](https://www.stat.ubc.ca/users/melissa-lee) | melissa.lee@stat.ubc.ca | Wednesday 11 am | ESB 3164  |
 | TA | Daniel Alimohd| | TBD | TBD |
 | TA | Alex Chow| | TBD | TBD |
 | TA | Jordan Bourak| | TBD | TBD |
