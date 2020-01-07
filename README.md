@@ -44,7 +44,7 @@ clear, reproducible, and shareable.
 | Position | Name  | Email | Office Hours | Office Location |
 |----------|-------|-------|--------------|-----------------|
 | Instructor  | [Trevor Campbell](https://trevorcampbell.me/) | trevor@stat.ubc.ca | Tuesday 5pm | HENN 200 or ESB 3116 |
-| Instructor | [Melissa Lee](https://www.stat.ubc.ca/users/melissa-lee) | melissa.lee@stat.ubc.ca | TBD | TBD  |
+| Instructor | [Melissa Lee](https://www.stat.ubc.ca/users/melissa-lee) | melissa.lee@stat.ubc.ca | Wednesday 11 am | ESB 3164  |
 | TA | Daniel Alimohd| | TBD | TBD |
 | TA | Alex Chow| | TBD | TBD |
 | TA | Jordan Bourak| | TBD | TBD |
@@ -139,7 +139,9 @@ Students must correctly cite any code or text that has been authored by someone 
 
 An “adequate acknowledgement” requires a detailed identification of the (parts of the) code or text reused and a full citation of the original source code that has been reused.
 
-The above attribution policy applies only to assignments. **No code or text may be copied (with or without attribution) from any source during a quiz or exam. Answers must always be in your own words. Copying will result in a grade of 0 for the related question.**
+The above attribution policy applies only to assignments. **No code or text may be copied (with or without attribution) from any source during a quiz or exam. Answers must always be in your own words. At a minimum, copying will result in a grade of 0 for the related question.**
+
+**Repeated plagiarism of any form could result in larger penalties, including failure of the course.**
 
 ## Attribution
 
