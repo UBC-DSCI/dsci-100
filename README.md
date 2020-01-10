@@ -26,16 +26,16 @@ Students will learn to perform their analysis using the [R programming language]
 ## Learning Outcomes
 By the end of the course, students will be able to:
 
-- Read data from a variety of common sources (`.csv` files, databases) into R.
+- Read data using computation from various sources (local and remote plain text files, spreadsheets and databases)
 - Wrangle data from their original format into a fit-for-purpose format.
-- Create, and interpret, meaningful tables and effective visualizations from wrangled data.
-- Apply, and interpret the output of, a simple classifier.
-- Make and evaluate predictions using a simple classifier.
+- Identify the most common types of research/statistical questions and map them to the appropriate type of data analysis.
+- Create, and interpret, meaningful tables from wrangled data.
+- Create, and interpret, impactful figures from wrangled data.
+- Apply, and interpret the output of simple classifier and regression models.
+- Make and evaluate predictions using a simple classifier and a regression model.
 - Apply, and interpret the output of, a simple clustering algorithm.
-- Apply, and interpret the output of, a regression model.
-- Make and evaluate predictions using a regression model.
 - Distinguish between in-sample prediction, out-of-sample prediction, and cross-validation.
-- Apply and interpret a bootstrap analysis in a regression context.
+- Calculate a point estimate in the context of statistical inference and explain how that relates to the population quantity being estimated.
 - Accomplish all of the above using workflows and communication strategies that are sensible,
 clear, reproducible, and shareable.
 
