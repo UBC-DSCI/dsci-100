@@ -54,7 +54,7 @@ clear, reproducible, and shareable.
 
 ## Assessment
 
-In each class (lecture and tutorial) there will be an assignment. Lecture worksheets are due **Wednesdays at 10pm**, and tutorial worksheets are due **Saturdays at 10pm**. To open the assignment, click the link (e.g. `worksheet_01`) from Canvas. Make sure your work is saved (File -> Save and Checkpoint) **on our server** before the deadline; 
+In each class (lecture and tutorial) there will be an assignment. Lecture worksheets are due **Wednesdays at 10pm**, and tutorial worksheets are due **Saturdays at 10pm**. To open the assignment, click the link (e.g. `worksheet_01`) from Canvas. To submit your assignment, just make sure your work is saved (File -> Save and Checkpoint to be sure) **on our server** (i.e., using the link from Canvas) before the deadline. Our server will automatically snapshot at the due date/time.
 
 ### Course breakdown
 
