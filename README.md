@@ -54,6 +54,8 @@ Note that your TAs may have class right before their DSCI100 office hours, so th
 
 ## Assessment
 
+In each class (lecture and tutorial) there will be an assignment. Lecture worksheets are due **Wednesdays at 10pm**, and tutorial worksheets are due **Saturdays at 10pm**. To open the assignment, click the link (e.g. `worksheet_01`) from Canvas. Make sure your work is saved (File -> Save and Checkpoint) **on our server** before the deadline; 
+
 ### Course breakdown
 
 | Deliverable | Percent Grade |
@@ -99,7 +101,7 @@ Chapter 8: Regression | Introduction to regression using K-nearest neighbours (k
 ### Late/Absence
 Regular attendance to lecture and tutorials is expected of students. Students who are unavoidably absent because of illness or other reasons should inform the instructor(s) of the course as soon as possible, preferably, prior to the start of the lecture/tutorial. Students who miss quizzes 1 or 2 or an assignment need to provide a self-declaration and make arrangements (e.g., schedule an oral make-up quiz) with the Instructor as soon as possible. Failing to present a declaration may result in a grade of zero.
 
-A late submission is defined as any work submitted after the deadline. For a late submission, the student will receive a 50% deducation of their grade for the first occurrence. Hence a maximum attainable grade for the first piece of work submitted late is 50%. Any additional pieces of work that are submitted late will receive a grade of 0 for subsequent occurrences. 
+Late lecture and tutorial worksheets will receive a grade of 0. For other assessments, a late submission is defined as any work submitted after the deadline. For a late submission, the student will receive a 50% deducation of their grade for the first occurrence. Hence a maximum attainable grade for the first piece of work submitted late is 50%. Any additional pieces of work that are submitted late will receive a grade of 0 for subsequent occurrences.
 
 ### Autograder Policy
 Many of the questions in assignments are graded automatically by software. The grading computer has exactly the same hardware setup as the server that students work on. No assignment, when completed, should take longer than 5 minutes to run on the server. The autograder will automatically stop (time out) for each student assignment after a maximum of 5 minutes; **any ungraded questions at that point will receive a score of 0.**
