@@ -41,6 +41,8 @@ clear, reproducible, and shareable.
 
 ## Teaching Team
 
+*Note that your TAs may have class right before their DSCI100 office hours, so they may run a few minutes late. Please be patient!*
+
 | Position | Name  | Email | Office Hours | Office Location |
 |----------|-------|-------|--------------|-----------------|
 | Instructor  | [Trevor Campbell](https://trevorcampbell.me/) | trevor@stat.ubc.ca | Tuesday 5pm | HENN 200 or ESB 3116 |
@@ -49,8 +51,6 @@ clear, reproducible, and shareable.
 | TA | Alex Chow, Yuru Liu| | Thursday 5pm | HENN200 |
 | TA | Jordan Bourak, Michela Minerva, Kevin Le| | Wednesday 4pm | ESB3174 |
 | TA | Grandon Seto, Connor McDonald| | Friday 5pm | ESB3174 |
-
-Note that your TAs may have class right before their DSCI100 office hours, so they may run a few minutes late. Please be patient!
 
 ## Assessment
 
