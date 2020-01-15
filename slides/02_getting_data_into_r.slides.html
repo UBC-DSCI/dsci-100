@@ -13380,8 +13380,8 @@ a.anchor-link {
 <li>Generally to ensure your code can be run on a different computer, you should use relative paths </li>
 </ul>
 <p>e.g.</p>
-<p><code>home/alice/project/data/happiness_report.csv</code></p>
-<p><code>home/bob/project/data/happiness_report.csv</code></p>
+<p><code>/home/alice/project/data/happiness_report.csv</code></p>
+<p><code>/home/bob/project/data/happiness_report.csv</code></p>
 
 </div>
 </div>
@@ -13427,7 +13427,7 @@ a.anchor-link {
 </div></section></section><section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="c1">#Step 0: load the tidyverse library -- allows us to use the read_* functions</span>
@@ -13438,14 +13438,38 @@ a.anchor-link {
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>── <span class="ansi-bold">Attaching packages</span> ─────────────────────────────────────── tidyverse 1.2.1 ──
+<span class="ansi-green-fg">✔</span> <span class="ansi-blue-fg">ggplot2</span> 3.2.0     <span class="ansi-green-fg">✔</span> <span class="ansi-blue-fg">purrr  </span> 0.3.2
+<span class="ansi-green-fg">✔</span> <span class="ansi-blue-fg">tibble </span> 2.1.3     <span class="ansi-green-fg">✔</span> <span class="ansi-blue-fg">dplyr  </span> 0.8.3
+<span class="ansi-green-fg">✔</span> <span class="ansi-blue-fg">tidyr  </span> 0.8.3     <span class="ansi-green-fg">✔</span> <span class="ansi-blue-fg">stringr</span> 1.4.0
+<span class="ansi-green-fg">✔</span> <span class="ansi-blue-fg">readr  </span> 1.3.1     <span class="ansi-green-fg">✔</span> <span class="ansi-blue-fg">forcats</span> 0.4.0
+── <span class="ansi-bold">Conflicts</span> ────────────────────────────────────────── tidyverse_conflicts() ──
+<span class="ansi-red-fg">✖</span> <span class="ansi-blue-fg">dplyr</span>::<span class="ansi-green-fg">filter()</span> masks <span class="ansi-blue-fg">stats</span>::filter()
+<span class="ansi-red-fg">✖</span> <span class="ansi-blue-fg">dplyr</span>::<span class="ansi-green-fg">lag()</span>    masks <span class="ansi-blue-fg">stats</span>::lag()
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
 </div></section></section><section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="c1">#Step 1: download the file to get the data from the URL onto our computer</span>
-<span class="n">data_url</span> <span class="o">&lt;-</span> <span class="s">&quot;http://www.stat.cmu.edu/~larry/all-of-statistics/=data/faithful.dat&quot;</span>
 </pre></div>
 
     </div>
@@ -13494,7 +13518,7 @@ a.anchor-link {
 </aside></div></section></section><section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="c1">#Step 3: load the data into R</span>
@@ -13543,7 +13567,7 @@ notice it takes the first row as the headers
 </aside><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[28]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="c1">#Step 4: check the result</span>
@@ -13615,27 +13639,99 @@ notice it takes the first row as the headers
 </div>
 </div>
 
-</div><aside class="notes">
+</div></div></section></section><section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-r"><pre><span></span><span class="c1"># Activity solution</span>
+<span class="nf">library</span><span class="p">(</span><span class="n">tidyverse</span><span class="p">)</span>
+<span class="n">seeds_url</span> <span class="o">&lt;-</span> <span class="s">&#39;https://archive.ics.uci.edu/ml/machine-learning-databases/00236/seeds_dataset.txt&#39;</span>
 
+<span class="nf">download.file</span><span class="p">(</span><span class="n">seeds_url</span><span class="p">,</span> <span class="s">&#39;data/seeds.txt&#39;</span><span class="p">)</span> 
+
+<span class="n">seeds_data</span> <span class="o">&lt;-</span> <span class="nf">read_table2</span><span class="p">(</span><span class="s">&#39;data/seeds.txt&#39;</span><span class="p">,</span> <span class="n">col_names</span> <span class="o">=</span> <span class="bp">F</span><span class="p">)</span> <span class="c1"># Hint read_ (tab) shows you the functions available to you</span>
+
+<span class="nf">head</span><span class="p">(</span><span class="n">seeds_data</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>── <span class="ansi-bold">Attaching packages</span> ─────────────────────────────────────── tidyverse 1.2.1 ──
+<span class="ansi-green-fg">✔</span> <span class="ansi-blue-fg">ggplot2</span> 3.2.0     <span class="ansi-green-fg">✔</span> <span class="ansi-blue-fg">purrr  </span> 0.3.2
+<span class="ansi-green-fg">✔</span> <span class="ansi-blue-fg">tibble </span> 2.1.3     <span class="ansi-green-fg">✔</span> <span class="ansi-blue-fg">dplyr  </span> 0.8.3
+<span class="ansi-green-fg">✔</span> <span class="ansi-blue-fg">tidyr  </span> 0.8.3     <span class="ansi-green-fg">✔</span> <span class="ansi-blue-fg">stringr</span> 1.4.0
+<span class="ansi-green-fg">✔</span> <span class="ansi-blue-fg">readr  </span> 1.3.1     <span class="ansi-green-fg">✔</span> <span class="ansi-blue-fg">forcats</span> 0.4.0
+── <span class="ansi-bold">Conflicts</span> ────────────────────────────────────────── tidyverse_conflicts() ──
+<span class="ansi-red-fg">✖</span> <span class="ansi-blue-fg">dplyr</span>::<span class="ansi-green-fg">filter()</span> masks <span class="ansi-blue-fg">stats</span>::filter()
+<span class="ansi-red-fg">✖</span> <span class="ansi-blue-fg">dplyr</span>::<span class="ansi-green-fg">lag()</span>    masks <span class="ansi-blue-fg">stats</span>::lag()
+Parsed with column specification:
+cols(
+  X1 = <span class="ansi-green-fg">col_double()</span>,
+  X2 = <span class="ansi-green-fg">col_double()</span>,
+  X3 = <span class="ansi-green-fg">col_double()</span>,
+  X4 = <span class="ansi-green-fg">col_double()</span>,
+  X5 = <span class="ansi-green-fg">col_double()</span>,
+  X6 = <span class="ansi-green-fg">col_double()</span>,
+  X7 = <span class="ansi-green-fg">col_double()</span>,
+  X8 = <span class="ansi-green-fg">col_double()</span>
+)
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<table>
+<caption>A tibble: 6 × 8</caption>
+<thead>
+	<tr><th scope=col>X1</th><th scope=col>X2</th><th scope=col>X3</th><th scope=col>X4</th><th scope=col>X5</th><th scope=col>X6</th><th scope=col>X7</th><th scope=col>X8</th></tr>
+	<tr><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><td>15.26</td><td>14.84</td><td>0.8710</td><td>5.763</td><td>3.312</td><td>2.221</td><td>5.220</td><td>1</td></tr>
+	<tr><td>14.88</td><td>14.57</td><td>0.8811</td><td>5.554</td><td>3.333</td><td>1.018</td><td>4.956</td><td>1</td></tr>
+	<tr><td>14.29</td><td>14.09</td><td>0.9050</td><td>5.291</td><td>3.337</td><td>2.699</td><td>4.825</td><td>1</td></tr>
+	<tr><td>13.84</td><td>13.94</td><td>0.8955</td><td>5.324</td><td>3.379</td><td>2.259</td><td>4.805</td><td>1</td></tr>
+	<tr><td>16.14</td><td>14.99</td><td>0.9034</td><td>5.658</td><td>3.562</td><td>1.355</td><td>5.175</td><td>1</td></tr>
+	<tr><td>14.38</td><td>14.21</td><td>0.8951</td><td>5.386</td><td>3.312</td><td>2.462</td><td>4.956</td><td>1</td></tr>
+</tbody>
+</table>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Activity-solution">Activity solution<a class="anchor-link" href="#Activity-solution">&#182;</a></h1><p><code>seeds_url &lt;- 'https://archive.ics.uci.edu/ml/machine-learning-databases/00236/seeds_dataset.txt'</code></p>
-<p><code>download.file(seeds_url, 'data/seeds.txt')</code></p>
-<ul>
-<li>Hint read_ (tab) shows you the functions available to you</li>
+<h2 id="What-did-we-learn?">What did we learn?<a class="anchor-link" href="#What-did-we-learn?">&#182;</a></h2><ul>
+<li>can run jupyter notebook on phone</li>
+<li>a lot of ways to load data depending on what's in the file </li>
+<li>there's more than one way to open a file in R (e.g. read_delim() vs read_csv()) </li>
 </ul>
-<p><code>seeds_data &lt;- read_table2('data/seeds.txt', col_names = F)</code></p>
-<p><code>head(seeds_data)</code></p>
-
-</div>
-</div>
-</div>
-</aside></div></section></section><section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="What-did-we-learn?">What did we learn?<a class="anchor-link" href="#What-did-we-learn?">&#182;</a></h2><h2 id="--">- <a class="anchor-link" href="#--">&#182;</a></h2><p>-</p>
 
 </div>
 </div>
