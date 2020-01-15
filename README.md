@@ -47,9 +47,9 @@ clear, reproducible, and shareable.
 |----------|-------|-------|--------------|-----------------|
 | Instructor  | [Trevor Campbell](https://trevorcampbell.me/) | trevor@stat.ubc.ca | Tuesday 5pm | HENN 200 or ESB 3116 |
 | Instructor | [Melissa Lee](https://www.stat.ubc.ca/users/melissa-lee) | melissa.lee@stat.ubc.ca | Wednesday 11 am | ESB 3164  |
-| TA | Daniel Alimohd, Hayden McTavish| | Friday 11am | ESB3174 |
-| TA | Alex Chow, Yuru Liu| | Thursday 5pm | HENN200 |
 | TA | Jordan Bourak, Michela Minerva, Kevin Le| | Wednesday 4pm | ESB3174 |
+| TA | Alex Chow, Yuru Liu| | Thursday 5pm | HENN200 |
+| TA | Daniel Alimohd, Hayden McTavish| | Friday 11am | ESB3174 |
 | TA | Grandon Seto, Connor McDonald| | Friday 5pm | ESB3174 |
 
 ## Assessment
