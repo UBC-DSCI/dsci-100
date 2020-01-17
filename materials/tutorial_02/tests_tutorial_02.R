@@ -190,7 +190,7 @@ test_3.4 <- function(){
         expect_true(file.exists("data/project_data.csv"))
         })
     test_that('the project_data.csv file does not contain the right data', {         # read in data file as a string, check student's data = that string
-        expect_equal(digest(readChar('data/project_data.csv', file.info('data/project_data.csv')$size)), "074755d4f8bf13355aa0fb5292a31b44")
+        expect_equal(digest(file.info('data/project_data.csv')$size), "8e5009fb2a1bed6bf7ae2a76deef7fea")
         })
     test_that('the project_df object does not exist', {
         expect_true(exists('project_df'))
