@@ -119,8 +119,8 @@ test_1.8 <- function(){
         expect_equal(dim(avocado), c(17911, 10))
         })
     test_that('Columns in avocado contain incorrect values.', {
-        expect_equal(digest(as.numeric(sum(avocado$total_volume))), '44199981c2b66aad74b02e3c1014001b') # we hid the answer to the test here so you can't see it, but we can still run the test
-        expect_equal(digest(as.integer(sum(avocado$average_price, na.rm = TRUE))), 'b1098f544d19b460b8691d34d85e1f3f') # we hid the answer to the test here so you can't see it, but we can still run the test
+        expect_equal(digest(round(sum(avocado$total_volume))), 'aa2d30b2344bef18ef305fb4541b78b6') # we hid the answer to the test here so you can't see it, but we can still run the test
+        expect_equal(digest(round(sum(avocado$average_price, na.rm = TRUE))), 'd478458402bf9895986c7e8a50ad4b61') # we hid the answer to the test here so you can't see it, but we can still run the test
         })
 print("Success!")
     }
@@ -231,6 +231,9 @@ print("Success!")
 test_2.6 <- function(){
     test_that('Did not create a plot named all_temp_plot', {
         expect_true(exists("all_temp_plot")) 
+        })
+    test_that('Need to use tidy_temp as the data!', {
+        expect_true("Month" %in% colnames(all_temp_plot$data))
         })
     test_that('Should use facet_wrap to facet by month', {
         expect_true('FacetWrap' %in% class(all_temp_plot$facet)) 
