@@ -26,7 +26,7 @@ test_that('number_of_rows does not exist', {
     expect_that(exists('number_of_rows'), is_true())
     })
 test_that('The number of rows is incorrect', {
-    expect_equal(digest(number_of_rows), '9ecacdf4df8df05e2501eb3f18bd13ab') # we hid the answer to the test here so you can't see it, but we can still run the test
+    expect_equal(digest(number_of_rows), 'a58969729b9f8713e03743154dfa7b57') # we hid the answer to the test here so you can't see it, but we can still run the test
     
 })
 print("Success!")
