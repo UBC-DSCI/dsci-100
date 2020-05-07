@@ -15,7 +15,7 @@ Use of data science tools to summarize, visualize, and analyze data. Sensible wo
 As an example, British Columbia's Math 12 or Pre-Calculus 12 courses would satisfy the prerequisite.
 
 ## Textbook
-We are using an open source textbook available free on the web: https://ubc-dsci.github.io/introduction-to-datascience/
+We are using an open source textbook available free on the web: [https://ubc-dsci.github.io/introduction-to-datascience/](https://ubc-dsci.github.io/introduction-to-datascience/)
 
 ## Expanded Course Description
 In recent years, virtually all areas of inquiry have seen an uptake in the use of data science tools. Skills in the areas of assembling, analyzing, and interpreting data are more critical than ever. This course is designed as a first experience in honing such skills. Students who have completed this course will be able to implement a data science workflow in the R programming language, by “scraping” (downloading) data from the internet, “wrangling” (managing) the data intelligently, and creating tables and/or figures that convey a justifiable story based on the data. They will be adept at using tools for finding patterns in data and making predictions about future data. There will be an emphasis on intelligent and reproducible workflow, and clear communications of findings. No previous programming skills necessary; beginners are welcome!
