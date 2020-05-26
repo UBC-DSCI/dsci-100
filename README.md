@@ -75,7 +75,7 @@ In each class (lecture and tutorial) there will be an assignment. **Lecture and 
 
 ## Schedule
 
-*Lectures are held on Tuesdays and Thursdays (1 - 2:20 PM). Tutorials are held on Tuesdays and Thursdays (2:30 - 3:50 PM) and build on the concepts learned in lecture.* 
+*For the Summer session: Lectures are held on Tuesdays and Thursdays (1 - 2:20 PM). Tutorials are held on Tuesdays and Thursdays (2:30 - 3:50 PM) and build on the concepts learned in lecture.* 
 
 | Topic | Description | 
 |-------|-------------|
@@ -83,7 +83,7 @@ In each class (lecture and tutorial) there will be an assignment. **Lecture and 
 | Chapter 2: Reading in data locally and from the web |  Learn to read in various cases of data sets locally and from the web. Once read in, these data sets will be used to walk through a real world data Science application that includes wrangling the data into a useable format and creating an effective data visualization. | 
 | Chapter 3: Cleaning and wrangling data | This week will be centered around tools for cleaning and wrangling data. Again, this will be in the context of a real world data science application and we will continue to practice working through a whole case study that includes downloading data from the web, wrangling the data into a useable format and creating an effective data visualization. |
 | Chapter 4: Effective data visualization | Expand your data visualization knowledge and tool set beyond what we have seen and practiced so far. We will move beyond scatter plots and learn other effective ways to visualize data, as well as some general rules of thumb to follow when creating visualations. All visualization tasks this week will be applied to real world data sets. Again, this will be in the context of a real world data science application and we will continue to practice working through a whole case study that includes downloading data from the web, wrangling the data into a useable format and creating an effective data visualization. |
-| Transition week  | Quiz 1| 
+| Transition week  | Quiz 1 | 
 | Chapter 6: Classification | Introduction to classification using K-nearest neighbours (k-nn) |
 | Chapter 7: Classification, continued | Classification continued | 
 Chapter 8: Regression | Introduction to regression using K-nearest neighbours (k-nn). We will focus on prediction in cases where there is a response variable of interest and a single explanatory variable. |
@@ -144,4 +144,5 @@ The above attribution policy applies only to assignments. **No code or text may 
 Parts of this syllabus (particularly the policies) have been copied and derived from the [UBC MDS Policies](https://ubc-mds.github.io/policies/).
 
 ## Quizzes and Final exam 
-We will be using Proctorio, an online automated invigilation service for quizzes and the final exam. https://proctorio.com/system-requirements
+We will be using Proctorio, an online automated invigilation service for the quizzes and the final exam. Please make sure you have the system requirements to use Proctorio prior to the first quiz: https://proctorio.com/system-requirements. 
+If you do not, please contact the instructor no later than Sunday Jul 12. 
