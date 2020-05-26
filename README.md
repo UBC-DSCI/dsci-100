@@ -70,9 +70,8 @@ In each class (lecture and tutorial) there will be an assignment. **Lecture and 
 | Deliverable | Percent Grade |
 |-------------|---------------|
 | Proposal | 3 |
-| Peer review | 2 |
 | Final report | 10 |
-| Team work | 5 |
+| Team work | 7 |
 
 ## Schedule
 
