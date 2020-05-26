@@ -1,7 +1,7 @@
 # DSCI 100: Introduction to Data Science
 
 ## Time and Place
-Jan-Apr 2020, Tues/Thurs 3:30-5pm, HENN 200
+Jul-Aug 2020, Tues/Thurs 1-4pm
 
 ## Description
 Use of data science tools to summarize, visualize, and analyze data. Sensible workflows and clear interpretations are emphasized. 
@@ -45,16 +45,15 @@ clear, reproducible, and shareable.
 
 | Position | Name  | Email | Office Hours | Office Location |
 |----------|-------|-------|--------------|-----------------|
-| Instructor  | [Trevor Campbell](https://trevorcampbell.me/) | trevor@stat.ubc.ca | Tuesday 5pm | HENN 200 or ESB 3116 |
-| Instructor | [Melissa Lee](https://www.stat.ubc.ca/users/melissa-lee) | melissa.lee@stat.ubc.ca | Wednesday 11 am | ESB 3164  |
-| TA | Jordan Bourak, Michela Minerva, Kevin Le| | Wednesday 4pm | ESB3174 |
-| TA | Alex Chow, Yuru Liu| | Thursday 5pm | HENN200 |
-| TA | Daniel Alimohd, Hayden McTavish| | Friday 11am | ESB3174 |
-| TA | Grandon Seto, Connor McDonald| | Friday 5pm | ESB3174 |
+| Instructor | [Melissa Lee](https://www.stat.ubc.ca/users/melissa-lee) | melissa.lee@stat.ubc.ca | TBA | TBA |
+| TA | TBA| |   |  |
+| TA | TBA | |   |  |
+| TA | TBA | |   |  |
+| TA | TBA | |   |  |
 
 ## Assessment
 
-In each class (lecture and tutorial) there will be an assignment. Lecture worksheets are due **Wednesdays at 10pm**, and tutorial worksheets are due **Saturdays at 10pm**. To open the assignment, click the link (e.g. `worksheet_01`) from Canvas. To submit your assignment, just make sure your work is saved (File -> Save and Checkpoint to be sure) **on our server** (i.e., using the link from Canvas) before the deadline. Our server will automatically snapshot at the due date/time.
+In each class (lecture and tutorial) there will be an assignment. **Lecture and tutorial worksheet due dates are posted on Canvas.** To open the assignment, click the link (e.g. `worksheet_01`) from Canvas. To submit your assignment, just make sure your work is saved (File -> Save and Checkpoint to be sure) **on our server** (i.e., using the link from Canvas) before the deadline. Our server will automatically snapshot at the due date/time.
 
 ### Course breakdown
 
@@ -144,3 +143,6 @@ The above attribution policy applies only to assignments. **No code or text may 
 ## Attribution
 
 Parts of this syllabus (particularly the policies) have been copied and derived from the [UBC MDS Policies](https://ubc-mds.github.io/policies/).
+
+## Quizzes and Final exam 
+We will be using Proctorio, an online automated invigilation service for quizzes and the final exam. https://proctorio.com/system-requirements
