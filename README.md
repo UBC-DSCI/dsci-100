@@ -139,10 +139,11 @@ The above attribution policy applies only to assignments. **No code or text may 
 
 **Repeated plagiarism of any form could result in larger penalties, including failure of the course.**
 
+### Quizzes and Final exam 
+We will be using Proctorio, an online automated invigilation service for the quizzes and the final exam. Please make sure you have the system requirements to use Proctorio prior to the first quiz: https://proctorio.com/system-requirements. 
+If you do not, please contact the instructor no later than **Sunday Jul 12**. 
+
 ## Attribution
 
 Parts of this syllabus (particularly the policies) have been copied and derived from the [UBC MDS Policies](https://ubc-mds.github.io/policies/).
 
-## Quizzes and Final exam 
-We will be using Proctorio, an online automated invigilation service for the quizzes and the final exam. Please make sure you have the system requirements to use Proctorio prior to the first quiz: https://proctorio.com/system-requirements. 
-If you do not, please contact the instructor no later than Sunday Jul 12. 
