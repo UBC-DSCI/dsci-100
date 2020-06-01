@@ -75,7 +75,7 @@ In each class (lecture and tutorial) there will be an assignment. **Lecture and 
 
 ## Schedule
 
-*For the Summer session: Lectures are held on Tuesdays and Thursdays (1 - 2:20 PM). Tutorials are held on Tuesdays and Thursdays (2:30 - 3:50 PM) and build on the concepts learned in lecture.* 
+*Lectures are held on Tuesdays. Tutorials are held on Thursdays and build on the concepts learned in lecture.* 
 
 | Topic | Description | 
 |-------|-------------|
