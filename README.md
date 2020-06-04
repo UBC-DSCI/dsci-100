@@ -71,7 +71,8 @@ In each class (lecture and tutorial) there will be an assignment. **Lecture and 
 |-------------|---------------|
 | Proposal | 3 |
 | Final report | 10 |
-| Team work | 6 |
+| Team work | 5 |
+| Peer review | 1 | 
 | Group contract | 1|
 
 ## Schedule
