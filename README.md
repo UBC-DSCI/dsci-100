@@ -139,11 +139,7 @@ An “adequate acknowledgement” requires a detailed identification of the (par
 
 The above attribution policy applies only to assignments. **No code or text may be copied (with or without attribution) from any source during a quiz or exam. Answers must always be in your own words. At a minimum, copying will result in a grade of 0 for the related question.**
 
-**Repeated plagiarism of any form could result in larger penalties, including failure of the course.**
-
-### Quizzes and Final exam 
-We will be using Proctorio, an online automated invigilation service for the quizzes and the final exam. Please make sure you have the system requirements to use Proctorio prior to the first quiz: https://proctorio.com/system-requirements. 
-If you do not, please contact the instructor no later than **Sunday Jul 12**. 
+**Repeated plagiarism of any form could result in larger penalties, including failure of the course.** 
 
 ## Attribution
 
