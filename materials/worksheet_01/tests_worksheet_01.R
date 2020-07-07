@@ -69,7 +69,7 @@ test_7.1.1 <- function(){
         })
     test_that('marathon_small does not contain the correct data', {
         expect_equal(dim(marathon_small), c(1833, 5))
-        expect_equal(sum(marathon_small$age), 66455.5)
+        expect_equal(digest(round(sum(marathon_small$age))), "01d0e3ad4837c2290949b408787f5f3e")
         expect_equal(colnames(marathon_small), c("age", "bmi", "km5_time_seconds", "km10_time_seconds", "sex"))
         })
 print("Success!")
@@ -98,7 +98,7 @@ test_7.3.1 <- function(){
         })
     test_that('marathon_filtered bmi column contains the incorrect values', {
         expect_equal(colnames(marathon_filtered), c("age", "bmi", "km5_time_seconds", "km10_time_seconds", "sex"))
-        expect_equal(digest(as.numeric(sum(marathon_filtered$bmi))), '206ea048affbda5298ce20573b9cb321') # we hid the answer to the test here so you can't see it, but we can still run the test
+        expect_equal(digest(round(as.numeric(sum(marathon_filtered$bmi)))), '8d5e20de34549cf5d90abc665abdd883') # we hid the answer to the test here so you can't see it, but we can still run the test
         })
 print("Success!")
     }
@@ -111,8 +111,8 @@ test_7.4.1 <- function(){
         expect_equal(digest(ncol(marathon_male)), 'c01f179e4b57ab8bd9de309e6d576c48') # we hid the answer to the test here so you can't see it, but we can still run the test  
         })
     test_that('marathon_male bmi and/or km10_time_seconds column(s) contains the incorrect values', {
-        expect_equal(digest(sum(marathon_male$bmi)), '206ea048affbda5298ce20573b9cb321') # we hid the answer to the test here so you can't see it, but we can still run the test
-        expect_equal(digest(sum(as.numeric(marathon_male$km10_time_seconds))), '9c9393e1464352cd4fbea94dfadfa02a') # we hid the answer to the test here so you can't see it, but we can still run the test
+        expect_equal(digest(round(sum(as.numeric(marathon_male$bmi)))), '8d5e20de34549cf5d90abc665abdd883') # we hid the answer to the test here so you can't see it, but we can still run the test
+        expect_equal(digest(round(sum(as.numeric(marathon_male$km10_time_seconds), na.rm = TRUE))), '94a8a4aca7bf6c04261303c3aff557da') # we hid the answer to the test here so you can't see it, but we can still run the test
         })
 print("Success!")
     }
@@ -139,7 +139,7 @@ test_7.5.1 <- function(){
         expect_equal(digest(ncol(marathon_minutes)), '11946e7a3ed5e1776e81c0f0ecd383d0') # we hid the answer to the test here so you can't see it, but we can still run the test  
         })
     test_that('km10_time_minutes column does not exist contains incorrect values', {
-        expect_equal(digest(sum(marathon_minutes$km10_time_minutes)), '9c9393e1464352cd4fbea94dfadfa02a') # we hid the answer to the test here so you can't see it, but we can still run the test
+        expect_equal(digest(round(sum(as.numeric(marathon_minutes$km10_time_minutes), na.rm = TRUE))), 'baab288fe3905d65ebe40bd578a14723') # we hid the answer to the test here so you can't see it, but we can still run the test
         })
 print("Success!")
     }
