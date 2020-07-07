@@ -13403,14 +13403,28 @@ a.anchor-link {
 </div>
 </div>
 
-</div></section></section><section><section>
+</div><aside class="notes">
+
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>Packages are collections of R functions, data, and compiled code in a well-defined format. The directory where packages are stored is called the library. R comes with a standard set of packages. Others are available for download and installation.</li>
+<li>tidyverse is a collection of packages </li>
+<li>There are some functions with the same name from different packages. R is telling us which ones it will use when running filter for example </li>
+</ul>
+
+</div>
+</div>
+</div>
+</aside></section></section><section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="c1">#Step 1: download the file to get the data from the URL onto our computer</span>
-<span class="nf">download.file</span><span class="p">(</span><span class="s">&quot;https://www.stat.cmu.edu/~larry/all-of-statistics/=data/faithful.dat&quot;</span><span class="p">,</span> <span class="s">&#39;data/faithful.dat&#39;</span><span class="p">)</span>
+<span class="n">url</span> <span class="o">&lt;-</span> <span class="s">&quot;stat.cmu.edu/~larry/all-of-statistics/=data/faithful.dat&quot;</span>
 </pre></div>
 
     </div>
@@ -13422,7 +13436,9 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>download.file("<a href="https://www.stat.cmu.edu/~larry/all-of-statistics/=data/faithful.dat">https://www.stat.cmu.edu/~larry/all-of-statistics/=data/faithful.dat</a>", 'data/faithful.dat')</p>
+
+<pre><code>url &lt;- "stat.cmu.edu/~larry/all-of-statistics/=data/faithful.dat"
+download.file(url, 'data/faithful.dat')</code></pre>
 <ul>
 <li>download file to the data folder (notice this is a relative path)</li>
 <li>can also read into R directly using URL without this step </li>
