@@ -13424,7 +13424,8 @@ a.anchor-link {
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="c1">#Step 1: download the file to get the data from the URL onto our computer</span>
-<span class="n">url</span> <span class="o">&lt;-</span> <span class="s">&quot;stat.cmu.edu/~larry/all-of-statistics/=data/faithful.dat&quot;</span>
+<span class="n">my_url</span> <span class="o">&lt;-</span> <span class="s">&quot;stat.cmu.edu/~larry/all-of-statistics/=data/faithful.dat&quot;</span>
+<span class="nf">download.file</span><span class="p">(</span><span class="n">my_url</span><span class="p">,</span> <span class="s">&quot;data/faithful.dat&quot;</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13479,6 +13480,10 @@ download.file(url, 'data/faithful.dat')</code></pre>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="c1">#Step 3: load the data into R</span>
+<span class="n">faithful_data</span> <span class="o">&lt;-</span> <span class="nf">read_delim</span><span class="p">(</span><span class="s">&quot;data/faithful.dat&quot;</span><span class="p">,</span> <span class="n">delim</span> <span class="o">=</span> <span class="s">&quot; &quot;</span><span class="p">,</span> <span class="n">skip</span> <span class="o">=</span><span class="m">26</span><span class="p">,</span>
+                            <span class="n">col_names</span> <span class="o">=</span> <span class="nf">c</span><span class="p">(</span><span class="s">&quot;index&quot;</span><span class="p">,</span> <span class="s">&quot;eruption_time&quot;</span><span class="p">,</span> <span class="s">&quot;wait_time&quot;</span><span class="p">),</span> 
+                           <span class="n">col_types</span> <span class="o">=</span> <span class="nf">cols</span><span class="p">(</span><span class="n">index</span> <span class="o">=</span> <span class="s">&quot;c&quot;</span><span class="p">,</span> <span class="n">eruption_time</span> <span class="o">=</span> <span class="s">&quot;n&quot;</span><span class="p">,</span> <span class="n">wait_time</span> <span class="o">=</span> <span class="s">&quot;n&quot;</span><span class="p">))</span>
+<span class="nf">head</span><span class="p">(</span><span class="n">faithful_data</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13528,6 +13533,7 @@ notice it takes the first row as the headers
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="c1">#Step 4: check the result</span>
+<span class="nf">head</span><span class="p">(</span><span class="n">faithful_data</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13623,7 +13629,12 @@ notice it takes the first row as the headers
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="What-did-we-learn?">What did we learn?<a class="anchor-link" href="#What-did-we-learn?">&#182;</a></h2>
+<h2 id="What-did-we-learn?">What did we learn?<a class="anchor-link" href="#What-did-we-learn?">&#182;</a></h2><ul>
+<li>learned how to import data from data files </li>
+<li>how to select, filter and mutate</li>
+<li>how edit code, and markdown cell </li>
+</ul>
+
 </div>
 </div>
 </div><aside class="notes">
