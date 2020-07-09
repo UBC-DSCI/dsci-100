@@ -45,7 +45,7 @@ clear, reproducible, and shareable.
 
 | Position | Name  | Email | Office Hours | Office Location |
 |----------|-------|-------|--------------|-----------------|
-| Instructor | [Melissa Lee](https://www.stat.ubc.ca/users/melissa-lee) | melissa.lee@stat.ubc.ca | Tuesday 5 PM | Collaborate Ultra |
+| Instructor | [Melissa Lee](https://www.stat.ubc.ca/users/melissa-lee) | melissa.lee@stat.ubc.ca | Tuesday 4 PM | Collaborate Ultra |
 | TA | Daniel Alimohd | | Friday 5 PM   | Collaborate Ultra |
 | TA | Wasay Hayat | | Thursday 6 PM | Collaborate Ultra |
 | TA | Pramoda Sachinthana Jayasinghe | | Friday 5 PM  | Collaborate Ultra |
