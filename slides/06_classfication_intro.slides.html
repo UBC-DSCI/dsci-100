@@ -13204,6 +13204,9 @@ a.anchor-link {
 <div class="text_cell_render border-box-sizing rendered_html">
 <ul>
 <li>Please go to the Zoom link posted on Canvas at 1 PM for the quiz</li>
+<li>Please use your real name for the Zoom invigilation so we can take attendance</li>
+<li>We will take attendance from 1 - 1:15, the quiz will begin at 1:15 PM</li>
+<li>If you have questions during the quiz, please write a message to the TA in your breakout room</li>
 <li>Please go to Collaborate Ultra for lecture at 2:15 PM </li>
 </ul>
 
@@ -13553,13 +13556,77 @@ K.</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-r"><pre><span></span>
+<div class=" highlight hl-r"><pre><span></span><span class="nf">library</span><span class="p">(</span><span class="n">tidyverse</span><span class="p">)</span>
+<span class="nf">library</span><span class="p">(</span><span class="n">caret</span><span class="p">)</span>
+
+<span class="n">cancer</span> <span class="o">&lt;-</span> <span class="nf">read_csv</span><span class="p">(</span><span class="s">&quot;data/clean-wdbc.data.csv&quot;</span><span class="p">)</span>
+
+<span class="nf">head</span><span class="p">(</span><span class="n">cancer</span><span class="p">)</span>
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>Parsed with column specification:
+cols(
+  ID = <span class="ansi-green-fg">col_double()</span>,
+  Class = <span class="ansi-red-fg">col_character()</span>,
+  Radius = <span class="ansi-green-fg">col_double()</span>,
+  Texture = <span class="ansi-green-fg">col_double()</span>,
+  Perimeter = <span class="ansi-green-fg">col_double()</span>,
+  Area = <span class="ansi-green-fg">col_double()</span>,
+  Smoothness = <span class="ansi-green-fg">col_double()</span>,
+  Compactness = <span class="ansi-green-fg">col_double()</span>,
+  Concavity = <span class="ansi-green-fg">col_double()</span>,
+  Concave_points = <span class="ansi-green-fg">col_double()</span>,
+  Symmetry = <span class="ansi-green-fg">col_double()</span>,
+  Fractal_dimension = <span class="ansi-green-fg">col_double()</span>
+)
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<table>
+<caption>A tibble: 6 × 12</caption>
+<thead>
+	<tr><th scope=col>ID</th><th scope=col>Class</th><th scope=col>Radius</th><th scope=col>Texture</th><th scope=col>Perimeter</th><th scope=col>Area</th><th scope=col>Smoothness</th><th scope=col>Compactness</th><th scope=col>Concavity</th><th scope=col>Concave_points</th><th scope=col>Symmetry</th><th scope=col>Fractal_dimension</th></tr>
+	<tr><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><td>  842302</td><td>M</td><td> 1.8850310</td><td>-1.35809849</td><td> 2.3015755</td><td> 1.9994782</td><td> 1.3065367</td><td> 2.6143647</td><td> 2.1076718</td><td>2.2940576</td><td> 2.7482041</td><td> 1.9353117</td></tr>
+	<tr><td>  842517</td><td>M</td><td> 1.8043398</td><td>-0.36887865</td><td> 1.5337764</td><td> 1.8888270</td><td>-0.3752817</td><td>-0.4300658</td><td>-0.1466200</td><td>1.0861286</td><td>-0.2436753</td><td> 0.2809428</td></tr>
+	<tr><td>84300903</td><td>M</td><td> 1.5105411</td><td>-0.02395331</td><td> 1.3462906</td><td> 1.4550043</td><td> 0.5269438</td><td> 1.0819801</td><td> 0.8542223</td><td>1.9532817</td><td> 1.1512420</td><td> 0.2012142</td></tr>
+	<tr><td>84348301</td><td>M</td><td>-0.2812170</td><td> 0.13386631</td><td>-0.2497196</td><td>-0.5495377</td><td> 3.3912907</td><td> 3.8899747</td><td> 1.9878392</td><td>2.1738732</td><td> 6.0407261</td><td> 4.9306719</td></tr>
+	<tr><td>84358402</td><td>M</td><td> 1.2974336</td><td>-1.46548091</td><td> 1.3373627</td><td> 1.2196511</td><td> 0.2203623</td><td>-0.3131190</td><td> 0.6126397</td><td>0.7286181</td><td>-0.8675896</td><td>-0.3967505</td></tr>
+	<tr><td>  843786</td><td>M</td><td>-0.1653528</td><td>-0.31356043</td><td>-0.1149083</td><td>-0.2441054</td><td> 2.0467119</td><td> 1.7201029</td><td> 1.2621327</td><td>0.9050914</td><td> 1.7525273</td><td> 2.2398308</td></tr>
+</tbody>
+</table>
+
+</div>
+
+</div>
+
 </div>
 </div>
 
@@ -13599,13 +13666,61 @@ K.</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-r"><pre><span></span>
+<div class=" highlight hl-r"><pre><span></span><span class="n">cancer_train</span> <span class="o">&lt;-</span> <span class="n">cancer</span>  <span class="o">%&gt;%</span> 
+    <span class="nf">select</span><span class="p">(</span><span class="s">&quot;Perimeter&quot;</span><span class="p">,</span> <span class="s">&quot;Concavity&quot;</span><span class="p">)</span>
+
+<span class="n">cancer_labels</span> <span class="o">&lt;-</span> <span class="n">cancer</span>  <span class="o">%&gt;%</span> 
+    <span class="nf">select</span><span class="p">(</span><span class="s">&quot;Class&quot;</span><span class="p">)</span>  <span class="o">%&gt;%</span> 
+    <span class="nf">pull</span><span class="p">()</span>
+
+<span class="n">k</span> <span class="o">&lt;-</span> <span class="nf">data.frame</span><span class="p">(</span><span class="n">k</span> <span class="o">=</span> <span class="m">5</span><span class="p">)</span>
+
+<span class="n">model_knn</span> <span class="o">&lt;-</span> <span class="nf">train</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="nf">data.frame</span><span class="p">(</span><span class="n">cancer_train</span><span class="p">),</span>
+                   <span class="n">y</span> <span class="o">=</span> <span class="n">cancer_labels</span><span class="p">,</span>
+                   <span class="n">method</span> <span class="o">=</span> <span class="s">&quot;knn&quot;</span><span class="p">,</span> 
+                   <span class="n">tuneGrid</span> <span class="o">=</span> <span class="n">k</span><span class="p">)</span>
+
+<span class="n">model_knn</span>
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+
+<div class="output_text output_subarea ">
+<pre>k-Nearest Neighbors 
+
+569 samples
+  2 predictor
+  2 classes: &#39;B&#39;, &#39;M&#39; 
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+Summary of sample sizes: 569, 569, 569, 569, 569, 569, ... 
+Resampling results:
+
+  Accuracy   Kappa    
+  0.9200292  0.8280611
+
+Tuning parameter &#39;k&#39; was held constant at a value of 5</pre>
+</div>
+
+</div>
+
 </div>
 </div>
 
@@ -13697,13 +13812,42 @@ K.</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-r"><pre><span></span>
+<div class=" highlight hl-r"><pre><span></span><span class="n">new_obs</span> <span class="o">&lt;-</span> <span class="nf">data.frame</span><span class="p">(</span><span class="n">Perimeter</span> <span class="o">=</span> <span class="m">-1</span><span class="p">,</span> <span class="n">Concavity</span> <span class="o">=</span> <span class="m">4.2</span><span class="p">)</span>
+<span class="nf">predict</span><span class="p">(</span><span class="n">object</span> <span class="o">=</span> <span class="n">model_knn</span><span class="p">,</span> <span class="n">new_obs</span><span class="p">)</span>
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+M
+<details>
+	<summary style=display:list-item;cursor:pointer>
+		<strong>Levels</strong>:
+	</summary>
+	<ol class=list-inline>
+		<li>'B'</li>
+		<li>'M'</li>
+	</ol>
+</details>
+</div>
+
+</div>
+
 </div>
 </div>
 
@@ -13740,11 +13884,15 @@ K.</p>
 
 </div>
 </div>
-</div>
+</div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="What-did-we-learn-today?">What did we learn today?<a class="anchor-link" href="#What-did-we-learn-today?">&#182;</a></h1><h2 id="--">- <a class="anchor-link" href="#--">&#182;</a></h2><p>-</p>
+<h1 id="What-did-we-learn-today?">What did we learn today?<a class="anchor-link" href="#What-did-we-learn-today?">&#182;</a></h1><ul>
+<li>the method of knn for prediction </li>
+<li>we learned how to compute the distance between points </li>
+<li>we learned how to standardize the data </li>
+</ul>
 
 </div>
 </div>
