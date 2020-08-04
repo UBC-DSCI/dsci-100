@@ -192,14 +192,14 @@ test_3.4 <- function() {
 
 test_3.5 <- function() {
     test_that('lm_rmse is incorrect', {
-        expect_equal(digest(round(lm_rmse, 3)), '32db709a07227d2d79e251ce8640fb6f')
+        expect_equal(digest(round(lm_rmse, 3)), '788b714543df6e5fa9954cdefb85fde8')
     })
     print("Success!")
 }
 
 test_3.6 <- function() {
     test_that('lm_rmspe is incorrect', {
-        expect_equal(digest(round(lm_rmspe, 3)), '28944cb9edc136e1368f62996d6750d6')
+        expect_equal(digest(round(lm_rmspe, 3)), '53a185c37dade264b27beeead0c1e823')
     })
     print("Success!")
 }
