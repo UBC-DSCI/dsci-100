@@ -45,15 +45,8 @@ clear, reproducible, and shareable.
 
 | Position | Name  | Email | Office Hours | Office Location |
 |----------|-------|-------|--------------|-----------------|
-| Instructor | [Melissa Lee](https://www.stat.ubc.ca/users/melissa-lee) | melissa.lee@stat.ubc.ca | Tuesday 4 PM | Collaborate Ultra |
-| TA | Daniel Alimohd | | Friday 5 PM   | Collaborate Ultra |
-| TA | Wasay Hayat | | Thursday 6 PM | Collaborate Ultra |
-| TA | Pramoda Sachinthana Jayasinghe | | Friday 5 PM  | Collaborate Ultra |
-| TA | Alice Kang | | Wednesday 6 PM   | Collaborate Ultra |
-| TA | Kevin Le | |  Thursday 6 PM  | Collaborate Ultra |
-| TA | Yutong Li | |  Wednesday 6 PM  | Collaborate Ultra |
-| TA | Grandon Seto | | Friday 5 PM | Collaborate Ultra |
-| TA | Jennifer Vincent | | Wednesday 6 PM   | Collaborate Ultra |
+| Instructor | [Trevor Campbell](https://www.trevorcampbell.me) | trevor@stat.ubc.ca | Time | Collaborate Ultra |
+| TA | Name | | Time |  Collaborate Ultra |
 
 ## Assessment
 
