@@ -1,7 +1,7 @@
 # DSCI 100: Introduction to Data Science
 
 ## Time and Place
-Jul-Aug 2020, Tues/Thurs 1-4pm
+Sep-Dec 2020, Tues/Thurs 6 - 7:30pm
 
 ## Description
 Use of data science tools to summarize, visualize, and analyze data. Sensible workflows and clear interpretations are emphasized. 
