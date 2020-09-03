@@ -105,10 +105,13 @@ Chapter 8: Regression | Introduction to regression using K-nearest neighbours (k
 
 ## Policies
 
-### Late/Absence
-Regular attendance to lecture and tutorials is expected of students. Students who are unavoidably absent because of illness or other reasons should inform the instructor(s) of the course as soon as possible, preferably, prior to the start of the lecture/tutorial. Students who miss quizzes 1 or 2 or an assignment need to provide a self-declaration and make arrangements (e.g., schedule an oral make-up quiz) with the Instructor as soon as possible. Failing to present a declaration may result in a grade of zero.
+### Late Assignments / Quiz Absence
+Students who miss a quiz must provide a self-declaration and make arrangements (e.g., schedule an oral make-up quiz) with the Instructor as soon as possible. Failing to present a declaration within a reasonable timeframe may result in a grade of zero. 
 
-Late lecture and tutorial worksheets will receive a grade of 0. For other assessments, a late submission is defined as any work submitted after the deadline. For a late submission, the student will receive a 50% deducation of their grade for the first occurrence. Hence a maximum attainable grade for the first piece of work submitted late is 50%. Any additional pieces of work that are submitted late will receive a grade of 0 for subsequent occurrences.
+We will not provide extensions for the lecture and tutorial worksheets; late assignments will receive a grade of zero. Instead, we will drop the lowest grade on tutorials and worksheets for the semester. 
+
+### Late Registration
+Students who register for the class late have **1 week from their registration date on Canvas** to complete all prior assignments.
 
 ### Autograder Policy
 Many of the questions in assignments are graded automatically by software. The grading computer has exactly the same hardware setup as the server that students work on. No assignment, when completed, should take longer than 5 minutes to run on the server. The autograder will automatically stop (time out) for each student assignment after a maximum of 5 minutes; **any ungraded questions at that point will receive a score of 0.**
@@ -122,6 +125,8 @@ If you have concerns about the way your work was graded, please contact the TA w
 
 ### Device/Browser
 Students are responsible for using a device and browser compatible with all functionality of Canvas. Chrome or Firefox browsers are recommended; Safari has had issues with Canvas quizzes in the past.
+
+While classes are remote due to the ongoing pandemic, students are responsible to have a stable internet connection and a functioning webcam and microphone.
 
 ### Missed Final Exam 
 Students who miss the final exam must report to their faculty advising office within 72 hours of the missed exam, and must supply supporting documentation. Only your faculty advising office can grant deferred standing in a course. You must also notify your instructor prior to (if possible) or immediately after the exam. Your instructor will let you know when you are expected to write your deferred exam. Deferred exams will ONLY be provided to students who have applied for and received deferred standing from their faculty.
