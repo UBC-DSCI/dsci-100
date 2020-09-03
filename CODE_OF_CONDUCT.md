@@ -48,7 +48,7 @@ Participants who are asked to stop any inappropriate behavior are expected to co
 
 ### Incident Reporting Guidelines
 
-If someone violates the Code of Conduct during a DSCI 100 event or in an online space outside of organised events, we ask that you report it to the Instructor(s). The current instructor of DSCI100 is Melissa Lee. An email to melissa.lee@stat.ubc.ca will be seen by Melissa Lee. To report a DSCI 100 code of conduct violation that will not be seen by Melissa Lee, an alternative contact person is Bruce Dunham, Professor of Teaching in the Department of Statistics at UBC. His email is b.dunham@stat.ubc.ca .
+If someone violates the Code of Conduct during a DSCI 100 event or in an online space outside of organised events, we ask that you report it to the Instructor(s). The current instructor of DSCI100 is Trevor Campbell. An email to trevor@stat.ubc.ca will be seen by Trevor Campbell. To report a DSCI 100 code of conduct violation that will not be seen by Trevor Campbell, an alternative contact person is Bruce Dunham, Professor of Teaching in the Department of Statistics at UBC. His email is b.dunham@stat.ubc.ca .
 
 ## Attribution 
 - Derived from the [Carpentries Code of Conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html)
