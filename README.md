@@ -80,11 +80,11 @@ In each class (lecture and tutorial) there will be an assignment. **Lecture and 
 | Final report | 10 |
 | Team work | 5 |
 | Peer review | 1 | 
-| Group contract | 1|
+| Group contract | 1 |
 
 ## Schedule
 
-*Lectures are held on Tuesdays. Tutorials are held on Thursdays and build on the concepts learned in lecture.* 
+*Lectures are held on Thursdays. Tutorials are held on Tuesdays and build on the concepts learned in lecture.* 
 
 | Topic | Description | 
 |-------|-------------|
