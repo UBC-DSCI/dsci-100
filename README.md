@@ -110,6 +110,8 @@ Students who miss a quiz must provide a self-declaration and make arrangements (
 
 We will not provide extensions for the lecture and tutorial worksheets; late assignments will receive a grade of zero. Instead, we will drop the lowest grade on tutorials and worksheets for the semester. 
 
+For all other assignments and the course project, a late submission will receive a 50% penalty.
+
 ### Late Registration
 Students who register for the class late have **1 week from their registration date on Canvas** to complete all prior assignments.
 
@@ -126,7 +128,7 @@ If you have concerns about the way your work was graded, please contact the TA w
 ### Device/Browser
 Students are responsible for using a device and browser compatible with all functionality of Canvas. Chrome or Firefox browsers are recommended; Safari has had issues with Canvas quizzes in the past.
 
-While classes are remote due to the ongoing pandemic, students are responsible to have a stable internet connection and a functioning webcam and microphone.
+While classes are remote due to the ongoing pandemic, students are responsible to have a stable internet connection and a functioning webcam and microphone. Absence of any of these will not be considered a valid reason not to take a quiz/exam or submit an assignment on time.
 
 ### Missed Final Exam 
 Students who miss the final exam must report to their faculty advising office within 72 hours of the missed exam, and must supply supporting documentation. Only your faculty advising office can grant deferred standing in a course. You must also notify your instructor prior to (if possible) or immediately after the exam. Your instructor will let you know when you are expected to write your deferred exam. Deferred exams will ONLY be provided to students who have applied for and received deferred standing from their faculty.
