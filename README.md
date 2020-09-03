@@ -46,7 +46,17 @@ clear, reproducible, and shareable.
 | Position | Name  | Email | Office Hours | Office Location |
 |----------|-------|-------|--------------|-----------------|
 | Instructor | [Trevor Campbell](https://www.trevorcampbell.me) | trevor@stat.ubc.ca | Time | Collaborate Ultra |
-| TA | Name | | Time |  Collaborate Ultra |
+| TA | Alex Barber-Cross | | Time |  Collaborate Ultra |
+| TA | Michael DeMarco | | Time |  Collaborate Ultra |
+| TA | Anahita Einolghozati | | Time | Collaborate Ultra |
+| TA | Pramoda Jayasinghe | | Time |  Collaborate Ultra |
+| TA | Kaylee Jeong | | Time |  Collaborate Ultra |
+| TA | Alice Kang | | Time |  Collaborate Ultra |
+| TA | Connor McDonald | | Time | Collaborate Ultra |
+| TA | Abdul Wasay-Hayat | | Time |  Collaborate Ultra |
+| TA | Cathy Yan | | Time |  Collaborate Ultra |
+| TA | Daisy Zhao | | Time |  Collaborate Ultra |
+
 
 ## Assessment
 
