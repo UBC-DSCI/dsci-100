@@ -53,7 +53,7 @@ clear, reproducible, and shareable.
 | TA | Kaylee Jeong | | Time |  Collaborate Ultra |
 | TA | Alice Kang | | Time |  Collaborate Ultra |
 | TA | Connor McDonald | | Time | Collaborate Ultra |
-| TA | Abdul Wasay-Hayat | | Time |  Collaborate Ultra |
+| TA | Wasay Hayat | | Time |  Collaborate Ultra |
 | TA | Cathy Yan | | Time |  Collaborate Ultra |
 | TA | Daisy Zhao | | Time |  Collaborate Ultra |
 
