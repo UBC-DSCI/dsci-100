@@ -45,17 +45,17 @@ clear, reproducible, and shareable.
 
 | Position | Name  | Email | Office Hours | Office Location |
 |----------|-------|-------|--------------|-----------------|
-| Instructor | [Trevor Campbell](https://www.trevorcampbell.me) | trevor@stat.ubc.ca | Time | Collaborate Ultra |
-| TA | Alex Barber-Cross | | Time |  Collaborate Ultra |
-| TA | Michael DeMarco | | Time |  Collaborate Ultra |
-| TA | Anahita Einolghozati | | Time | Collaborate Ultra |
-| TA | Pramoda Jayasinghe | | Time |  Collaborate Ultra |
-| TA | Kaylee Jeong | | Time |  Collaborate Ultra |
-| TA | Alice Kang | | Time |  Collaborate Ultra |
-| TA | Connor McDonald | | Time | Collaborate Ultra |
-| TA | Wasay Hayat | | Time |  Collaborate Ultra |
-| TA | Cathy Yan | | Time |  Collaborate Ultra |
-| TA | Daisy Zhao | | Time |  Collaborate Ultra |
+| Instructor | [Trevor Campbell](https://www.trevorcampbell.me) | trevor@stat.ubc.ca | Thur 7:30pm | Zoom |
+| TA | Alex Barber-Cross | | Mon 3-4pm |  Zoom |
+| TA | Michael DeMarco | | Wed 1-2pm |  Zoom |
+| TA | Anahita Einolghozati | | Mon 1-2pm | Zoom |
+| TA | Pramoda Jayasinghe | | Mon 5-6pm |  Zoom |
+| TA | Kaylee Jeong | | Tue 4-5pm  |  Zoom |
+| TA | Alice Kang | | Fri 11-12pm |  Zoom |
+| TA | Connor McDonald | | Tue 10-11am | Zoom |
+| TA | Wasay Hayat | | Fri 4-5pm |  Zoom |
+| TA | Cathy Yan | | Wed 11-12pm |  Zoom |
+| TA | Daisy Zhao | | Thu 4-5pm |  Zoom |
 
 
 ## Assessment
