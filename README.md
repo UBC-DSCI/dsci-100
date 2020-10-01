@@ -49,13 +49,13 @@ clear, reproducible, and shareable.
 | TA | Alex Barber-Cross | | Mon 3-4pm |  Zoom |
 | TA | Michael DeMarco | | Wed 1-2pm |  Zoom |
 | TA | Anahita Einolghozati | | Mon 1-2pm | Zoom |
-| TA | Pramoda Jayasinghe | | Mon 5-6pm |  Zoom |
+| TA | Pramoda Jayasinghe | | Thu 4-5pm |  Zoom |
 | TA | Kaylee Jeong | | Tue 3-4pm  |  Zoom |
 | TA | Alice Kang | | Fri 11-12pm |  Zoom |
 | TA | Connor McDonald | | Tue 10-11am | Zoom |
 | TA | Wasay Hayat | | Fri 4-5pm |  Zoom |
 | TA | Cathy Yan | | Wed 11-12pm |  Zoom |
-| TA | Daisy Zhao | | Thu 4-5pm |  Zoom |
+| TA | Daisy Zhao | | Thu 3-4pm |  Zoom |
 
 
 ## Assessment

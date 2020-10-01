@@ -7,7 +7,6 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
-<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -158,6 +157,18 @@ summary {
 }
 </style>
 
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
 <!-- code folding -->
 
 
@@ -276,7 +287,7 @@ summary {
 <td>TA</td>
 <td>Pramoda Jayasinghe</td>
 <td></td>
-<td>Mon 5-6pm</td>
+<td>Thu 4-5pm</td>
 <td>Zoom</td>
 </tr>
 <tr class="even">
@@ -318,7 +329,7 @@ summary {
 <td>TA</td>
 <td>Daisy Zhao</td>
 <td></td>
-<td>Thu 4-5pm</td>
+<td>Thu 3-4pm</td>
 <td>Zoom</td>
 </tr>
 </tbody>
@@ -544,23 +555,6 @@ $(document).ready(function () {
 
 
 </script>
-
-<!-- tabsets -->
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
-<!-- code folding -->
-
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
