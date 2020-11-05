@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>08_regression1</title>
+<title>09_regression2</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13074,10 +13074,40 @@ div#notebook {
   <div tabindex="-1" id="notebook" class="border-box-sizing">
     <div class="container" id="notebook-container">
 
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-r"><pre><span></span><span class="c1">#run this before class</span>
+<span class="nf">library</span><span class="p">(</span><span class="n">tidyverse</span><span class="p">)</span>
+<span class="nf">library</span><span class="p">(</span><span class="n">repr</span><span class="p">)</span>
+<span class="n">theta</span> <span class="o">&lt;-</span> <span class="nf">seq</span><span class="p">(</span><span class="m">0</span><span class="p">,</span><span class="m">2</span><span class="o">*</span><span class="kc">pi</span><span class="p">,</span> <span class="n">length.out</span> <span class="o">=</span> <span class="m">300</span><span class="p">)</span>
+<span class="n">circle</span> <span class="o">&lt;-</span> <span class="nf">tibble</span><span class="p">(</span><span class="n">X</span> <span class="o">=</span> <span class="nf">sin</span><span class="p">(</span><span class="n">theta</span><span class="p">)</span> <span class="o">+</span> <span class="m">0.75</span> <span class="o">*</span> <span class="nf">runif</span><span class="p">(</span><span class="m">300</span><span class="p">,</span> <span class="n">min</span> <span class="o">=</span> <span class="m">1</span><span class="p">,</span> <span class="n">max</span> <span class="o">=</span> <span class="m">2</span><span class="p">),</span>
+                 <span class="n">Y</span> <span class="o">=</span> <span class="nf">cos</span><span class="p">(</span><span class="n">theta</span><span class="p">)</span> <span class="o">+</span> <span class="m">0.75</span> <span class="o">*</span> <span class="nf">runif</span><span class="p">(</span><span class="m">300</span><span class="p">,</span> <span class="n">min</span> <span class="o">=</span> <span class="m">1</span><span class="p">,</span> <span class="n">max</span> <span class="o">=</span> <span class="m">2</span><span class="p">))</span>
+<span class="nf">options</span><span class="p">(</span><span class="n">repr.plot.width</span> <span class="o">=</span> <span class="m">10</span><span class="p">,</span> <span class="n">repr.plot.height</span> <span class="o">=</span> <span class="m">10</span><span class="p">)</span>
+<span class="n">circle_plot</span> <span class="o">&lt;-</span> <span class="nf">ggplot</span><span class="p">(</span><span class="n">circle</span><span class="p">,</span> <span class="nf">aes</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">X</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">Y</span><span class="p">))</span> <span class="o">+</span>
+    <span class="nf">geom_point</span><span class="p">(</span><span class="n">alpha</span> <span class="o">=</span> <span class="m">0.5</span><span class="p">)</span> <span class="o">+</span>
+    <span class="nf">geom_smooth</span><span class="p">(</span><span class="n">method</span> <span class="o">=</span> <span class="s">&quot;lm&quot;</span><span class="p">,</span> <span class="n">se</span> <span class="o">=</span> <span class="kc">FALSE</span><span class="p">)</span> <span class="o">+</span>
+    <span class="nf">xlim</span><span class="p">(</span><span class="nf">c</span><span class="p">(</span><span class="m">-0.5</span><span class="p">,</span> <span class="m">2.5</span><span class="p">))</span> <span class="o">+</span>
+    <span class="nf">ylim</span><span class="p">(</span><span class="nf">c</span><span class="p">(</span><span class="m">-0.5</span><span class="p">,</span> <span class="m">2.5</span><span class="p">))</span>
+
+<span class="n">zigzag</span> <span class="o">&lt;-</span> <span class="nf">tibble</span><span class="p">(</span><span class="n">X</span> <span class="o">=</span> <span class="nf">seq</span><span class="p">(</span><span class="m">0</span><span class="p">,</span><span class="m">3</span><span class="o">*</span><span class="kc">pi</span><span class="p">,</span> <span class="n">length.out</span> <span class="o">=</span> <span class="m">200</span><span class="p">),</span>
+                <span class="n">Y</span> <span class="o">=</span> <span class="nf">cos</span><span class="p">(</span><span class="n">X</span><span class="p">)</span> <span class="o">+</span> <span class="nf">runif</span><span class="p">(</span><span class="m">200</span><span class="p">,</span> <span class="n">min</span> <span class="o">=</span> <span class="m">1</span><span class="p">,</span> <span class="n">max</span> <span class="o">=</span> <span class="m">2</span><span class="p">))</span>
+<span class="n">zigzag_plot</span> <span class="o">&lt;-</span> <span class="nf">ggplot</span><span class="p">(</span><span class="n">zigzag</span><span class="p">,</span> <span class="nf">aes</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">X</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">Y</span><span class="p">))</span> <span class="o">+</span>
+    <span class="nf">geom_point</span><span class="p">(</span><span class="n">alpha</span> <span class="o">=</span> <span class="m">0.5</span><span class="p">)</span> <span class="o">+</span>
+    <span class="nf">geom_smooth</span><span class="p">(</span><span class="n">method</span> <span class="o">=</span> <span class="s">&quot;lm&quot;</span><span class="p">,</span> <span class="n">se</span> <span class="o">=</span> <span class="kc">FALSE</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="DSCI-100---Introduction-to-Data-Science">DSCI 100 - Introduction to Data Science<a class="anchor-link" href="#DSCI-100---Introduction-to-Data-Science">&#182;</a></h2><h3 id="Lecture-8---Regression-with-k-nearest-neighbours">Lecture 8 - Regression with k-nearest neighbours<a class="anchor-link" href="#Lecture-8---Regression-with-k-nearest-neighbours">&#182;</a></h3><p>While you wait...</p>
+<h2 id="DSCI-100---Introduction-to-Data-Science">DSCI 100 - Introduction to Data Science<a class="anchor-link" href="#DSCI-100---Introduction-to-Data-Science">&#182;</a></h2><h3 id="Lecture-9---Linear-Regression">Lecture 9 - Linear Regression<a class="anchor-link" href="#Lecture-9---Linear-Regression">&#182;</a></h3><p>While you wait...</p>
 <ul>
 <li>Please ensure your audio and video works once you join the room </li>
 <li>Please stay muted except when speaking to reduce the background noise for other students</li>
@@ -13091,15 +13121,30 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Housekeeping">Housekeeping<a class="anchor-link" href="#Housekeeping">&#182;</a></h2><ul>
-<li>the upcoming tutorial is a project work session</li>
-<li>project proposals are due next week (see Canvas!)</li>
-<li>quiz 1 grades out now</li>
-<li>quiz 2 on <strong>Thurs Nov 12 in lecture</strong> (+ project work session):<ul>
-<li>same format as quiz 1 (45 mins, on Canvas, 24 Qs: 8 MC, 8 written, 8 fill in)</li>
-<li>at the start of class</li>
-<li>practice quiz available now</li>
+<h1 id="Housekeeping">Housekeeping<a class="anchor-link" href="#Housekeeping">&#182;</a></h1><ul>
+<li>quiz 2 on <strong>Thurs Nov 12 in lecture</strong> (+ project work session)<ul>
+<li>covers weeks 6, 7, 8, 9 (classification and regression)</li>
+<li>assumes you know the material from weeks 1-4</li>
 </ul>
+</li>
+<li>practice quiz out now</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Review:-Classification">Review: Classification<a class="anchor-link" href="#Review:-Classification">&#182;</a></h3><p>In classification, we want to predict a <em>categorical</em> variable</p>
+<ul>
+<li><p>What political party will someone vote for in the next US election?</p>
+</li>
+<li><p>Is a new patient diseased or healthy?</p>
+</li>
+<li><p>Is a new email spam or not?</p>
+</li>
+<li><p>Will a new, potential customer buy your product?</p>
 </li>
 </ul>
 
@@ -13109,8 +13154,9 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Regression-prediction-problem">Regression prediction problem<a class="anchor-link" href="#Regression-prediction-problem">&#182;</a></h3><p>What if we want to predict a quantitative value instead of a class label?</p>
-<p><img align="left" src="https://ubc-dsci.github.io/introduction-to-datascience/_main_files/figure-html/07-edaRegr-1.png" width="700"/></p>
+<h3 id="Review:-Regression">Review: Regression<a class="anchor-link" href="#Review:-Regression">&#182;</a></h3><p>In regression, we want to predict a <em>quantitative</em> variable</p>
+<p>E.g. predict the price of a 2000 square foot home:</p>
+<p><img align="left" src="https://ubc-dsci.github.io/introduction-to-datascience/_main_files/figure-html/07-small-eda-regr-1.png" width="600"/></p>
 
 </div>
 </div>
@@ -13118,10 +13164,49 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Linear-Regression">Linear Regression<a class="anchor-link" href="#Linear-Regression">&#182;</a></h3><p>Last time we used a nearest neighbours approach. Today we will find the line of "best-fit" through the data points:</p>
+<p><img align="left" src="https://ubc-dsci.github.io/introduction-to-datascience/_main_files/figure-html/08-lin-reg1-1.png" width="600"/></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Linear-Regression">Linear Regression<a class="anchor-link" href="#Linear-Regression">&#182;</a></h3><p>And then we "look up" the value we want to predict of off of the line.</p>
+<p><img align="left" src="https://ubc-dsci.github.io/introduction-to-datascience/_main_files/figure-html/08-lin-reg2-1.png" width="600"/></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Linear-Regression">Linear Regression<a class="anchor-link" href="#Linear-Regression">&#182;</a></h3><p>How do we choose the line of "best fit"? We can draw many lines through the data:</p>
+<p><img align="left" src="https://ubc-dsci.github.io/introduction-to-datascience/_main_files/figure-html/08-several-lines-1.png" width="600"/></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Linear-Regression">Linear Regression<a class="anchor-link" href="#Linear-Regression">&#182;</a></h3><p>Just like last time, we will evaluate our model using the error in our predictions.</p>
+<p>We choose the line that minimzes the RMSE (square root of average squared vertical distance between prediction and training data response value).</p>
+<p><img align="left" src="https://ubc-dsci.github.io/introduction-to-datascience/_main_files/figure-html/08-verticalDistToMin-1.png" width="600"/></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Linear-Regression">Linear Regression<a class="anchor-link" href="#Linear-Regression">&#182;</a></h3><p>Remembering that the equation for a straight line is: $Y = \beta_0 + \beta_1X$</p>
 <ul>
-<li>Last week we learned about predicting a categorical response based on the nearest neighbours </li>
-<li>suppose now we are no longer predicting a binary/categorical, but now a quantitative response</li>
+<li>$\beta_0$ is the y-intercept of the line (the value where the line cuts the y-axis)</li>
+<li>$\beta_1$ is the slope of the line</li>
 </ul>
+<p><img align="left" src="img/straigh-line-equation.png" width="700"/></p>
 
 </div>
 </div>
@@ -13129,8 +13214,11 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>E.g.: predict the price of a 2000 square foot home (from this reduced dataset)</p>
-<p><img align="left" src="https://ubc-dsci.github.io/introduction-to-datascience/_main_files/figure-html/07-small-eda-regr-1.png" width="700"/></p>
+<p>We can then write:</p>
+<p>$(\text{house price}) = \beta_0 + \beta_1\times(\text{house size})$</p>
+<p>And finally, fill in the values for $\beta_0$ and $\beta_1$:</p>
+<p>$(\text{house price}) = 13268.08 + 139\times(\text{house size})$</p>
+<p><img align="left" src="https://ubc-dsci.github.io/introduction-to-datascience/_main_files/figure-html/08-lm-predict-all-1.png" width="600"/></p>
 
 </div>
 </div>
@@ -13138,143 +13226,19 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Linear-Regression-vs-Nearest-Neighbours">Linear Regression vs Nearest Neighbours<a class="anchor-link" href="#Linear-Regression-vs-Nearest-Neighbours">&#182;</a></h3><ul>
+<li><p>Advantages of straight line:</p>
 <ul>
-<li>Suppose we want to predict the price of a home given a 2000 sq footage</li>
-<li>What are some ways you might predict the price? </li>
-</ul>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="K-nearest-neighbours-regression">K nearest neighbours regression<a class="anchor-link" href="#K-nearest-neighbours-regression">&#182;</a></h3><p>As in k-nn classification, we find the $k$-nearest neighbours (here $k=5$) in terms of the predictors</p>
-<p><img align="left" src="https://ubc-dsci.github.io/introduction-to-datascience/_main_files/figure-html/07-knn3-example-1.png" width="700"/></p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="K-nearest-neighbours-regression">K nearest neighbours regression<a class="anchor-link" href="#K-nearest-neighbours-regression">&#182;</a></h3><p>Then we average the values for the $k$-nearest neighbours, and use that as the prediction:</p>
-<p><img align="left" src="https://ubc-dsci.github.io/introduction-to-datascience/_main_files/figure-html/07-predictedViz-knn-1.png" width="700"/></p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li>It makes sense that the predicted value should be near these points, not much lower or higher. Perhaps a good prediction would be the average of these points</li>
-</ul>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="K-nearest-neighbours-regression">K nearest neighbours regression<a class="anchor-link" href="#K-nearest-neighbours-regression">&#182;</a></h3><p>If we do that for a range of house sizes, we can draw the curve of predictions ($k = 14$):</p>
-<p><img src="https://ubc-dsci.github.io/introduction-to-datascience/_main_files/figure-html/07-predict-all-1.png" width="700"/></p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li>You can imagine doing this for all the possible input values and coming up with predictions everywhere</li>
-<li>Connecting all these predictions with a line </li>
-<li>one benefit is that it handles non-linearity well.</li>
-</ul>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Regression-prediction-problem">Regression prediction problem<a class="anchor-link" href="#Regression-prediction-problem">&#182;</a></h3><p>We still have to answer these two questions:</p>
-<ol>
-<li><p>Is our model any good?</p>
-</li>
-<li><p>How do we choose <code>k</code>?</p>
-</li>
-</ol>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="1.-Is-our-model-any-good?">1. Is our model any good?<a class="anchor-link" href="#1.-Is-our-model-any-good?">&#182;</a></h3><p>The same general strategy as in classification works here!</p>
-<p><img align="left" src="img/big_picture.png" width="1050"/></p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="1.-Is-our-model-any-good?">1. Is our model any good?<a class="anchor-link" href="#1.-Is-our-model-any-good?">&#182;</a></h3><p>Suppose the blue line depicts our predictions from k-nn regression.</p>
-<p>The red lines depict the error in our predictions, i.e., the difference between the $i^\text{th}$ test data response and our prediction $\hat{y}_i$:</p>
-<center>
-<table>
-<tr>
-    <td><img src="img/k-nn_regr.jpeg" width="500"/></td>
-    <td><img src="img/rmse.jpg" width="500"/></td>
-</tr>
-</table>
-</center>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li>small datasets: the nearest neighbours are the same and thus the mean in a certain area is the same therefore we have flat lines</li>
-</ul>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="1.-Is-our-model-any-good?">1. Is our model any good?<a class="anchor-link" href="#1.-Is-our-model-any-good?">&#182;</a></h3><p>We (roughly) add up these errors to evaluate our regression model</p>
-<ul>
-<li>Not out of 1, but instead in units of the target variable (bit harder to interpret)</li>
-</ul>
-<p><em>Root Mean Squared Prediction Error</em> (RMSPE):</p>
-$$RMSPE = \sqrt{\frac{1}{n}\sum\limits_{i=1}^{n}(y_i - \hat{y_i})^2}$$<ul>
-<li>$n$ is the number of observations</li>
-<li>$y_i$ is the observed value for the $i^\text{th}$ test observation</li>
-<li>$\hat{y_i}$ is the forcasted/predicted value for the $i^\text{th}$ test observation</li>
-</ul>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="RMSE-vs-RMSPE">RMSE vs RMSPE<a class="anchor-link" href="#RMSE-vs-RMSPE">&#182;</a></h3><ul>
-<li><em>Root Mean Squared Error (RMSE)</em>: The same formula except on <em>the data used to train the model</em><ul>
-<li>this indicates how well our model can fit our data</li>
+<li><strong>interpretable:</strong> coefficients are slopes, intercepts; K-NN not easy to interpret</li>
+<li><strong>extrapolates:</strong> can make reasonable predictions outside the range of the data; K-NN predictions flatten</li>
+<li><strong>computation-efficient:</strong> can fit the model much faster than K-NN</li>
+<li><strong>data-efficient:</strong> needs far fewer data to find a reasonable fit</li>
 </ul>
 </li>
-<li><em>Root Mean Squared Prediction Error (RMSPE)</em>: predicting on <em>unseen data.</em><ul>
-<li>this indicates how well our model <em>generalizes</em> to future data</li>
-</ul>
+<li><p>Major disadvantage of straight line: cannot capture nonlinear patterns</p>
 </li>
 </ul>
-<p><strong>This distinction is very important, but no standard terminology.</strong></p>
+<p><img align="left" src="https://ubc-dsci.github.io/introduction-to-datascience/_main_files/figure-html/08-compareRegression-1.png" width="1200"/></p>
 
 </div>
 </div>
@@ -13282,8 +13246,7 @@ $$RMSPE = \sqrt{\frac{1}{n}\sum\limits_{i=1}^{n}(y_i - \hat{y_i})^2}$$<ul>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Final-model-from-k-nn-regression">Final model from k-nn regression<a class="anchor-link" href="#Final-model-from-k-nn-regression">&#182;</a></h3><p>For this model, RMSPE is 91620.4. How can we interpret this?</p>
-<p><img src="https://ubc-dsci.github.io/introduction-to-datascience/_main_files/figure-html/07-predict-all-1.png" width="700"/></p>
+<h3 id="Multivariate-Linear-Regression">Multivariate Linear Regression<a class="anchor-link" href="#Multivariate-Linear-Regression">&#182;</a></h3><p>Similar to classification, we can do regression with &gt; 1 predictor via k-nn or linear regression. But how do we fit a line with many predictors?</p>
 
 </div>
 </div>
@@ -13291,8 +13254,20 @@ $$RMSPE = \sqrt{\frac{1}{n}\sum\limits_{i=1}^{n}(y_i - \hat{y_i})^2}$$<ul>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li>Prices tend to be +/- 90000 off that line</li>
+<p>We don't fit a line - we fit a hyperplane!
+<img src="https://miro.medium.com/max/2874/1*d0icRnPHWjHSNXxuoYT5Vg.png" width="1000"/></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="View-examples-from-the-textbook:">View examples from the textbook:<a class="anchor-link" href="#View-examples-from-the-textbook:">&#182;</a></h3><ul>
+<li><p><a href="https://ubc-dsci.github.io/introduction-to-datascience/regression1.html#multivariate-k-nn-regression">multivariate knn regression</a></p>
+</li>
+<li><p><a href="https://ubc-dsci.github.io/introduction-to-datascience/regression2.html#multivariate-linear-regression">multivariate linear regression</a></p>
+</li>
 </ul>
 
 </div>
@@ -13301,66 +13276,49 @@ $$RMSPE = \sqrt{\frac{1}{n}\sum\limits_{i=1}^{n}(y_i - \hat{y_i})^2}$$<ul>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="2.-How-do-we-choose-k?">2. How do we choose k?<a class="anchor-link" href="#2.-How-do-we-choose-k?">&#182;</a></h3><ul>
-<li>cross-validation</li>
-<li>choose the model with the smallest RMSPE</li>
-</ul>
+<h3 id="Why/why-not-linear/k-nn-regression?">Why/why not linear/k-nn regression?<a class="anchor-link" href="#Why/why-not-linear/k-nn-regression?">&#182;</a></h3><p>Models are not "one-size fits all."</p>
 
 </div>
 </div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-r"><pre><span></span><span class="n">circle_plot</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li>same as before </li>
-<li>CV </li>
-<li>Split data into 5 folds </li>
-<li>Train </li>
-<li>Evaluate model </li>
-<li>Pick k that gives the lowest RMSE on validataion set </li>
-<li>Train model on whole dataset </li>
-<li>Evaluate RMSE on test </li>
-</ul>
+<h3 id="Why/why-not-linear/k-nn-regression?">Why/why not linear/k-nn regression?<a class="anchor-link" href="#Why/why-not-linear/k-nn-regression?">&#182;</a></h3><p>Models are not "one-size fits all."</p>
 
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="How-does-$k$-affect-k-nn-regression?">How does $k$ affect k-nn regression?<a class="anchor-link" href="#How-does-$k$-affect-k-nn-regression?">&#182;</a></h3><p><img src="https://ubc-dsci.github.io/introduction-to-datascience/_main_files/figure-html/07-howK-1.png" width="800"/></p>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-r"><pre><span></span><span class="n">zigzag_plot</span>
+</pre></div>
 
+    </div>
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li>small k – predictions noisy depends on what is nearby: Overfitting - when k = 1 our predictions jump erratically around as the model jumps from one point in the dataset to the next. </li>
-<li>large k - Underfitting. Setting a higher value k helps us to avoid overfit, though you may start to lose predictive power on the margin, particularly around the edges of your data set.</li>
-<li>setting k at a higher value, say k = 41, so that 41 total points are averaged together for prediction yields a much smoother line</li>
-</ul>
-<p>Other points:</p>
-<blockquote><p>Scaling: Suppose we want to predict price from sq footage and number of bedrooms. There is more variance in the number of square feet in a house than there is in the number of bedrooms. (houses usually only have a handful of bedrooms 1, 2, 3 etc). Square feet may range quite a bit (say, 1000 sq feat to tens of thousands of sq feet). e.g. 2,000 sq foot house with 2 bedrooms and a 2,010 sq foot house with two bedrooms — 10 sq. feet won't make a big difference. However, suppose we have a 2,000 sq foot house with three bedrooms (possibly a more cramped layout). Without scaling we would say that the 3 bedroom is only ‘one’ unit away from the 2 bedroom, while the 2,010 sq footer is ‘ten’ away from the 2,000 sq footer. To avoid this, feature data should be scaled before implementing a KNN model.</p>
-</blockquote>
 
-</div>
-</div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Worksheet-time---go-for-it!">Worksheet time - go for it!<a class="anchor-link" href="#Worksheet-time---go-for-it!">&#182;</a></h2>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="What-did-you-learn?">What did you learn?<a class="anchor-link" href="#What-did-you-learn?">&#182;</a></h1><h2 id="--">- <a class="anchor-link" href="#--">&#182;</a></h2><p>-</p>
-
 </div>
 </div>
 </div>
