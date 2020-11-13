@@ -105,7 +105,7 @@ Chapter 8: Regression | Introduction to regression using K-nearest neighbours (k
 ## Policies
 
 ### Late Assignments / Quiz Absence
-Students must be present at the invigilation venue (in class, on Zoom, examination centre, etc) to take the quiz. Students who miss a quiz must provide a self-declaration and make arrangements (e.g., schedule an oral make-up quiz) with the Instructor as soon as possible. Failing to present a declaration within a reasonable timeframe may result in a grade of zero. 
+Students must be present at the invigilation venue (in class, on Zoom, examination centre, etc) to take the quiz; otherwise they will be considered to have missed the quiz and will be assigned a grade of zero. Students who will miss a quiz must provide a self-declaration and make arrangements (e.g., schedule an oral make-up quiz) with the Instructor prior to the quiz. Failing to present a declaration within a reasonable timeframe before the quiz will result in a grade of zero. 
 
 We will not provide extensions for the lecture and tutorial worksheets; late assignments will receive a grade of zero. Instead, we will drop the lowest grade on tutorials and worksheets for the semester. 
 
