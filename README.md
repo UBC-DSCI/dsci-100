@@ -5,8 +5,8 @@
 - DSCI 100 003: Tues/Thurs 11:00-12:30
 
 #### Quizzes
-- Quiz 1 (both sections): Tuesday, February 2nd from 19:00-20:00
-- Quiz 2 (both sections): Tuesday, March 16th from 19:00-20:00
+- Quiz 1 (both sections): Thursday, February 4th from 19:00-20:00
+- Quiz 2 (both sections): Thursday, March 18th from 19:00-20:00
 
 ## Description
 Use of data science tools to summarize, visualize, and analyze data. Sensible workflows and clear interpretations are emphasized. 
