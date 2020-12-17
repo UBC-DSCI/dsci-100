@@ -1,1 +1,0 @@
-# Clean up datafiles that students output 
