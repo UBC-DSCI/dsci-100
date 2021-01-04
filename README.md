@@ -1,7 +1,12 @@
 # DSCI 100: Introduction to Data Science
 
 ## Time and Place
-Sep-Dec 2020, Tues/Thurs 6 - 7:30pm
+- DSCI 100 002: Tues/Thurs 15:30-17:00
+- DSCI 100 003: Tues/Thurs 11:00-12:30
+
+#### Quizzes
+- Quiz 1 (both sections): Thursday, February 11th from 19:00-20:00
+- Quiz 2 (both sections): Thursday, March 25th from 19:00-20:00
 
 ## Description
 Use of data science tools to summarize, visualize, and analyze data. Sensible workflows and clear interpretations are emphasized. 
@@ -43,19 +48,19 @@ clear, reproducible, and shareable.
 
 *Note that your TAs may have class right before their DSCI100 office hours, so they may run a few minutes late. Please be patient!*
 
-| Position | Name  | Email | Office Hours | Office Location |
+| Section | Position | Name  | Email | Office Hours | Office Location |
 |----------|-------|-------|--------------|-----------------|
-| Instructor | [Trevor Campbell](https://www.trevorcampbell.me) | trevor@stat.ubc.ca | Thur 7:30pm | Zoom |
-| TA | Alex Barber-Cross | | Mon 3-4pm |  Zoom |
-| TA | Michael DeMarco | | Wed 1-2pm |  Zoom |
-| TA | Anahita Einolghozati | | Mon 1-2pm | Zoom |
-| TA | Pramoda Jayasinghe | | Thu 4-5pm |  Zoom |
-| TA | Kaylee Jeong | | Tue 3-4pm  |  Zoom |
-| TA | Alice Kang | | Fri 11-12pm |  Zoom |
-| TA | Connor McDonald | | Tue 10-11am | Zoom |
-| TA | Wasay Hayat | | Fri 4-5pm |  Zoom |
-| TA | Cathy Yan | | Wed 11-12pm |  Zoom |
-| TA | Daisy Zhao | | Thu 3-4pm |  Zoom |
+| 002 | Instructor | [Tiffany Timbers](https://www.tiffanytimbers.com/) | tiffany.timbers@stat.ubc.ca |  | Zoom |
+| 003 | Instructor | Melissa Lee | melissa.lee@stat.ubc.ca |  | Zoom |
+| 002 & 003 | TA |  | |  |  Zoom |
+| 002 & 003 | TA |  | |  | Zoom |
+| 002 & 003 | TA |  | |  |  Zoom |
+| 002 & 003 | TA |  | |   |  Zoom |
+| 002 & 003 | TA |  | |  |  Zoom |
+| 002 & 003 | TA |  | |  | Zoom |
+| 002 & 003 | TA |  | |  |  Zoom |
+| 002 & 003 | TA |  | |  |  Zoom |
+| 002 & 003 | TA |  | |  |  Zoom |
 
 
 ## Assessment
@@ -83,7 +88,7 @@ In each class (lecture and tutorial) there will be an assignment. **Lecture and 
 
 ## Schedule
 
-*Lectures are held on Thursdays. Tutorials are held on Tuesdays and build on the concepts learned in lecture.* 
+*Lectures are held on Tuesdays. Tutorials are held on Thursdays and build on the concepts learned in lecture.* 
 
 | Topic | Description | 
 |-------|-------------|
