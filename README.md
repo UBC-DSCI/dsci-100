@@ -6,7 +6,7 @@
 
 #### Quizzes
 - Quiz 1 (both sections): Thursday, February 11th from 19:00-20:00
-- Quiz 2 (both sections): Thursday, March 25th from 19:00-20:00
+- Quiz 2 (both sections): Thursday, April 1st from 19:00-20:00
 
 ## Description
 Use of data science tools to summarize, visualize, and analyze data. Sensible workflows and clear interpretations are emphasized. 
