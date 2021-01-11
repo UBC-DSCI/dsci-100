@@ -17,6 +17,9 @@ your course section.
 
 Students must write their quizzes during lecture time for which they registered. The quizzes and exam will be conducted with Canvas quizzes and will be invigilated using Zoom. Please ensure that you meet system requirements to use Zoom and Canvas. 
 
+- Quiz 3: to be scheduled by classroom services during the exam period. You must write the exam. 
+
+
 ## Description
 Use of data science tools to summarize, visualize, and analyze data. Sensible workflows and clear interpretations are emphasized. 
 
