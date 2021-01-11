@@ -14,7 +14,7 @@ your course section.
 #### Quizzes
 - Quiz 1 (both sections): Thursday, February 11th 
 - Quiz 2 (both sections): Thursday, April 1st 
-- Quiz 3: to be scheduled by classroom services during the exam period. You must write the exam. 
+- Quiz 3: to be scheduled by classroom services during the exam period. You must write the exam to pass the course. 
 
 Students must write their quizzes during lecture time for which they registered. The quizzes and exam will be conducted with Canvas quizzes and will be invigilated using Zoom. Please ensure that you meet system requirements to use Zoom and Canvas. 
 
