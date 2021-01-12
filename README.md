@@ -59,18 +59,11 @@ clear, reproducible, and shareable.
 *Note that your TAs may have class right before their DSCI100 office hours, so they may run a few minutes late. Please be patient!*
 
 | Section | Position | Name  | Email | Office Hours | Office Location |
-|----------|-------|-------|--------------|-----------------|
+|----------|-------|-------|--------------|-----------------|----------------|
 | 002 | Instructor | [Tiffany Timbers](https://www.tiffanytimbers.com/) | tiffany.timbers@stat.ubc.ca |  | Zoom |
-| 003 | Instructor | Melissa Lee | melissa.lee@stat.ubc.ca |  | Zoom |
-| 002 & 003 | TA |  | |  |  Zoom |
-| 002 & 003 | TA |  | |  | Zoom |
-| 002 & 003 | TA |  | |  |  Zoom |
-| 002 & 003 | TA |  | |   |  Zoom |
-| 002 & 003 | TA |  | |  |  Zoom |
-| 002 & 003 | TA |  | |  | Zoom |
-| 002 & 003 | TA |  | |  |  Zoom |
-| 002 & 003 | TA |  | |  |  Zoom |
-| 002 & 003 | TA |  | |  |  Zoom |
+| 003 | Instructor | Melissa Lee | melissa.lee@stat.ubc.ca | Thursdays 12:30 - 1:30 PM (PT) | Zoom |
+| 002 & 003 | TA | Alex | | Wednesdays 12 - 1 PM (PT) |  Zoom |
+| 002 & 003 | TA | Cathy | | Fridays 12 - 1 PM (PT) | Zoom |
 
 
 ## Assessment
