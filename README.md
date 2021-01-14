@@ -60,7 +60,7 @@ clear, reproducible, and shareable.
 
 | Section | Position | Name  | Email | Office Hours | Office Location |
 |----------|-------|-------|--------------|-----------------|----------------|
-| 002 | Instructor | [Tiffany Timbers](https://www.tiffanytimbers.com/) | tiffany.timbers@stat.ubc.ca |  | Zoom |
+| 002 | Instructor | [Tiffany Timbers](https://www.tiffanytimbers.com/) | tiffany.timbers@stat.ubc.ca | Thursdays 9:00 - 10:00 AM (PT) | Zoom |
 | 003 | Instructor | Melissa Lee | melissa.lee@stat.ubc.ca | Thursdays 12:30 - 1:30 PM (PT) | Zoom |
 | 002 & 003 | TA | Alex | | Wednesdays 12 - 1 PM (PT) |  Zoom |
 | 002 & 003 | TA | Cathy | | Fridays 12 - 1 PM (PT) | Zoom |
