@@ -13348,7 +13348,7 @@ a.anchor-link {
 <ul>
 <li>Aesthetic mappings: describe how variables in the data are mapped to visual properties. An aesthetic is a visual property of the objects in your plot. Aesthetics include things like the size, the shape, or the color of your points. You can display a point in different ways by changing the values of its aesthetic properties.</li>
 <li>Geometric object: type of plot produced (e.g. bargraph vs scatterplot)</li>
-<li>Scales: e.g. changing the x-axis on a graph</li>
+<li>Scales: control the details of how data values are translated to visual properties e.g. changing the default x-axis label on a graph</li>
 </ul>
 
 </div>
@@ -13504,7 +13504,7 @@ Do geom_point without colouring by cyl then colour by factor</p>
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="c1">#How does atmospheric CO2 concentration change over time?</span>
 <span class="n">co2_plot</span> <span class="o">&lt;-</span> <span class="nf">ggplot</span><span class="p">(</span><span class="n">co2_df</span><span class="p">,</span> <span class="nf">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">date</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="n">concentration</span><span class="p">))</span><span class="o">+</span> 
-                <span class="nf">geom_point</span><span class="p">()</span><span class="o">+</span>
+                <span class="nf">geom_poin</span><span class="p">()</span><span class="o">+</span>
                 <span class="nf">labs</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="s">&#39;Date&#39;</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="s">&#39;CO2 Concentration&#39;</span><span class="p">)</span> 
 <span class="n">co2_plot</span>
 </pre></div>
@@ -13557,9 +13557,10 @@ Do geom_point without colouring by cyl then colour by factor</p>
 <div class=" highlight hl-r"><pre><span></span><span class="c1">#What are the largest 12 landmasses on Earth?</span>
 <span class="n">islands_df</span>
 <span class="nf">options</span><span class="p">(</span><span class="n">repr.plot.width</span> <span class="o">=</span> <span class="m">7</span><span class="p">,</span> <span class="n">repr.plot.height</span> <span class="o">=</span> <span class="m">5</span><span class="p">)</span> <span class="c1"># change plot size </span>
-<span class="c1">#ggplot(islands_df, aes(x = landmass))+</span>
-<span class="c1">#    geom_bar() + </span>
-<span class="c1">#    labs(x = &quot;Landmass&quot;, y = &quot;Size (1000 square mi)&quot;)</span>
+ <span class="nf">ggplot</span><span class="p">(</span><span class="n">islands_df</span><span class="p">,</span> <span class="nf">aes</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">landmass</span><span class="p">))</span><span class="o">+</span>
+    <span class="nf">geom_bar</span><span class="p">(</span><span class="n">stat</span><span class="o">=</span> <span class="s">&quot;count&quot;</span><span class="p">)</span> <span class="o">+</span> 
+    <span class="nf">labs</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="s">&quot;Landmass&quot;</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="s">&quot;Size (1000 square mi)&quot;</span><span class="p">)</span> <span class="o">+</span> 
+    <span class="nf">theme</span><span class="p">(</span><span class="n">text</span> <span class="o">=</span> <span class="nf">element_text</span><span class="p">(</span><span class="n">size</span> <span class="o">=</span> <span class="m">18</span><span class="p">))</span>
 </pre></div>
 
     </div>
@@ -13573,18 +13574,18 @@ Do geom_point without colouring by cyl then colour by factor</p>
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Start with simple geom_bar, then clip, then reorder, then theme/legend</p>
 <ul>
-<li>By default, geom_bar uses stat="bin" . This makes the height of each bar equal to the number of cases in each group, and it is incompatible with mapping values to the y aesthetic. </li>
+<li>By default, geom_bar uses stat="count" . This makes the height of each bar equal to the number of cases in each group, and it is incompatible with mapping values to the y aesthetic. </li>
 <li>If you want the heights of the bars to represent values in the data, use stat="identity" and map a value to the y aesthetic.</li>
-<li>notice without stat = identity and y = size R will count the number of different landmasses in the landmass column, which is just 1 each 
-<pre><code>ggplot(islands_df, aes(x = landmass, y = size)) + 
-  geom_bar(stat = "identity") +                        # make height equal to the y
-  labs(x = 'Landmass', y = 'Size (1000 square mi)') +  # change labels
-  theme(text = element_text(size = 18))            # make labels bigger</code></pre>
-</li>
+<li>notice without stat = identity and y = size R will count the number of different landmasses in the landmass column, which is just 1 each </li>
 </ul>
+
+<pre><code>ggplot(islands_df, aes(x = landmass, y = size)) +        # add y = size 
+    geom_bar(stat = "identity") +                        # make height equal to the y
+    labs(x = 'Landmass', y = 'Size (1000 square mi)') +  # change labels
+    theme(text = element_text(size = 18))                # make labels bigger</code></pre>
 <p>coord_flip() then reorder</p>
 
-<pre><code>ggplot(islands_df, aes(x = reorder(landmass,size), y = size)) +        # reorder landmass by size  
+<pre><code>ggplot(islands_df, aes(x = reorder(landmass,size), y = size)) +        # reorder landmass according to size  
                    geom_bar(stat = "identity") +
                    labs(x = 'Landmass', y = 'Size (1000 square mi)') +
                    coord_flip() +                                      # flip so the bars are horizontal
@@ -13595,7 +13596,8 @@ Do geom_point without colouring by cyl then colour by factor</p>
                    geom_bar(stat="identity") +
                    labs(x = 'Landmass', y = 'Size (1000 square mi)', fill = 'Type') +
                    coord_flip() +
-                   theme(text = element_text(size = 18), legend.position = c(0.75, 0.45))</code></pre>
+                   theme(text = element_text(size = 18), legend.position = c(0.75, 0.45)) 
+                   # legend position is the x and y axis position in the chart area, where (0,0) is the bottom left and (1,1) is the top right</code></pre>
 
 </div>
 </div>
@@ -13620,11 +13622,11 @@ Do geom_point without colouring by cyl then colour by factor</p>
 <span class="n">gap_2016</span> <span class="o">&lt;-</span> <span class="n">gapminder</span> <span class="o">%&gt;%</span> 
   <span class="nf">filter</span><span class="p">(</span><span class="n">year</span> <span class="o">==</span> <span class="m">2016</span><span class="p">)</span>
 
-<span class="c1">#gap_hist &lt;- ggplot(gap_2016, aes(x = life_expectancy)) +</span>
-<span class="c1">#  geom_histogram(position = &quot;identity&quot;) + </span>
-<span class="c1">#  labs(x = &quot;Life Expectancy (years)&quot;) + </span>
-<span class="c1">#  theme(text = element_text(size = 18)) </span>
-<span class="c1"># gap_hist</span>
+<span class="n">gap_hist</span> <span class="o">&lt;-</span> <span class="nf">ggplot</span><span class="p">(</span><span class="n">gap_2016</span><span class="p">,</span> <span class="nf">aes</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">life_expectancy</span><span class="p">))</span> <span class="o">+</span>
+  <span class="nf">geom_histogram</span><span class="p">(</span><span class="n">position</span> <span class="o">=</span> <span class="s">&quot;identity&quot;</span><span class="p">)</span> <span class="o">+</span> 
+  <span class="nf">labs</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="s">&quot;Life Expectancy (years)&quot;</span><span class="p">)</span> <span class="o">+</span> 
+  <span class="nf">theme</span><span class="p">(</span><span class="n">text</span> <span class="o">=</span> <span class="nf">element_text</span><span class="p">(</span><span class="n">size</span> <span class="o">=</span> <span class="m">18</span><span class="p">))</span> 
+ <span class="n">gap_hist</span>
 </pre></div>
 
     </div>
@@ -13637,19 +13639,20 @@ Do geom_point without colouring by cyl then colour by factor</p>
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <ul>
-<li>fill by continent </li>
-<li>position defaults to "stack" so bars are stacked on top of each other - not very easy to read misleading </li>
-<li>dodge (bars are beside each other) </li>
-<li><p>identity (bars are on top)</p>
-
-<pre><code>ggplot(gap_2016, aes(x = life_expectancy, fill = continent)) +   # colour the plot according to continent
+<li><p>position defaults to "stack" so bars are stacked on top of each other - not very easy to read misleading</p>
+<ul>
+<li>(dodge: bars are beside each other) </li>
+<li>(identity: bars are on overlaid on top of one another) 
+<pre><code>ggplot(gap_2016, aes(x = life_expectancy, fill = continent)) +   # colour the plot according to continent, fill by continent
 geom_histogram() + 
-labs(x = "Life Expectancy (years)", fill = "Continent") + # change the label for the legend and x-axis
-theme(text = element_text(size = 18))                     #change size of text</code></pre>
+labs(x = "Life Expectancy (years)", fill = "Continent") +      # change the label for the legend and x-axis
+theme(text = element_text(size = 18))</code></pre>
+</li>
+</ul>
 </li>
 <li><p>try overlaying the histograms on top of each other</p>
 </li>
-<li><p>change the transparenct of the hists</p>
+<li><p>change the transparency of the hists</p>
 
 <pre><code>ggplot(gap_2016, aes(x = life_expectancy, fill = continent)) +
 geom_histogram(position = "identity", alpha = 0.6) +       # overlay the histograms and change the transparency
@@ -13726,7 +13729,7 @@ Pie graph - colours don't mean anything (unneccessary)</p>
 
 </div>
 </div>
-</div>
+</div><div class="fragment">
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -13753,7 +13756,7 @@ Pie graph - colours don't mean anything (unneccessary)</p>
 </div>
 </div>
 </div>
-</aside></section></section><section><section>
+</aside></div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -13827,6 +13830,9 @@ Pie graph - colours don't mean anything (unneccessary)</p>
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Add <code>alpha = 0.2</code> to geom_point</p>
+<ul>
+<li>transparency setting between [0,1]</li>
+</ul>
 
 </div>
 </div>
@@ -13835,7 +13841,12 @@ Pie graph - colours don't mean anything (unneccessary)</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Go-and-create!">Go and create!<a class="anchor-link" href="#Go-and-create!">&#182;</a></h2><p><img src="https://media.giphy.com/media/d31vTpVi1LAcDvdm/giphy.gif" alt=""></p>
+<h2 id="Go-and-create!">Go and create!<a class="anchor-link" href="#Go-and-create!">&#182;</a></h2><ol>
+<li>Go to your <strong>Breakout Rooms</strong> today (not project groups)!</li>
+<li>Work on worksheet 4 </li>
+<li>Remember you can ask your group for help and share screen if needed! </li>
+</ol>
+<p><img src="https://media.giphy.com/media/d31vTpVi1LAcDvdm/giphy.gif" alt=""></p>
 
 </div>
 </div>
