@@ -13207,7 +13207,7 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="DSCI-100---Introduction-to-Data-Science">DSCI 100 - Introduction to Data Science<a class="anchor-link" href="#DSCI-100---Introduction-to-Data-Science">&#182;</a></h2><h3 id="Lecture-6---Classification-using-K-Nearest-Neighbours">Lecture 6 - Classification using K-Nearest Neighbours<a class="anchor-link" href="#Lecture-6---Classification-using-K-Nearest-Neighbours">&#182;</a></h3><p><center>
+<h5 id="DSCI-100---Introduction-to-Data-Science">DSCI 100 - Introduction to Data Science<a class="anchor-link" href="#DSCI-100---Introduction-to-Data-Science">&#182;</a></h5><h3 id="Lecture-6---Classification-using-K-Nearest-Neighbours">Lecture 6 - Classification using K-Nearest Neighbours<a class="anchor-link" href="#Lecture-6---Classification-using-K-Nearest-Neighbours">&#182;</a></h3><p><center>
     <img src = "https://www.tidymodels.org/images/cover.png" width="800"/>
     </center>
 Source: <a href="https://www.tidymodels.org/">https://www.tidymodels.org/</a></p>
@@ -13255,8 +13255,6 @@ Source: <a href="https://www.tidymodels.org/">https://www.tidymodels.org/</a></p
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <ul>
-<li>A benign tumor is a tumor that does not invade its surrounding tissue or spread around the body. </li>
-<li>A malignant tumor is a tumor that may invade its surrounding tissue or spread around the body.</li>
 <li>How would you classify this new observation? How did you decide? </li>
 </ul>
 
@@ -13363,7 +13361,7 @@ $\text{Distance} = \sqrt{(x_{\text{new}} - x_{\text{train}})^2 + (y_{\text{new}}
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<center><img src="img/scaling_example1.png" width="400"/></center>
+<h2 id="Standardizing-Data">Standardizing Data<a class="anchor-link" href="#Standardizing-Data">&#182;</a></h2><center><img src="img/scaling_example1.png" width="400"/></center>
 </div>
 </div>
 </div><div class="fragment">
@@ -13566,11 +13564,11 @@ Source: <a href="https://www.r-bloggers.com/2019/06/a-gentle-introduction-to-tid
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><code>prep()</code> and <code>bake</code>?</p>
 <ul>
-<li><p>preprocessing recipe <code>wdbc_recipe</code> has been defined but no values have been estimated. e.g. the mean has not been calculated for predictors so that they can be centered.</p>
+<li><p>preprocessing recipe <code>wdbc_recipe</code> has been defined but no values have been estimated</p>
 </li>
-<li><p>The <code>prep()</code> function takes that defined object and computes everything so that the preprocessing steps can be executed. e.g. the mean of each predictor is calculated so the predictors can be centered.</p>
+<li><p>The <code>prep()</code> function computes everything so that the preprocessing steps can be executed</p>
 </li>
-<li><p>The <code>bake()</code> function takes a prepped recipe (one that has had all quantities estimated) and applies it to data (e.g. you can take the <code>recipe</code> you specified and apply that to new data) and return data (not a recipe object).</p>
+<li><p>The <code>bake()</code> function takes a recipe and applies it to data and returns data</p>
 </li>
 <li><p>If you want to extract the pre-processed dataset: you can <code>prep()</code> and <code>bake()</code> but extracting the pre-processed data isn’t necessary for the pipeline, since this will be done under the hood when the model is fit</p>
 </li>
@@ -13659,9 +13657,9 @@ Source: <a href="https://www.r-bloggers.com/2019/06/a-gentle-introduction-to-tid
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <ul>
-<li>We want to use our recipe across several steps as we train and test our model. To simplify this process, we can use a model workflow, which pairs a model and recipe together. </li>
+<li>We may want to use our recipe across several steps as we train and test our model. To simplify this process, we can use a model workflow, which pairs a model and recipe together. </li>
 <li>single function that can be used to prepare the recipe and train the model from the resulting predictors</li>
-<li><code>wdbc_workflow</code> -- still haven’t yet implemented the pre-processing steps in the recipe nor have we fit the model. We’ve just written the framework.</li>
+<li><code>wdbc_workflow</code> -- still haven’t yet implemented the pre-processing steps in the recipe nor fit the model. just the framework.</li>
 <li><code>wdbc_fit</code>: now the recipe and model frameworks are actually implemented</li>
 </ul>
 
