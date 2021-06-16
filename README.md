@@ -173,7 +173,7 @@ The [COVID-19 pandemic](https://www.who.int/emergencies/diseases/novel-coronavir
 - You don't ever need to explain yourself; if you need support, need to miss a class, or need extra time for an assignment, just ask;
 - UBC has [great student support resources](https://students.ubc.ca/covid19) related to COVID-19 (and otherwise).
 
-Further, teaching/learning an intense graduate course like MDS online is a very new concept to all of us. If you have feedback on how I can improve the teaching experience, don't hesitate to reach out - I'm sure things won't be perfect from the get-go.
+Further, teaching/learning a course online is a very new concept to all of us. If you have feedback on how I can improve the teaching experience, don't hesitate to reach out - I'm sure things won't be perfect from the get-go.
 
 Finally, here is an official statement from UBC regarding the online learning experience:
 
