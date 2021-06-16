@@ -1,19 +1,17 @@
 # DSCI 100: Introduction to Data Science
 
 ## Time and Place
-- DSCI 100 002: Tues/Thurs 15:30-17:00
-- DSCI 100 003: Tues/Thurs 11:00-12:30
+Tues/Thurs 13:00-16:00
 
 > Note: synchronous class sessions will be conducted using Zoom video 
 conferencing platform. You will need Version 5.3.0 or higher of the Zoom desktop 
 application installed on your computer (Not available on Chrome OS). Please 
-download this before coming to class on Tuesday! For more info: [https://skylight.science.ubc.ca/lt/guides/zoom/student-breakout-rooms](https://skylight.science.ubc.ca/lt/guides/zoom/student-breakout-rooms)
-If you aren’t able to download Zoom, please contact the course instructor for 
-your course section.
+download this before coming to the first class! For more info: [https://skylight.science.ubc.ca/lt/guides/zoom/student-breakout-rooms](https://skylight.science.ubc.ca/lt/guides/zoom/student-breakout-rooms)
+If you aren’t able to download Zoom, please contact the course instructor.
 
 #### Quizzes
-- Quiz 1 (both sections): Thursday, February 11th 
-- Quiz 2 (both sections): Thursday, April 1st 
+- Quiz 1: TBA 
+- Quiz 2: TBA
 - Quiz 3: to be scheduled by classroom services during the exam period. You must write the exam to pass the course. 
 
 Students must write their quizzes during lecture time for which they registered. The quizzes and exam will be conducted with Canvas quizzes and will be invigilated using Zoom. Please ensure that you meet system requirements to use Zoom and Canvas. 
@@ -60,10 +58,9 @@ clear, reproducible, and shareable.
 
 | Section | Position | Name  | Email | Office Hours | Office Location |
 |----------|-------|-------|--------------|-----------------|----------------|
-| 002 | Instructor | [Tiffany Timbers](https://www.tiffanytimbers.com/) | tiffany.timbers@stat.ubc.ca | Thursdays 9:00 - 10:00 AM (PT) | Zoom |
-| 003 | Instructor | Melissa Lee | melissa.lee@stat.ubc.ca | Thursdays 12:30 - 1:30 PM (PT) | Zoom |
-| 002 & 003 | TA | Alex | | Wednesdays 12 - 1 PM (PT) |  Zoom |
-| 002 & 003 | TA | Cathy | | Fridays 12 - 1 PM (PT) | Zoom |
+| 002 | Instructor | Melissa Lee | melissa.lee@stat.ubc.ca |  | Zoom |
+| 002 | TA | TBD | | TBD |  Zoom |
+| 002 | TA | TBD | | TBD | Zoom |
 
 
 ## Assessment
@@ -106,12 +103,11 @@ due to the global pandemic.
 | Chapter 2: Reading in data locally and from the web |  Learn to read in various cases of data sets locally and from the web. Once read in, these data sets will be used to walk through a real world data Science application that includes wrangling the data into a useable format and creating an effective data visualization. | 
 | Chapter 3: Cleaning and wrangling data | This week will be centered around tools for cleaning and wrangling data. Again, this will be in the context of a real world data science application and we will continue to practice working through a whole case study that includes downloading data from the web, wrangling the data into a useable format and creating an effective data visualization. |
 | Chapter 4: Effective data visualization | Expand your data visualization knowledge and tool set beyond what we have seen and practiced so far. We will move beyond scatter plots and learn other effective ways to visualize data, as well as some general rules of thumb to follow when creating visualations. All visualization tasks this week will be applied to real world data sets. Again, this will be in the context of a real world data science application and we will continue to practice working through a whole case study that includes downloading data from the web, wrangling the data into a useable format and creating an effective data visualization. |
-| Transition week  | Quiz 1 | 
+| Chapter 5: Version control | Collaboration with version control | 
 | Chapter 6: Classification | Introduction to classification using K-nearest neighbours (k-nn) |
 | Chapter 7: Classification, continued | Classification continued | 
 Chapter 8: Regression | Introduction to regression using K-nearest neighbours (k-nn). We will focus on prediction in cases where there is a response variable of interest and a single explanatory variable. |
 | Chapter 9: Regression, continued | Continued exploration of k-nn regression in higher dimensions. We will also begin to compare k-nn to linear models in the context of regression. | 
-| Transition week | Quiz 2| 
 | Chapter 10: Clustering |  Introduction to clustering using K-means  | 
 | Chapter 11: Introduction to statistical inference | Introduce sampling and estimation for sample means and proportions. |
 | Chapter 12: Introduction to statistical inference, continued | Introduce confidence intervals, and calculating them via boostrapping.  |
@@ -137,7 +133,7 @@ Furthermore, students are responsible for making sure their assignments are *rep
 In short: whatever grade the autograder returns after 5 minutes (assuming the teaching team did not make an error) is the grade that will be assigned.
 
 ### Re-grading
-If you have concerns about the way your work was graded, please contact the TA who graded it within one week of having the grade returned to you. After this one-week window, we may deny your request for re-evaluation. Also, please keep in mind that your grade may go up or down as a result of re-grading.
+If you have concerns about the way your work was graded, please contact the TA who graded it within one week of having the grade returned to you. After this one-week window, we may deny your request for re-evaluation. Also, please keep in mind that your grade may go up or down as a result of re-grading. Please see Canvas for instructions on submitting re-grade requests.
 
 ### Device/Browser
 Students are responsible for using a device and browser compatible with all functionality of Canvas. Chrome or Firefox browsers are recommended; Safari has had issues with Canvas quizzes in the past.
