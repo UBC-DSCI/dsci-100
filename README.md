@@ -10,8 +10,8 @@ download this before coming to the first class! For more info: [https://skylight
 If you aren’t able to download Zoom, please contact the course instructor.
 
 #### Quizzes
-- Quiz 1: TBA 
-- Quiz 2: TBA
+- Quiz 1: Tues, Jul 20 (in class) 
+- Quiz 2: Thurs, Aug 5 (in class)
 - Quiz 3: to be scheduled by classroom services during the exam period. You must write the exam to pass the course. 
 
 Students must write their quizzes during lecture time for which they registered. The quizzes and exam will be conducted with Canvas quizzes and will be invigilated using Zoom. Please ensure that you meet system requirements to use Zoom and Canvas. 
