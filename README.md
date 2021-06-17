@@ -58,7 +58,7 @@ clear, reproducible, and shareable.
 
 | Section | Position | Name  | Email | Office Hours | Office Location |
 |----------|-------|-------|--------------|-----------------|----------------|
-| 002 | Instructor | Melissa Lee | melissa.lee@stat.ubc.ca |  | Zoom |
+| 002 | Instructor | Melissa Lee | melissa.lee@stat.ubc.ca | Thursdays 4 - 5 PM | Zoom |
 | 002 | TA | TBD | | TBD |  Zoom |
 | 002 | TA | TBD | | TBD | Zoom |
 
@@ -95,7 +95,8 @@ due to the global pandemic.
 
 ## Schedule
 
-*Lectures are held on Tuesdays. Tutorials are held on Thursdays and build on the concepts learned in lecture.* 
+**Summer session:** *The schedule in the summer is double the pace of a regular semester. Generally, lectures taught by the instructor are conducted in the first half of class on Tuesdays and Thursdays. Tutorials taught by the TAs are held during the second half of class on Tuesdays and Thursdays and build on the concepts learned in the lecture session. Some weeks deviate from this pattern. Please check Canvas for the exact schedule.* 
+
 
 | Topic | Description | 
 |-------|-------------|
