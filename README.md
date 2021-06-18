@@ -77,7 +77,7 @@ In each class (lecture and tutorial) there will be an assignment. **Lecture and 
 | Two quizzes | 40 |
 | Final exam | 20 |
 
-> Due to the global pandenmic, we will drop the lowest lecture worksheet grade, 
+> Due to the global pandemic, we will drop the lowest lecture worksheet grade, 
 as well as the lowest tutoral worksheet grade. We still recommend students 
 complete all assigned work for the course as they are critical for learning. 
 This is dropping of the lowest lecture and tutorial worksheet grades is intended 
