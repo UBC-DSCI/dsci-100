@@ -10,7 +10,7 @@ download this before coming to the first class! For more info: [https://skylight
 If you aren’t able to download Zoom, please contact the course instructor.
 
 #### Quizzes
-- Quiz 1: Tues, Jul 20 (in class) 
+- Quiz 1: Thurs, Jul 22 (in class) 
 - Quiz 2: Thurs, Aug 5 (in class)
 - Quiz 3: to be scheduled by classroom services during the exam period. You must write the exam to pass the course. 
 
@@ -58,7 +58,7 @@ clear, reproducible, and shareable.
 
 | Section | Position | Name  | Email | Office Hours | Office Location |
 |----------|-------|-------|--------------|-----------------|----------------|
-| 002 | Instructor | Melissa Lee | melissa.lee@stat.ubc.ca | Thursdays 4 - 5 PM | Zoom |
+| 002 | Instructor | Melissa Lee | melissa.lee@stat.ubc.ca | Tuesdays 4 - 5 PM | Zoom |
 | 002 | TA | TBD | | TBD |  Zoom |
 | 002 | TA | TBD | | TBD | Zoom |
 
@@ -95,7 +95,7 @@ due to the global pandemic.
 
 ## Schedule
 
-**Summer session:** *The schedule in the summer is double the pace of a regular semester. Generally, lectures taught by the instructor are conducted in the first half of class on Tuesdays and Thursdays. Tutorials taught by the TAs are held during the second half of class on Tuesdays and Thursdays and build on the concepts learned in the lecture session. Some weeks deviate from this pattern. Please check Canvas for the exact schedule.* 
+**Summer session:** *The schedule in the summer is double the pace of a regular semester. Generally, lectures taught by the instructor are conducted on Tuesdays. Tutorials taught by the TAs are held on Thursdays and build on the concepts learned in the lecture session. Some weeks deviate from this pattern. Please check Canvas for the exact schedule.* 
 
 
 | Topic | Description | 
