@@ -58,9 +58,9 @@ clear, reproducible, and shareable.
 
 | Section | Position | Name  | Email | Office Hours | Office Location |
 |----------|-------|-------|--------------|-----------------|----------------|
-| 002 | Instructor | Melissa Lee | melissa.lee@stat.ubc.ca | Tuesdays 4 - 5 PM | Zoom |
-| 002 | TA | TBD | | TBD |  Zoom |
-| 002 | TA | TBD | | TBD | Zoom |
+| 002 | Instructor | Melissa Lee | melissa.lee@stat.ubc.ca | Tuesdays 4 - 5 PM (pacific time PT) | Zoom |
+| 002 | TA | Connor | NA | Wednesdays 2 - 3 PM (pacific time PT) |  Zoom |
+| 002 | TA | Rachel | NA | Thursdays 9:30 - 10:30 PM (*Note: this office hour is in the evening*) (pacific time PT) | Zoom |
 
 
 ## Assessment
