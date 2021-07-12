@@ -1,0 +1,470 @@
+who_region,yr,pct_vaccinated,vaccine
+Africa,2017,71,polio
+Americas,2017,90,polio
+South-East Asia,2017,88,polio
+Europe,2017,93,polio
+Eastern Mediterranean,2017,81,polio
+Western Pacific,2017,97,polio
+(WHO) Global,2017,85,polio
+Africa,2016,70,polio
+Americas,2016,87,polio
+South-East Asia,2016,87,polio
+Europe,2016,94,polio
+Eastern Mediterranean,2016,81,polio
+Western Pacific,2016,95,polio
+(WHO) Global,2016,84,polio
+Africa,2015,71,polio
+Americas,2015,91,polio
+South-East Asia,2015,87,polio
+Europe,2015,94,polio
+Eastern Mediterranean,2015,79,polio
+Western Pacific,2015,96,polio
+(WHO) Global,2015,NA,polio
+Africa,2014,71,polio
+Americas,2014,90,polio
+South-East Asia,2014,85,polio
+Europe,2014,94,polio
+Eastern Mediterranean,2014,79,polio
+Western Pacific,2014,96,polio
+(WHO) Global,2014,NA,polio
+Africa,2013,70,polio
+Americas,2013,89,polio
+South-East Asia,2013,84,polio
+Europe,2013,96,polio
+Eastern Mediterranean,2013,79,polio
+Western Pacific,2013,96,polio
+(WHO) Global,2013,NA,polio
+Africa,2012,71,polio
+Americas,2012,93,polio
+South-East Asia,2012,82,polio
+Europe,2012,96,polio
+Eastern Mediterranean,2012,78,polio
+Western Pacific,2012,97,polio
+(WHO) Global,2012,NA,polio
+Africa,2011,71,polio
+Americas,2011,93,polio
+South-East Asia,2011,82,polio
+Europe,2011,95,polio
+Eastern Mediterranean,2011,79,polio
+Western Pacific,2011,97,polio
+(WHO) Global,2011,NA,polio
+Africa,2010,74,polio
+Americas,2010,93,polio
+South-East Asia,2010,80,polio
+Europe,2010,95,polio
+Eastern Mediterranean,2010,77,polio
+Western Pacific,2010,96,polio
+(WHO) Global,2010,NA,polio
+Africa,2009,75,polio
+Americas,2009,93,polio
+South-East Asia,2009,79,polio
+Europe,2009,95,polio
+Eastern Mediterranean,2009,76,polio
+Western Pacific,2009,97,polio
+(WHO) Global,2009,NA,polio
+Africa,2008,72,polio
+Americas,2008,94,polio
+South-East Asia,2008,75,polio
+Europe,2008,96,polio
+Eastern Mediterranean,2008,76,polio
+Western Pacific,2008,97,polio
+(WHO) Global,2008,NA,polio
+Africa,2007,71,polio
+Americas,2007,93,polio
+South-East Asia,2007,73,polio
+Europe,2007,96,polio
+Eastern Mediterranean,2007,76,polio
+Western Pacific,2007,93,polio
+(WHO) Global,2007,NA,polio
+Africa,2006,67,polio
+Americas,2006,94,polio
+South-East Asia,2006,72,polio
+Europe,2006,95,polio
+Eastern Mediterranean,2006,75,polio
+Western Pacific,2006,93,polio
+(WHO) Global,2006,NA,polio
+Africa,2005,65,polio
+Americas,2005,92,polio
+South-East Asia,2005,72,polio
+Europe,2005,95,polio
+Eastern Mediterranean,2005,77,polio
+Western Pacific,2005,88,polio
+(WHO) Global,2005,NA,polio
+Africa,2004,63,polio
+Americas,2004,92,polio
+South-East Asia,2004,66,polio
+Europe,2004,95,polio
+Eastern Mediterranean,2004,77,polio
+Western Pacific,2004,88,polio
+(WHO) Global,2004,NA,polio
+Africa,2003,61,polio
+Americas,2003,93,polio
+South-East Asia,2003,66,polio
+Europe,2003,91,polio
+Eastern Mediterranean,2003,76,polio
+Western Pacific,2003,88,polio
+(WHO) Global,2003,NA,polio
+Africa,2002,59,polio
+Americas,2002,92,polio
+South-East Asia,2002,66,polio
+Europe,2002,93,polio
+Eastern Mediterranean,2002,74,polio
+Western Pacific,2002,85,polio
+(WHO) Global,2002,NA,polio
+Africa,2001,55,polio
+Americas,2001,91,polio
+South-East Asia,2001,65,polio
+Europe,2001,94,polio
+Eastern Mediterranean,2001,75,polio
+Western Pacific,2001,85,polio
+(WHO) Global,2001,NA,polio
+Africa,2000,54,polio
+Americas,2000,91,polio
+South-East Asia,2000,64,polio
+Europe,2000,94,polio
+Eastern Mediterranean,2000,74,polio
+Western Pacific,2000,86,polio
+(WHO) Global,2000,NA,polio
+Africa,1999,52,polio
+Americas,1999,91,polio
+South-East Asia,1999,66,polio
+Europe,1999,93,polio
+Eastern Mediterranean,1999,74,polio
+Western Pacific,1999,86,polio
+(WHO) Global,1999,NA,polio
+Africa,1998,52,polio
+Americas,1998,89,polio
+South-East Asia,1998,67,polio
+Europe,1998,93,polio
+Eastern Mediterranean,1998,71,polio
+Western Pacific,1998,85,polio
+(WHO) Global,1998,NA,polio
+Africa,1997,54,polio
+Americas,1997,88,polio
+South-East Asia,1997,68,polio
+Europe,1997,93,polio
+Eastern Mediterranean,1997,68,polio
+Western Pacific,1997,85,polio
+(WHO) Global,1997,NA,polio
+Africa,1996,53,polio
+Americas,1996,86,polio
+South-East Asia,1996,71,polio
+Europe,1996,91,polio
+Eastern Mediterranean,1996,67,polio
+Western Pacific,1996,84,polio
+(WHO) Global,1996,NA,polio
+Africa,1995,54,polio
+Americas,1995,85,polio
+South-East Asia,1995,72,polio
+Europe,1995,89,polio
+Eastern Mediterranean,1995,69,polio
+Western Pacific,1995,82,polio
+(WHO) Global,1995,NA,polio
+Africa,1994,55,polio
+Americas,1994,81,polio
+South-East Asia,1994,70,polio
+Europe,1994,88,polio
+Eastern Mediterranean,1994,62,polio
+Western Pacific,1994,86,polio
+(WHO) Global,1994,NA,polio
+Africa,1993,50,polio
+Americas,1993,77,polio
+South-East Asia,1993,65,polio
+Europe,1993,85,polio
+Eastern Mediterranean,1993,64,polio
+Western Pacific,1993,88,polio
+(WHO) Global,1993,NA,polio
+Africa,1992,50,polio
+Americas,1992,76,polio
+South-East Asia,1992,60,polio
+Europe,1992,85,polio
+Eastern Mediterranean,1992,65,polio
+Western Pacific,1992,90,polio
+(WHO) Global,1992,NA,polio
+Africa,1991,51,polio
+Americas,1991,77,polio
+South-East Asia,1991,62,polio
+Europe,1991,81,polio
+Eastern Mediterranean,1991,67,polio
+Western Pacific,1991,92,polio
+(WHO) Global,1991,NA,polio
+Africa,1990,58,polio
+Americas,1990,74,polio
+South-East Asia,1990,67,polio
+Europe,1990,83,polio
+Eastern Mediterranean,1990,71,polio
+Western Pacific,1990,94,polio
+(WHO) Global,1990,NA,polio
+Africa,1989,51,polio
+Americas,1989,77,polio
+South-East Asia,1989,56,polio
+Europe,1989,81,polio
+Eastern Mediterranean,1989,66,polio
+Western Pacific,1989,92,polio
+(WHO) Global,1989,NA,polio
+Africa,1988,46,polio
+Americas,1988,80,polio
+South-East Asia,1988,39,polio
+Europe,1988,83,polio
+Eastern Mediterranean,1988,63,polio
+Western Pacific,1988,91,polio
+(WHO) Global,1988,NA,polio
+Africa,1987,43,polio
+Americas,1987,76,polio
+South-East Asia,1987,30,polio
+Europe,1987,83,polio
+Eastern Mediterranean,1987,54,polio
+Western Pacific,1987,76,polio
+(WHO) Global,1987,NA,polio
+Africa,1986,37,polio
+Americas,1986,72,polio
+South-East Asia,1986,21,polio
+Europe,1986,82,polio
+Eastern Mediterranean,1986,53,polio
+Western Pacific,1986,67,polio
+(WHO) Global,1986,NA,polio
+Africa,1985,32,polio
+Americas,1985,66,polio
+South-East Asia,1985,15,polio
+Europe,1985,91,polio
+Eastern Mediterranean,1985,48,polio
+Western Pacific,1985,82,polio
+(WHO) Global,1985,NA,polio
+Africa,1984,24,polio
+Americas,1984,72,polio
+South-East Asia,1984,12,polio
+Europe,1984,84,polio
+Eastern Mediterranean,1984,38,polio
+Western Pacific,1984,77,polio
+(WHO) Global,1984,NA,polio
+Africa,1983,19,polio
+Americas,1983,67,polio
+South-East Asia,1983,10,polio
+Europe,1983,81,polio
+Eastern Mediterranean,1983,30,polio
+Western Pacific,1983,74,polio
+(WHO) Global,1983,NA,polio
+Africa,1982,13,polio
+Americas,1982,66,polio
+South-East Asia,1982,8,polio
+Europe,1982,78,polio
+Eastern Mediterranean,1982,31,polio
+Western Pacific,1982,72,polio
+(WHO) Global,1982,NA,polio
+Africa,1981,11,polio
+Americas,1981,61,polio
+South-East Asia,1981,4,polio
+Europe,1981,79,polio
+Eastern Mediterranean,1981,24,polio
+Western Pacific,1981,7,polio
+(WHO) Global,1981,NA,polio
+Africa,1980,6,polio
+Americas,1980,66,polio
+South-East Asia,1980,3,polio
+Europe,1980,75,polio
+Eastern Mediterranean,1980,21,polio
+Western Pacific,1980,5,polio
+(WHO) Global,1980,NA,polio
+Africa,2017,72,hepatitis_b
+Americas,2017,90,hepatitis_b
+South-East Asia,2017,88,hepatitis_b
+Europe,2017,82,hepatitis_b
+Eastern Mediterranean,2017,81,hepatitis_b
+Western Pacific,2017,93,hepatitis_b
+(WHO) Global,2017,84,hepatitis_b
+Africa,2016,72,hepatitis_b
+Americas,2016,90,hepatitis_b
+South-East Asia,2016,88,hepatitis_b
+Europe,2016,81,hepatitis_b
+Eastern Mediterranean,2016,81,hepatitis_b
+Western Pacific,2016,93,hepatitis_b
+(WHO) Global,2016,84,hepatitis_b
+Africa,2015,72,hepatitis_b
+Americas,2015,89,hepatitis_b
+South-East Asia,2015,87,hepatitis_b
+Europe,2015,82,hepatitis_b
+Eastern Mediterranean,2015,79,hepatitis_b
+Western Pacific,2015,90,hepatitis_b
+(WHO) Global,2015,83,hepatitis_b
+Africa,2014,71,hepatitis_b
+Americas,2014,88,hepatitis_b
+South-East Asia,2014,82,hepatitis_b
+Europe,2014,81,hepatitis_b
+Eastern Mediterranean,2014,79,hepatitis_b
+Western Pacific,2014,91,hepatitis_b
+(WHO) Global,2014,81,hepatitis_b
+Africa,2013,70,hepatitis_b
+Americas,2013,89,hepatitis_b
+South-East Asia,2013,76,hepatitis_b
+Europe,2013,82,hepatitis_b
+Eastern Mediterranean,2013,79,hepatitis_b
+Western Pacific,2013,90,hepatitis_b
+(WHO) Global,2013,79,hepatitis_b
+Africa,2012,70,hepatitis_b
+Americas,2012,91,hepatitis_b
+South-East Asia,2012,77,hepatitis_b
+Europe,2012,81,hepatitis_b
+Eastern Mediterranean,2012,76,hepatitis_b
+Western Pacific,2012,93,hepatitis_b
+(WHO) Global,2012,80,hepatitis_b
+Africa,2011,71,hepatitis_b
+Americas,2011,91,hepatitis_b
+South-East Asia,2011,56,hepatitis_b
+Europe,2011,79,hepatitis_b
+Eastern Mediterranean,2011,78,hepatitis_b
+Western Pacific,2011,92,hepatitis_b
+(WHO) Global,2011,75,hepatitis_b
+Africa,2010,71,hepatitis_b
+Americas,2010,90,hepatitis_b
+South-East Asia,2010,54,hepatitis_b
+Europe,2010,78,hepatitis_b
+Eastern Mediterranean,2010,74,hepatitis_b
+Western Pacific,2010,91,hepatitis_b
+(WHO) Global,2010,73,hepatitis_b
+Africa,2009,72,hepatitis_b
+Americas,2009,91,hepatitis_b
+South-East Asia,2009,53,hepatitis_b
+Europe,2009,77,hepatitis_b
+Eastern Mediterranean,2009,73,hepatitis_b
+Western Pacific,2009,92,hepatitis_b
+(WHO) Global,2009,73,hepatitis_b
+Africa,2008,64,hepatitis_b
+Americas,2008,89,hepatitis_b
+South-East Asia,2008,47,hepatitis_b
+Europe,2008,77,hepatitis_b
+Eastern Mediterranean,2008,74,hepatitis_b
+Western Pacific,2008,89,hepatitis_b
+(WHO) Global,2008,69,hepatitis_b
+Africa,2007,64,hepatitis_b
+Americas,2007,89,hepatitis_b
+South-East Asia,2007,30,hepatitis_b
+Europe,2007,78,hepatitis_b
+Eastern Mediterranean,2007,73,hepatitis_b
+Western Pacific,2007,85,hepatitis_b
+(WHO) Global,2007,63,hepatitis_b
+Africa,2006,46,hepatitis_b
+Americas,2006,90,hepatitis_b
+South-East Asia,2006,27,hepatitis_b
+Europe,2006,75,hepatitis_b
+Eastern Mediterranean,2006,69,hepatitis_b
+Western Pacific,2006,85,hepatitis_b
+(WHO) Global,2006,58,hepatitis_b
+Africa,2005,42,hepatitis_b
+Americas,2005,89,hepatitis_b
+South-East Asia,2005,24,hepatitis_b
+Europe,2005,75,hepatitis_b
+Eastern Mediterranean,2005,67,hepatitis_b
+Western Pacific,2005,76,hepatitis_b
+(WHO) Global,2005,54,hepatitis_b
+Africa,2004,33,hepatitis_b
+Americas,2004,85,hepatitis_b
+South-East Asia,2004,19,hepatitis_b
+Europe,2004,73,hepatitis_b
+Eastern Mediterranean,2004,61,hepatitis_b
+Western Pacific,2004,72,hepatitis_b
+(WHO) Global,2004,49,hepatitis_b
+Africa,2003,28,hepatitis_b
+Americas,2003,83,hepatitis_b
+South-East Asia,2003,11,hepatitis_b
+Europe,2003,68,hepatitis_b
+Eastern Mediterranean,2003,61,hepatitis_b
+Western Pacific,2003,69,hepatitis_b
+(WHO) Global,2003,44,hepatitis_b
+Africa,2002,25,hepatitis_b
+Americas,2002,75,hepatitis_b
+South-East Asia,2002,10,hepatitis_b
+Europe,2002,63,hepatitis_b
+Eastern Mediterranean,2002,43,hepatitis_b
+Western Pacific,2002,59,hepatitis_b
+(WHO) Global,2002,38,hepatitis_b
+Africa,2001,6,hepatitis_b
+Americas,2001,72,hepatitis_b
+South-East Asia,2001,10,hepatitis_b
+Europe,2001,49,hepatitis_b
+Eastern Mediterranean,2001,42,hepatitis_b
+Western Pacific,2001,56,hepatitis_b
+(WHO) Global,2001,32,hepatitis_b
+Africa,2000,5,hepatitis_b
+Americas,2000,70,hepatitis_b
+South-East Asia,2000,10,hepatitis_b
+Europe,2000,42,hepatitis_b
+Eastern Mediterranean,2000,40,hepatitis_b
+Western Pacific,2000,48,hepatitis_b
+(WHO) Global,2000,29,hepatitis_b
+Africa,1999,4,hepatitis_b
+Americas,1999,48,hepatitis_b
+South-East Asia,1999,11,hepatitis_b
+Europe,1999,30,hepatitis_b
+Eastern Mediterranean,1999,37,hepatitis_b
+Western Pacific,1999,9,hepatitis_b
+(WHO) Global,1999,18,hepatitis_b
+Africa,1998,4,hepatitis_b
+Americas,1998,31,hepatitis_b
+South-East Asia,1998,11,hepatitis_b
+Europe,1998,28,hepatitis_b
+Eastern Mediterranean,1998,32,hepatitis_b
+Western Pacific,1998,8,hepatitis_b
+(WHO) Global,1998,16,hepatitis_b
+Africa,1997,4,hepatitis_b
+Americas,1997,28,hepatitis_b
+South-East Asia,1997,10,hepatitis_b
+Europe,1997,23,hepatitis_b
+Eastern Mediterranean,1997,35,hepatitis_b
+Western Pacific,1997,8,hepatitis_b
+(WHO) Global,1997,15,hepatitis_b
+Africa,1996,1,hepatitis_b
+Americas,1996,30,hepatitis_b
+South-East Asia,1996,10,hepatitis_b
+Europe,1996,20,hepatitis_b
+Eastern Mediterranean,1996,31,hepatitis_b
+Western Pacific,1996,9,hepatitis_b
+(WHO) Global,1996,14,hepatitis_b
+Africa,1995,NA,hepatitis_b
+Americas,1995,24,hepatitis_b
+South-East Asia,1995,8,hepatitis_b
+Europe,1995,12,hepatitis_b
+Eastern Mediterranean,1995,29,hepatitis_b
+Western Pacific,1995,9,hepatitis_b
+(WHO) Global,1995,11,hepatitis_b
+Africa,1994,NA,hepatitis_b
+Americas,1994,12,hepatitis_b
+South-East Asia,1994,7,hepatitis_b
+Europe,1994,9,hepatitis_b
+Eastern Mediterranean,1994,25,hepatitis_b
+Western Pacific,1994,3,hepatitis_b
+(WHO) Global,1994,8,hepatitis_b
+Africa,1993,NA,hepatitis_b
+Americas,1993,5,hepatitis_b
+South-East Asia,1993,7,hepatitis_b
+Europe,1993,7,hepatitis_b
+Eastern Mediterranean,1993,7,hepatitis_b
+Western Pacific,1993,2,hepatitis_b
+(WHO) Global,1993,4,hepatitis_b
+Africa,1992,NA,hepatitis_b
+Americas,1992,NA,hepatitis_b
+South-East Asia,1992,4,hepatitis_b
+Europe,1992,6,hepatitis_b
+Eastern Mediterranean,1992,6,hepatitis_b
+Western Pacific,1992,2,hepatitis_b
+(WHO) Global,1992,3,hepatitis_b
+Africa,1991,NA,hepatitis_b
+Americas,1991,NA,hepatitis_b
+South-East Asia,1991,NA,hepatitis_b
+Europe,1991,4,hepatitis_b
+Eastern Mediterranean,1991,4,hepatitis_b
+Western Pacific,1991,2,hepatitis_b
+(WHO) Global,1991,1,hepatitis_b
+Africa,1990,NA,hepatitis_b
+Americas,1990,NA,hepatitis_b
+South-East Asia,1990,NA,hepatitis_b
+Europe,1990,NA,hepatitis_b
+Eastern Mediterranean,1990,3,hepatitis_b
+Western Pacific,1990,2,hepatitis_b
+(WHO) Global,1990,1,hepatitis_b
+Africa,1989,NA,hepatitis_b
+Americas,1989,NA,hepatitis_b
+South-East Asia,1989,NA,hepatitis_b
+Europe,1989,NA,hepatitis_b
+Eastern Mediterranean,1989,NA,hepatitis_b
+Western Pacific,1989,1,hepatitis_b
+(WHO) Global,1989,NA,hepatitis_b
