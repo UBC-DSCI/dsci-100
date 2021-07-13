@@ -13317,21 +13317,7 @@ a.anchor-link {
 
 </div>
 </div>
-</div><aside class="notes">
-
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li>Aesthetic mappings: describe how variables in the data are mapped to visual properties. An aesthetic is a visual property of the objects in your plot. Aesthetics include things like the size, the shape, or the color of your points. You can display a point in different ways by changing the values of its aesthetic properties.</li>
-<li>Geometric object: type of plot produced (e.g. bargraph vs scatterplot)</li>
-<li>Scales: control the details of how data values are translated to visual properties e.g. changing the default x-axis label on a graph</li>
-</ul>
-
-</div>
-</div>
-</div>
-</aside></section></section><section><section>
+</div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -13385,22 +13371,7 @@ a.anchor-link {
 </div>
 </div>
 
-</div><aside class="notes">
-
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>We want to know if there is a relationship between fuel economy and horsepower</p>
-<ul>
-<li>mpg stands for Miles Per Gallon – a measure of how far a car can travel if you put just one gallon of fuel in its tank. In this case, the higher the value, the more economic a vehicle is (the more miles it can travel with 1 gallon on fuel </li>
-<li>hp - horsepower refers to the power an engine produces (measurement of the rate at which work is done)</li>
-<li>cylinder chamber where the gasoline is burned and turned into power (Most car engines have four, six, or eight cylinders. Generally, an engine with more cylinders produces more power, while an engine with fewer cylinders gets better fuel economy.</li>
-</ul>
-
-</div>
-</div>
-</div>
-</aside></section></section><section><section>
+</div></section></section><section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
@@ -13408,7 +13379,9 @@ a.anchor-link {
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="c1">#Is there a relationship between fuel economy and horsepower? Does # cylinders affect it?</span>
 
-<span class="nf">options</span><span class="p">(</span><span class="n">repr.plot.width</span> <span class="o">=</span> <span class="m">5</span><span class="p">,</span> <span class="n">repr.plot.height</span> <span class="o">=</span> <span class="m">5</span><span class="p">)</span>
+<span class="nf">options</span><span class="p">(</span><span class="n">repr.plot.width</span> <span class="o">=</span> <span class="m">5</span><span class="p">,</span> <span class="n">repr.plot.height</span> <span class="o">=</span> <span class="m">5</span><span class="p">)</span> 
+
+<span class="n">mtcars</span>
 </pre></div>
 
     </div>
@@ -13445,21 +13418,7 @@ Do geom_point without colouring by cyl then colour by factor</p>
 <center><img src="https://media.sciencephoto.com/e1/80/03/84/e1800384-800px-wm.jpg" width="600"/> Mauna Loa Research Station</center>
 </div>
 </div>
-</div><aside class="notes">
-
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>This data set contains the atmospheric concentration of carbon dioxide (CO2, in parts per million) at the Mauna Loa research station in Hawaii from the years 1959-1997</p>
-<ul>
-<li>Why carbon dioxide matters</li>
-<li>Carbon dioxide is a greenhouse gas: a gas that absorbs heat. Warmed by sunlight, Earth’s land and ocean surfaces continuously radiate heat. greenhouse gases absorb that heat and release it gradually over time. Without this natural greenhouse effect, Earth’s average annual temperature would be below freezing instead of close to 60°F. But increases in greenhouse gases have tipped the Earth's energy budget out of balance, trapping additional heat and raising Earth's average temperature</li>
-</ul>
-
-</div>
-</div>
-</div>
-</aside></section></section><section><section>
+</div></section></section><section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
@@ -13481,7 +13440,7 @@ Do geom_point without colouring by cyl then colour by factor</p>
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="c1">#How does atmospheric CO2 concentration change over time?</span>
 <span class="n">co2_plot</span> <span class="o">&lt;-</span> <span class="nf">ggplot</span><span class="p">(</span><span class="n">co2_df</span><span class="p">,</span> <span class="nf">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">date</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="n">concentration</span><span class="p">))</span><span class="o">+</span> 
-                <span class="nf">geom_poin</span><span class="p">()</span><span class="o">+</span>
+                <span class="nf">geom_point</span><span class="p">()</span><span class="o">+</span>
                 <span class="nf">labs</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="s">&#39;Date&#39;</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="s">&#39;CO2 Concentration&#39;</span><span class="p">)</span> 
 <span class="n">co2_plot</span>
 </pre></div>
@@ -13535,7 +13494,7 @@ Do geom_point without colouring by cyl then colour by factor</p>
 <span class="n">islands_df</span>
 <span class="nf">options</span><span class="p">(</span><span class="n">repr.plot.width</span> <span class="o">=</span> <span class="m">7</span><span class="p">,</span> <span class="n">repr.plot.height</span> <span class="o">=</span> <span class="m">5</span><span class="p">)</span> <span class="c1"># change plot size </span>
  <span class="nf">ggplot</span><span class="p">(</span><span class="n">islands_df</span><span class="p">,</span> <span class="nf">aes</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">landmass</span><span class="p">))</span><span class="o">+</span>
-    <span class="nf">geom_bar</span><span class="p">(</span><span class="n">stat</span><span class="o">=</span> <span class="s">&quot;count&quot;</span><span class="p">)</span> <span class="o">+</span> 
+    <span class="nf">geom_bar</span><span class="p">()</span> <span class="o">+</span> 
     <span class="nf">labs</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="s">&quot;Landmass&quot;</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="s">&quot;Size (1000 square mi)&quot;</span><span class="p">)</span> <span class="o">+</span> 
     <span class="nf">theme</span><span class="p">(</span><span class="n">text</span> <span class="o">=</span> <span class="nf">element_text</span><span class="p">(</span><span class="n">size</span> <span class="o">=</span> <span class="m">18</span><span class="p">))</span>
 </pre></div>
@@ -13600,7 +13559,7 @@ Do geom_point without colouring by cyl then colour by factor</p>
   <span class="nf">filter</span><span class="p">(</span><span class="n">year</span> <span class="o">==</span> <span class="m">2016</span><span class="p">)</span>
 
 <span class="n">gap_hist</span> <span class="o">&lt;-</span> <span class="nf">ggplot</span><span class="p">(</span><span class="n">gap_2016</span><span class="p">,</span> <span class="nf">aes</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">life_expectancy</span><span class="p">))</span> <span class="o">+</span>
-  <span class="nf">geom_histogram</span><span class="p">(</span><span class="n">position</span> <span class="o">=</span> <span class="s">&quot;identity&quot;</span><span class="p">)</span> <span class="o">+</span> 
+  <span class="nf">geom_histogram</span><span class="p">()</span> <span class="o">+</span> 
   <span class="nf">labs</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="s">&quot;Life Expectancy (years)&quot;</span><span class="p">)</span> <span class="o">+</span> 
   <span class="nf">theme</span><span class="p">(</span><span class="n">text</span> <span class="o">=</span> <span class="nf">element_text</span><span class="p">(</span><span class="n">size</span> <span class="o">=</span> <span class="m">18</span><span class="p">))</span> 
  <span class="n">gap_hist</span>
@@ -13647,6 +13606,15 @@ theme(text = element_text(size = 18)) +
 facet_grid(continent ~.) # can show facet_grid both ways and ask which is better to answer our question?</code></pre>
 </li>
 </ul>
+
+</div>
+</div>
+</div>
+</aside><aside class="notes">
+
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 
 </div>
 </div>
