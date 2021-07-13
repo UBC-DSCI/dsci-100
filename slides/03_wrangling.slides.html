@@ -13226,7 +13226,7 @@ a.anchor-link {
 <li>Make sure you have either Chrome or Firefox. Safari has been known to have trouble loading images and math.</li>
 </ul>
 </li>
-<li>we will work on projects after</li>
+<li>we will have a tutorial after </li>
 <li>practice questions will be posted -- make sure you can access the quiz on Canvas ("quiz_01_example")</li>
 </ul>
 </li>
@@ -13919,6 +13919,20 @@ penguins_piped</code></pre>
 
 </div>
 </div>
+</div><div class="fragment">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-r"><pre><span></span><span class="c1"># show pipe output </span>
+<span class="n">penguins</span> <span class="o">%&gt;%</span> <span class="nf">mutate</span><span class="p">(</span><span class="n">body_mass_lb</span> <span class="o">=</span> <span class="n">body_mass_g</span><span class="o">/</span><span class="m">454</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
 </div><aside class="notes">
 
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
@@ -13929,7 +13943,7 @@ penguins_piped</code></pre>
 </div>
 </div>
 </div>
-</aside></section></section><section><section>
+</aside></div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -13946,8 +13960,9 @@ penguins_piped</code></pre>
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <ul>
-<li>important to reduce duplication of code (rather than say copying and pasting code). It'll be easier to see the intent of your code (since you'll be drawn to whats different not whats the same), and you'll likely have fewer bugs</li>
-<li>iteration is a tool for reducing duplication because it helps us do the same thing to multiple inputs  (e.e. same operation on different columns)</li>
+<li>important to reduce duplication of code  </li>
+<li>easier to see the intent of your code </li>
+<li>likely have fewer bugs</li>
 </ul>
 
 </div>
@@ -14063,7 +14078,7 @@ summarise(num_nas = sum(is.na(body_mass_g)))</code></pre>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="map_df"><code>map_df</code><a class="anchor-link" href="#map_df">&#182;</a></h2><p>e.g. calculate the average rate of each type of crime from the <code>USAarrests</code> data</p>
+<h2 id="map_df"><code>map_df</code><a class="anchor-link" href="#map_df">&#182;</a></h2><p>e.g. calculate the average for each numeric column in the <code>penguins</code> data</p>
 <p><strong>Be careful:</strong> <em>There are a lot of <code>map_...</code> functions that you could use (<code>map</code>, <code>map_lgl</code>, <code>map_chr</code>, etc). Usually in this course we'll only use <code>map_df</code>, but you should investigate the others yourself!</em></p>
 
 </div>
@@ -14086,13 +14101,13 @@ summarise(num_nas = sum(is.na(body_mass_g)))</code></pre>
 </div>
 </div>
 </div>
-</aside>
+</aside></section></section><section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-r"><pre><span></span><span class="nf">head</span><span class="p">(</span><span class="n">USArrests</span><span class="p">)</span>
+<div class=" highlight hl-r"><pre><span></span>
 </pre></div>
 
     </div>
@@ -14105,7 +14120,7 @@ summarise(num_nas = sum(is.na(body_mass_g)))</code></pre>
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-r"><pre><span></span><span class="c1">#calculate average per capita crime rate for each type of crime</span>
+<div class=" highlight hl-r"><pre><span></span><span class="c1">#calculate average each numeric column in penguins data set</span>
 </pre></div>
 
     </div>
@@ -14118,16 +14133,20 @@ summarise(num_nas = sum(is.na(body_mass_g)))</code></pre>
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 
-<pre><code>USavg &lt;- map_df(USArrests, mean) # returns a dataframe
-USavg
+<pre><code>numeric_penguins &lt;- penguins %&gt;% select(where(is.numeric)) 
 
-map(USArrests, mean) # returns a list
-class(USavg)</code></pre>
+numeric_penguins</code></pre>
+
+<pre><code>penguins_summarized &lt;- map_df(numeric_penguins, mean, na.rm = TRUE) # returns a dataframe
+penguins_summarized_df
+
+penguins_summarized_list &lt;- map(numeric_penguins, mean, na.rm = TRUE) # returns a list
+class(penguins_summarized_list)</code></pre>
 <ul>
 <li><p>notice we can do the same thing with the following but not as efficient, more duplication of code /more prone to errors/less clean:</p>
 
-<pre><code>USArrests  %&gt;% 
-summarize(mean(Murder), mean(Assault), mean(UrbanPop), mean(Rape))</code></pre>
+<pre><code>numeric_penguins  %&gt;% 
+summarize(mean(bill_length_mm, na.rm = T), mean(bill_depth_mm, na.rm = T), mean(flipper_length_mm, na.rm = T), mean(body_mass_g, na.rm = T), mean(year, na.rm = T))</code></pre>
 </li>
 <li><p>Vector, Array, List and Data Frame are 4 basic data types defined in R. Knowing the differences between them will help you use R more efficiently.</p>
 </li>
