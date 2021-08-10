@@ -13570,10 +13570,10 @@ choc_sample_3</code></pre>
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Let's-vote!-What-are-these-proportion-values?">Let's vote! What are these proportion values?<a class="anchor-link" href="#Let's-vote!-What-are-these-proportion-values?">&#182;</a></h3><ul>
-<li>parameter</li>
-<li>statistic </li>
-<li>sample</li>
-<li>population</li>
+<li>parameters</li>
+<li>statistics </li>
+<li>samples</li>
+<li>populations</li>
 </ul>
 
 </div>
@@ -13583,6 +13583,30 @@ choc_sample_3</code></pre>
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>We are going to explore this in the worksheet, with the goal of working towards how understanding this will allow us to describe how accurate our sample statistics are.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-r"><pre><span></span><span class="c1"># take many random samples from virtual box</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+
+<pre><code>replicates &lt;- rep_sample_n(virtual_box, size = 40, reps = 1000)  %&gt;% 
+   group_by(replicate)  %&gt;% 
+   summarize(proportion = sum(color == "chocolate")/40)</code></pre>
 
 </div>
 </div>
