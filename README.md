@@ -100,18 +100,18 @@ due to the global pandemic.
 
 | Topic | Description | 
 |-------|-------------|
-| Chapter 1: Introduction to Data Science | Learn to use the R programming language and Jupyter notebooks as you walk through a real world data Science application that includes downloading data from the web, wrangling the data into a useable format and creating an effective data visualization. | 
-| Chapter 2: Reading in data locally and from the web |  Learn to read in various cases of data sets locally and from the web. Once read in, these data sets will be used to walk through a real world data Science application that includes wrangling the data into a useable format and creating an effective data visualization. | 
-| Chapter 3: Cleaning and wrangling data | This week will be centered around tools for cleaning and wrangling data. Again, this will be in the context of a real world data science application and we will continue to practice working through a whole case study that includes downloading data from the web, wrangling the data into a useable format and creating an effective data visualization. |
-| Chapter 4: Effective data visualization | Expand your data visualization knowledge and tool set beyond what we have seen and practiced so far. We will move beyond scatter plots and learn other effective ways to visualize data, as well as some general rules of thumb to follow when creating visualations. All visualization tasks this week will be applied to real world data sets. Again, this will be in the context of a real world data science application and we will continue to practice working through a whole case study that includes downloading data from the web, wrangling the data into a useable format and creating an effective data visualization. |
-| Chapter 5: Version control | Collaboration with version control | 
-| Chapter 6: Classification | Introduction to classification using K-nearest neighbours (k-nn) |
-| Chapter 7: Classification, continued | Classification continued | 
-Chapter 8: Regression | Introduction to regression using K-nearest neighbours (k-nn). We will focus on prediction in cases where there is a response variable of interest and a single explanatory variable. |
-| Chapter 9: Regression, continued | Continued exploration of k-nn regression in higher dimensions. We will also begin to compare k-nn to linear models in the context of regression. | 
-| Chapter 10: Clustering |  Introduction to clustering using K-means  | 
-| Chapter 11: Introduction to statistical inference | Introduce sampling and estimation for sample means and proportions. |
-| Chapter 12: Introduction to statistical inference, continued | Introduce confidence intervals, and calculating them via boostrapping.  |
+| Introduction to Data Science | Learn to use the R programming language and Jupyter notebooks as you walk through a real world data Science application that includes downloading data from the web, wrangling the data into a useable format and creating an effective data visualization. | 
+| Reading in data locally and from the web |  Learn to read in various cases of data sets locally and from the web. Once read in, these data sets will be used to walk through a real world data Science application that includes wrangling the data into a useable format and creating an effective data visualization. | 
+| Cleaning and wrangling data | This week will be centered around tools for cleaning and wrangling data. Again, this will be in the context of a real world data science application and we will continue to practice working through a whole case study that includes downloading data from the web, wrangling the data into a useable format and creating an effective data visualization. |
+| Effective data visualization | Expand your data visualization knowledge and tool set beyond what we have seen and practiced so far. We will move beyond scatter plots and learn other effective ways to visualize data, as well as some general rules of thumb to follow when creating visualations. All visualization tasks this week will be applied to real world data sets. Again, this will be in the context of a real world data science application and we will continue to practice working through a whole case study that includes downloading data from the web, wrangling the data into a useable format and creating an effective data visualization. |
+| Version control | Collaboration with version control | 
+| Classification | Introduction to classification using K-nearest neighbours (k-nn) |
+| Classification, continued | Classification continued | 
+Regression | Introduction to regression using K-nearest neighbours (k-nn). We will focus on prediction in cases where there is a response variable of interest and a single explanatory variable. |
+| Regression, continued | Continued exploration of k-nn regression in higher dimensions. We will also begin to compare k-nn to linear models in the context of regression. | 
+| Clustering |  Introduction to clustering using K-means  | 
+| Introduction to statistical inference | Introduce sampling and estimation for sample means and proportions. |
+| Introduction to statistical inference, continued | Introduce confidence intervals, and calculating them via boostrapping.  |
 |  Exam period  | Final Exam |
 
 ## Policies
