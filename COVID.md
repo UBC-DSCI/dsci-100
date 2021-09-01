@@ -1,4 +1,4 @@
-# COVID-19 Policies
+# COVID-19 Policy
 
 ## Student health
 
