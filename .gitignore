@@ -1,9 +1,0 @@
-**.DS_Store
-**.ipynb_checkpoints
-.Rhistory
-.nbgrader.log
-slides/.nbgrader.log
-.Rproj.user
-**.Rproj
-*.swp
-*.swo
