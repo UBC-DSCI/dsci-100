@@ -74,7 +74,7 @@ minutes late. Please be patient!*
 
 | Section | Position | Name  | Email | Office Hours | Office Location |
 |----------|-------|-------|--------------|-----------------|----------------|
-| 001 | Instructor | Trevor Campbell | trevor@stat.ubc.ca |  | Zoom |
+| 001 | Instructor | Trevor Campbell | trevor[-at-]stat.ubc.ca |  | Zoom |
 
 ## Assessment
 
