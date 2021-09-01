@@ -85,7 +85,6 @@ minutes late. Please be patient!*
 | Instructor | Trevor Campbell | trevor[-at-]stat.ubc.ca |  | Zoom |
 
 ## Assessment
-
 In each class (lecture and tutorial) there will be an assignment:
 
 - Lecture and tutorial worksheet **due dates are posted on Canvas.**
