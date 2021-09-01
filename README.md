@@ -21,6 +21,14 @@ will be an emphasis on intelligent and reproducible workflow, and clear
 communications of findings. No previous programming skills necessary; beginners
 are welcome!
 
+## Dealing With COVID-19
+
+The [COVID-19 pandemic](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/events-as-they-happen) has affected us all in different ways. It's okay to not be okay, and you should never hesitate to reach out to me if you need support. Just ask! UBC also has [great student support resources](https://students.ubc.ca/covid19) related to COVID-19 (and otherwise).
+
+Also, please keep in mind that running a course during a pandemic is a new experience for your teaching team. The way this course usually runs (with a lot of close interaction between students and instructors) is not safe when we are trying to limit the spread of COVID-19. So a lot of how we run things in-class will be a bit "experimental," and we will have to adjust on the fly; please do not hesitate to provide feedback on how we can improve your learning experience. 
+
+**Section 004: please see Canvas for rules we are implementing this semester to limit the spread of COVID-19.**
+
 ## Textbook
 This course uses [Data Science: A First Introduction](https://ubc-dsci.github.io/introduction-to-datascience/). 
 This textbook is open source and will always be freely available on the web. 
@@ -175,20 +183,6 @@ An "adequate acknowledgement" requires a detailed identification of the (parts o
 The above attribution policy applies only to assignments. **No code or text may be copied (with or without attribution) from any source during a quiz or exam. Answers must always be in your own words. At a minimum, copying will result in a grade of 0 for the related question.**
 
 **Repeated plagiarism of any form could result in larger penalties, including failure of the course.** 
-
-### Dealing With COVID-19
-
-The [COVID-19 pandemic](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/events-as-they-happen) has affected us all in different ways: it's okay to not be okay, and we all need to support each other during this time. With that said:
-
-- My (virtual) door is always open, please feel free to talk to me about how you're doing and if/how I can help you (and if I can't help you, I can point you in the direction of someone who can);
-- You don't ever need to explain yourself; if you need support, need to miss a class, or need extra time for an assignment, just ask;
-- UBC has [great student support resources](https://students.ubc.ca/covid19) related to COVID-19 (and otherwise).
-
-Further, teaching/learning a course online is a very new concept to all of us. If you have feedback on how I can improve the teaching experience, don't hesitate to reach out - I'm sure things won't be perfect from the get-go.
-
-Finally, here is an official statement from UBC regarding the online learning experience:
-
->*During this pandemic, the shift to online learning has greatly altered teaching and studying at UBC, including changes to health and safety considerations. Keep in mind that some UBC courses might cover topics that are censored or considered illegal by non-Canadian governments. This may include, but is not limited to, human rights, representative government, defamation, obscenity, gender or sexuality, and historical or current geopolitical controversies. If you are a student living abroad, you will be subject to the laws of your local jurisdiction, and your local authorities might limit your access to course material or take punitive action against you. UBC is strongly committed to academic freedom, but has no control over foreign authorities (please visit http://www.calendar.ubc.ca/vancouver/index.cfm?tree=3,33,86,0 for an articulation of the values of the University conveyed in the Senate Statement on Academic Freedom). Thus, we recognize that students will have legitimate reason to exercise caution in studying certain subjects. If you have concerns regarding your personal situation, consider postponing taking a course with manifest risks, until you are back on campus or reach out to your academic advisor to find substitute courses. For further information and support, please visit: http://academic.ubc.ca/support-resources/freedom-expression.*
 
 ## Attribution
 
