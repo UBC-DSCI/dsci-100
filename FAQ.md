@@ -13,13 +13,13 @@ than a few weeks.
 
 # What if I get sick during the semester?
 
-## DO NOT COME TO CLASS.
+### DO NOT COME TO CLASS.
 
 I will continue recording and posting lecture videos on Canvas throughout the semester, so you will not miss anything.
 
 # What if I get sick right before a quiz?
 
-## DO NOT COME TO THE QUIZ.
+### DO NOT COME TO THE QUIZ.
 
 Please contact the instructor as far in advance as possible to make alternate arrangements.
 
