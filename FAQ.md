@@ -17,11 +17,13 @@ than a few weeks.
 
 I will continue recording and posting lecture videos on Canvas throughout the semester, so you will not miss anything.
 
+You can complete all of your assignments electronically (and remotely).
+
 # What if I get sick right before a quiz?
 
 ### DO NOT COME TO THE QUIZ.
 
-Please contact the instructor as far in advance as possible to make alternate arrangements.
+I will make alternate arrangements if you get sick right before/during a quiz. Please contact me as far in advance as possible, and fill out an academic concession form (available on the Canvas page).
 
 # What is the structure of the class?
 
