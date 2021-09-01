@@ -35,7 +35,7 @@ To reduce the risk of COVID-19 transmission, please **sit in the same seat/area 
 This will minimize your contacts. 
 
 ## Interacting with Instructors
-**Students will not approach the front of the classroom under any circumstances.** 
+**Do not approach the front of the classroom under any circumstances.** 
 In order to minimize contact, the teaching team will remain at the front of the classroom,
 and students will remain in the seating area. 
 You are welcome to raise your hand to ask questions while I lecture as usual.
