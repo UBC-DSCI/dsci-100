@@ -1,32 +1,14 @@
 # DSCI 100: Introduction to Data Science
 
 ## Time and Place
-Section 001: Online, Tues/Thurs 15:30-17:00
-Section 004: In-Person, Tues/Thurs 11:00-12:30
-
-**Both Sections:** You will need the latest version of [Zoom video conferencing](https://zoom.us),
-which is available for download [at this link](https://ca01web.zoom.us/download).
-Make sure this it is installed and working before coming to the first class!
+- Section 001: Online (Zoom), Tues/Thurs 15:30-17:00
+- Section 004: In-Person, Tues/Thurs 11:00-12:30
 
 ## Course Description
 Use of data science tools to summarize, visualize, and analyze data. Sensible
-workflows and clear interpretations are emphasized. 
+workflows and clear interpretations are emphasized.
 
-## Prerequisite Mathematical Knowledge
-- distance between points on a graph
-- percentages, average
-- powers, roots, basic operations, logarithm, exponential
-- equation of a line / plane
-
-As an example, British Columbia's Math 12 or Pre-Calculus 12 courses would
-satisfy the prerequisite.
-
-## Textbook
-We are using an open source textbook available free on the web:
-[https://ubc-dsci.github.io/introduction-to-datascience/](https://ubc-dsci.github.io/introduction-to-datascience/)
-
-## Expanded Course Description
-In recent years, virtually all areas of inquiry have seen an uptake in the use
+**Long Version:** In recent years, virtually all areas of inquiry have seen an uptake in the use
 of data science tools. Skills in the areas of assembling, analyzing, and
 interpreting data are more critical than ever. This course is designed as a
 first experience in honing such skills. Students who have completed this course
@@ -39,17 +21,33 @@ will be an emphasis on intelligent and reproducible workflow, and clear
 communications of findings. No previous programming skills necessary; beginners
 are welcome!
 
-## Course Software Platforms
-Students will learn to perform their analysis using the 
+## Textbook
+This course uses [Data Science: A First Introduction](https://ubc-dsci.github.io/introduction-to-datascience/). 
+This textbook is open source and will always be freely available on the web. 
+
+## Hardware & Software
+Students are required to bring a laptop, chromebook or tablet to both lectures and tutorials. Students
+who do not own a laptop, chromebook, or tablet may be able to 
+[loan a laptop from the UBC library](https://services.library.ubc.ca/computers-technology/technology-borrowing/). 
+
+For both online and in-person sections,
+students will need to have the latest version of [Zoom video conferencing](https://zoom.us) installed.
+This software is available for download [at this link](https://ca01web.zoom.us/download).
+
+All other required software will be provided by the instructors. Students will learn to perform their analysis using the 
 [R programming language](https://cran.r-project.org/). Worksheets and tutorial problem sets as
 well as the final project analysis, development, and reports will be done using
-[Jupyter Notebooks](http://jupyter.org/). Students will access the worksheets
-and tutorials in 
-[Jupyter Notebooks](https://ubc-dsci.github.io/introduction-to-datascience/index.html#jupyter-notebooks)
-through [Canvas](https://canvas.ubc.ca/courses/19078). Students will require a
-laptop, chromebook or tablet in both lectures and tutorials. If a student does
-not their own laptop or chromebook, students may  be able to 
-[loan a laptop from the UBC library](https://services.library.ubc.ca/computers-technology/technology-borrowing/). 
+[Jupyter Notebooks](http://jupyter.org/) accessed via [Canvas](https://canvas.ubc.ca). 
+
+
+## Prerequisite Knowledge
+- distance between points on a graph
+- percentages, average
+- powers, roots, basic operations, logarithm, exponential
+- equation of a line / plane
+
+As an example, British Columbia's Math 12 or Pre-Calculus 12 courses would
+satisfy the prerequisite.
 
 ## Learning Outcomes
 By the end of the course, students will be able to:
@@ -59,6 +57,7 @@ By the end of the course, students will be able to:
 - Identify the most common types of research/statistical questions and map them to the appropriate type of data analysis.
 - Create, and interpret, meaningful tables from wrangled data.
 - Create, and interpret, impactful figures from wrangled data.
+- Collaborate with others using version control.
 - Apply, and interpret the output of simple classifier and regression models.
 - Make and evaluate predictions using a simple classifier and a regression model.
 - Apply, and interpret the output of, a simple clustering algorithm.
@@ -95,13 +94,6 @@ will automatically snapshot at the due date/time.
 | Group project | 20 |
 | Three quizzes | 60 |
 
-> Due to the global pandemic, we will drop the lowest lecture worksheet grade, 
-as well as the lowest tutoral worksheet grade. We still recommend students 
-complete all assigned work for the course as they are critical for learning. 
-This is dropping of the lowest lecture and tutorial worksheet grades is intended 
-to help increase flexibility for students to help navigate challenges they face 
-due to the global pandemic.
-
 ### Group project breakdown
 
 | Deliverable | Percent Grade |
@@ -120,14 +112,16 @@ due to the global pandemic.
 | Cleaning and wrangling data | This week will be centered around tools for cleaning and wrangling data. Again, this will be in the context of a real world data science application and we will continue to practice working through a whole case study that includes downloading data from the web, wrangling the data into a useable format and creating an effective data visualization. |
 | Effective data visualization | Expand your data visualization knowledge and tool set beyond what we have seen and practiced so far. We will move beyond scatter plots and learn other effective ways to visualize data, as well as some general rules of thumb to follow when creating visualations. All visualization tasks this week will be applied to real world data sets. Again, this will be in the context of a real world data science application and we will continue to practice working through a whole case study that includes downloading data from the web, wrangling the data into a useable format and creating an effective data visualization. |
 | Version control | Collaboration with version control | 
+| Quiz 1 | |
 | Classification | Introduction to classification using K-nearest neighbours (k-nn) |
 | Classification, continued | Classification continued | 
 Regression | Introduction to regression using K-nearest neighbours (k-nn). We will focus on prediction in cases where there is a response variable of interest and a single explanatory variable. |
 | Regression, continued | Continued exploration of k-nn regression in higher dimensions. We will also begin to compare k-nn to linear models in the context of regression. | 
+| Quiz 2 | |
 | Clustering |  Introduction to clustering using K-means  | 
 | Introduction to statistical inference | Introduce sampling and estimation for sample means and proportions. |
 | Introduction to statistical inference, continued | Introduce confidence intervals, and calculating them via boostrapping.  |
-|  Exam period  | Final Exam |
+|  Quiz 3  | |
 
 ## Policies
 
