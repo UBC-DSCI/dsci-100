@@ -72,18 +72,17 @@ clear, reproducible, and shareable.
 right before their office hours, and they may run a few 
 minutes late. Please be patient!*
 
-| Section | Position | Name  | Email | Office Hours | Office Location |
-|----------|-------|-------|--------------|-----------------|----------------|
-| 001 | Instructor | Trevor Campbell | trevor[-at-]stat.ubc.ca |  | Zoom |
+| Position | Name  | Email | Office Hours | Office Location |
+|-------|-------|--------------|-----------------|----------------|
+| Instructor | Trevor Campbell | trevor[-at-]stat.ubc.ca |  | Zoom |
 
 ## Assessment
 
-In each class (lecture and tutorial) there will be an assignment. 
-**Lecture and tutorial worksheet due dates are posted on Canvas.** To open the assignment,
-click the link (e.g. `worksheet_01`) from Canvas. To submit your assignment,
-just make sure your work is saved (File -> Save and Checkpoint to be sure) 
-**on our server** (i.e., using the link from Canvas) before the deadline. Our server
-will automatically snapshot at the due date/time.
+In each class (lecture and tutorial) there will be an assignment:
+- Lecture and tutorial worksheet **due dates are posted on Canvas.**
+- To open the assignment, click the link (e.g. `worksheet_01`) from Canvas.
+- To submit your assignment, just make sure your work is saved **on our server** (`File -> Save and Checkpoint` to be sure).
+- At the deadline, our server will automatically snapshot your work.
 
 ### Course breakdown
 
@@ -125,20 +124,22 @@ Regression | Introduction to regression using K-nearest neighbours (k-nn). We wi
 
 ## Policies
 
-### Late Assignments / Quiz Absence
-Students must be present at the invigilation venue (in class, on Zoom, examination centre, etc) to take the quiz; otherwise they will be considered to have missed the quiz and will be assigned a grade of zero. Students who will miss a quiz must provide a self-declaration and make arrangements (e.g., schedule an oral make-up quiz) with the Instructor prior to the quiz. Failing to present a declaration within a reasonable timeframe before the quiz will result in a grade of zero. 
-
-We will not provide extensions for the lecture and tutorial worksheets; late assignments will receive a grade of zero. Instead, we will drop the lowest grade on tutorials and worksheets for the semester. 
-
-For all other assignments and the course project, a late submission will receive a 50% penalty.
-
 ### Late Registration
-Students who register for the class late have **1 week from their registration date on Canvas** to complete all prior assignments.
+Students who register for the class late have 1 week from their registration date on Canvas to complete all prior assignments.
+
+### Late Assignments / Quiz Absence
+Students **must be present** at the invigilation venue (in class, on Zoom, examination centre, etc) to take quizzes; otherwise they will be considered to have missed the quiz and will be assigned a grade of zero. 
+
+Students who will miss a quiz **must provide a self-declaration prior to the quiz** and make arrangements (e.g., schedule an oral make-up quiz) with the Instructor. Failing to present a declaration within a reasonable timeframe before the quiz will result in a grade of zero. 
+
+There will be **no extensions for the lecture and tutorial worksheets**; late assignments will receive a grade of zero. Instead, we will drop the lowest grade on tutorials and worksheets for the semester. 
+
+For all other assignments and the course project, a **late submission will receive a 50% penalty**.
 
 ### Autograder Policy
 Many of the questions in assignments are graded automatically by software. The grading computer has exactly the same hardware setup as the server that students work on. No assignment, when completed, should take longer than 5 minutes to run on the server. The autograder will automatically stop (time out) for each student assignment after a maximum of 5 minutes; **any ungraded questions at that point will receive a score of 0.**
 
-Furthermore, students are responsible for making sure their assignments are *reproducible*, and run from beginning to end on the autograding computer. In particular, **please ensure that any data that needs to be downloaded is done so by the assignment notebook with the correct filename to the correct folder.** A common mistake is to manually download data when working on the assignment, making the autograder unable to find the data and often resulting in an assignment grade of 0.
+Students are responsible for making sure their assignments are *reproducible*, and run from beginning to end on the autograding computer. In particular, **please ensure that any data that needs to be downloaded is done so by the assignment notebook with the correct filename to the correct folder.** A common mistake is to manually download data when working on the assignment, making the autograder unable to find the data and often resulting in an assignment grade of 0.
 
 In short: whatever grade the autograder returns after 5 minutes (assuming the teaching team did not make an error) is the grade that will be assigned.
 
@@ -151,7 +152,7 @@ Students are responsible for using a device and browser compatible with all func
 While classes are remote due to the ongoing pandemic, students are responsible to have a stable internet connection and a functioning webcam and microphone. Absence of any of these will not be considered a valid reason not to take a quiz/exam or submit an assignment on time.
 
 ### Missed Final Exam 
-Students who miss the final exam must report to their faculty advising office within 72 hours of the missed exam, and must supply supporting documentation. Only your faculty advising office can grant deferred standing in a course. You must also notify your instructor prior to (if possible) or immediately after the exam. Your instructor will let you know when you are expected to write your deferred exam. Deferred exams will ONLY be provided to students who have applied for and received deferred standing from their faculty.
+Students who miss the final quiz must report to their faculty advising office within 72 hours of the missed exam, and must supply supporting documentation. Only your faculty advising office can grant deferred standing in a course. You must also notify your instructor prior to (if possible) or immediately after the exam. Your instructor will let you know when you are expected to write your deferred exam. Deferred exams will ONLY be provided to students who have applied for and received deferred standing from their faculty.
 
 ### Academic Concession Policy
 Please see [UBC's concession policy](http://www.calendar.ubc.ca/vancouver/index.cfm?tree=3,329,0,0) for detailed information on dealing with missed coursework, quizzes, and exams under circumstances of an acute and unanticipated nature.
@@ -169,7 +170,7 @@ Students must correctly cite any code or text that has been authored by someone 
 - the translation of an algorithm or a script from a language to another 
 - the generation of code by automatic code-generation software 
 
-An “adequate acknowledgement” requires a detailed identification of the (parts of the) code or text reused and a full citation of the original source code that has been reused.
+An "adequate acknowledgement" requires a detailed identification of the (parts of the) code or text reused and a full citation of the original source code that has been reused.
 
 The above attribution policy applies only to assignments. **No code or text may be copied (with or without attribution) from any source during a quiz or exam. Answers must always be in your own words. At a minimum, copying will result in a grade of 0 for the related question.**
 
