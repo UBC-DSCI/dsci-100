@@ -29,6 +29,8 @@ concession form (available on the Canvas page).
 
 # What is the structure of the class?
 
+**Tues/Thurs may swap here; I haven't settled on the exact schedule pattern yet. But aside from Tues/Thurs swap, this is all correct.**
+
 Each week (starting on Thursday) will have the following pattern:
 
 - I will release pre-lecture reading material a few days earlier (usually on
