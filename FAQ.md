@@ -23,7 +23,9 @@ You can complete all of your assignments electronically (and remotely).
 
 ### DO NOT COME TO THE QUIZ.
 
-I will make alternate arrangements if you get sick right before/during a quiz. Please contact me as far in advance as possible, and fill out an academic concession form (available on the Canvas page).
+I will make alternate arrangements if you get sick right before/during a quiz.
+Please contact me as far in advance as possible, and fill out an academic
+concession form (available on the Canvas page).
 
 # What is the structure of the class?
 
@@ -110,18 +112,25 @@ Yes. There is no hard math prerequisite; MATH12 (or equivalent) is suggested but
 **During Lectures & Tutorials:** You can use lecture and tutorial time to ask
 questions, discuss and receive individual feedback regarding your worksheets,
 tutorials, or group project. Myself, the TAs and your fellow classmates will be
-available to help you work through the problems!
+available to help you work through the problems.
 
 **Office Hours:** The TAs and I will hold office hours at various times
-throughout the week via  Zoom / Collaborate Ultra. I encourage you to ask
+throughout the week via Zoom. I encourage you to ask
 questions about the worksheets, tutorials, the project or any other questions
-about the course material!
+about the course material.
 
-**Piazza Discussion Board:** You can post on the Piazza Discussion board to ask your questions about the course material. You can also help your classmates by answering their questions! 
+**Piazza Discussion Board:** You can post on the Piazza Discussion board to ask
+your questions about the course material. You can also help your classmates by
+answering their questions.
 
-**Email:** If you have personal questions that do not pertain to the course material itself you can email me. For questions about the course material, please post your questions on Piazza! Please note: I respond to emails M - F, and I try my best to answer you as promptly as possible, however, given the large class size I may take a few days to respond.
+**Email:** **For questions about the course material, please post your questions on Piazza.**
+If you have personal questions that do not pertain to the course
+material itself you can email me. Please note: I respond to emails M - F,
+and I try my best to answer you as promptly as possible. However, given the
+large class size I may take a few days to respond.
 
-**Do not send me email at my `mail.ubc.ca` or `.ubc.ca` account; I don't check those. Please send it to the email address listed on the syllabus.**
+**Do not send me email at my `mail.ubc.ca` or `.ubc.ca` account; I don't check
+those. Please send it to the email address listed on the syllabus.**
 
 # How do I do well in this course?
 **Most importantly:** complete the lecture and tutorial worksheets. These
@@ -131,15 +140,14 @@ The tutorials are more difficult and give you a good sense for how well you've
 learned the material. Students who make an effort to complete all of the
 worksheets and tutorials tend to perform well in the class.
 
-You can collaborate with your peers (this is encouraged!) as discussing the
-material while you work on it will help you learn. But you are not allowed to
-simply copy another student's work. That is plagiarism, which is expressly
-forbidden in the course policy.
+For lecture/tutorial worksheets, you can collaborate with your peers (this is
+encouraged!) as discussing the material while you work on it will help you
+learn. But you are not allowed to simply copy another student's work. That is
+plagiarism, which is expressly forbidden in the course policy.
 
 Time management is very important in this course. There are regular assessments
 every week to keep you on track, but we move quickly and cover a lot of
-ground.  The time management toolkit on the Learning Commons website may be a
-useful tool for you.
+ground. 
 
 Take an active role in the learning community that we will build together. Ask
 questions on Piazza when you have them, and try to answer each others'
