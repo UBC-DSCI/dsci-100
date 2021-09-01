@@ -91,13 +91,16 @@ assignment from that class is due at the normal time.
 
 # I'm going to be late / absent for a class! Who do I notify?
 
-I do not need to be informed when you'll be absent from a regular class. I
-understand that not everyone will be able to attend the lecture/tutorial
-sessions. There are no marks assigned for attending class. I am hoping the
+I do not need to be informed when you'll be absent from a regular class. 
+I understand that, from time to time, you will not be able to 
+attend the lecture/tutorial sessions. There are no marks assigned 
+for attending class. I am hoping the
 flexibility of this course will allow you to access the learning materials
 wherever you are and whenever you need them. 
 
-If you are going to be absent from a quiz, you need to fill out a self-declared concession form in a timely manner. See the course policies on the syllabus for details.
+If you are going to be absent from a quiz, you need to fill out a self-declared
+concession form in a timely manner prior to the quiz. See the course policies
+on the syllabus for details.
 
 # Do I satisfy the math requirement for this class?
 
