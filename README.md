@@ -23,11 +23,11 @@ are welcome!
 
 ## Dealing With COVID-19
 
+**In-Person Section: please see Canvas for rules we are implementing this semester to limit the spread of COVID-19.**
+
 The [COVID-19 pandemic](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/events-as-they-happen) has affected us all in different ways. It's okay to not be okay, and you should never hesitate to reach out to me if you need support. Just ask! UBC also has [great student support resources](https://students.ubc.ca/covid19) related to COVID-19 (and otherwise).
 
 Also, please keep in mind that running a course during a pandemic is a new experience for your teaching team. The way this course usually runs (with a lot of close interaction between students and instructors) is not safe when we are trying to limit the spread of COVID-19. So a lot of how we run things in-class will be a bit "experimental," and we will have to adjust on the fly; please do not hesitate to provide feedback on how we can improve your learning experience. 
-
-**Section 004: please see Canvas for rules we are implementing this semester to limit the spread of COVID-19.**
 
 ## Textbook
 This course uses [Data Science: A First Introduction](https://ubc-dsci.github.io/introduction-to-datascience/). 
