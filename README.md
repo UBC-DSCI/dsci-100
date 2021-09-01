@@ -1,23 +1,16 @@
 # DSCI 100: Introduction to Data Science
 
 ## Time and Place
-Tues/Thurs 13:00-16:00
+Section 001: Online, Tues/Thurs 15:30-17:00
+Section 004: In-Person, Tues/Thurs 11:00-12:30
 
-> Note: synchronous class sessions will be conducted using Zoom video 
-conferencing platform. You will need Version 5.3.0 or higher of the Zoom desktop 
-application installed on your computer (Not available on Chrome OS). Please 
-download this before coming to the first class! For more info: [https://skylight.science.ubc.ca/lt/guides/zoom/student-breakout-rooms](https://skylight.science.ubc.ca/lt/guides/zoom/student-breakout-rooms)
-If you aren’t able to download Zoom, please contact the course instructor.
+**Both Sections:** You will need the latest version of [Zoom video conferencing](https://zoom.us),
+which is available for download [at this link](https://ca01web.zoom.us/download).
+Make sure this it is installed and working before coming to the first class!
 
-#### Quizzes
-- Quiz 1: Thurs, Jul 22 (in class) 
-- Quiz 2: Thurs, Aug 5 (in class)
-- Quiz 3: to be scheduled by classroom services during the exam period. You must write the exam to pass the course. 
-
-Students must write their quizzes during lecture time for which they registered. The quizzes and exam will be conducted with Canvas quizzes and will be invigilated using Zoom. Please ensure that you meet system requirements to use Zoom and Canvas. 
-
-## Description
-Use of data science tools to summarize, visualize, and analyze data. Sensible workflows and clear interpretations are emphasized. 
+## Course Description
+Use of data science tools to summarize, visualize, and analyze data. Sensible
+workflows and clear interpretations are emphasized. 
 
 ## Prerequisite Mathematical Knowledge
 - distance between points on a graph
@@ -25,16 +18,38 @@ Use of data science tools to summarize, visualize, and analyze data. Sensible wo
 - powers, roots, basic operations, logarithm, exponential
 - equation of a line / plane
 
-As an example, British Columbia's Math 12 or Pre-Calculus 12 courses would satisfy the prerequisite.
+As an example, British Columbia's Math 12 or Pre-Calculus 12 courses would
+satisfy the prerequisite.
 
 ## Textbook
-We are using an open source textbook available free on the web: [https://ubc-dsci.github.io/introduction-to-datascience/](https://ubc-dsci.github.io/introduction-to-datascience/)
+We are using an open source textbook available free on the web:
+[https://ubc-dsci.github.io/introduction-to-datascience/](https://ubc-dsci.github.io/introduction-to-datascience/)
 
 ## Expanded Course Description
-In recent years, virtually all areas of inquiry have seen an uptake in the use of data science tools. Skills in the areas of assembling, analyzing, and interpreting data are more critical than ever. This course is designed as a first experience in honing such skills. Students who have completed this course will be able to implement a data science workflow in the R programming language, by “scraping” (downloading) data from the internet, “wrangling” (managing) the data intelligently, and creating tables and/or figures that convey a justifiable story based on the data. They will be adept at using tools for finding patterns in data and making predictions about future data. There will be an emphasis on intelligent and reproducible workflow, and clear communications of findings. No previous programming skills necessary; beginners are welcome!
+In recent years, virtually all areas of inquiry have seen an uptake in the use
+of data science tools. Skills in the areas of assembling, analyzing, and
+interpreting data are more critical than ever. This course is designed as a
+first experience in honing such skills. Students who have completed this course
+will be able to implement a data science workflow in the R programming
+language, by “scraping” (downloading) data from the internet, “wrangling”
+(managing) the data intelligently, and creating tables and/or figures that
+convey a justifiable story based on the data. They will be adept at using tools
+for finding patterns in data and making predictions about future data. There
+will be an emphasis on intelligent and reproducible workflow, and clear
+communications of findings. No previous programming skills necessary; beginners
+are welcome!
 
 ## Course Software Platforms
-Students will learn to perform their analysis using the [R programming language](https://cran.r-project.org/). Worksheets and tutorial problem sets as well as the final project analysis, development, and reports will be done using [Jupyter Notebooks](http://jupyter.org/). Students will access the worksheets and tutorials in [Jupyter Notebooks](https://ubc-dsci.github.io/introduction-to-datascience/index.html#jupyter-notebooks) through [Canvas](https://canvas.ubc.ca/courses/19078). Students will require a laptop, chromebook or tablet in both lectures and tutorials. If a student does not their own laptop or chromebook, students may be able to [loan a laptop from the UBC library](https://services.library.ubc.ca/computers-technology/technology-borrowing/). 
+Students will learn to perform their analysis using the 
+[R programming language](https://cran.r-project.org/). Worksheets and tutorial problem sets as
+well as the final project analysis, development, and reports will be done using
+[Jupyter Notebooks](http://jupyter.org/). Students will access the worksheets
+and tutorials in 
+[Jupyter Notebooks](https://ubc-dsci.github.io/introduction-to-datascience/index.html#jupyter-notebooks)
+through [Canvas](https://canvas.ubc.ca/courses/19078). Students will require a
+laptop, chromebook or tablet in both lectures and tutorials. If a student does
+not their own laptop or chromebook, students may  be able to 
+[loan a laptop from the UBC library](https://services.library.ubc.ca/computers-technology/technology-borrowing/). 
 
 ## Learning Outcomes
 By the end of the course, students will be able to:
@@ -54,18 +69,22 @@ clear, reproducible, and shareable.
 
 ## Teaching Team
 
-*Note that your TAs may have class right before their DSCI100 office hours, so they may run a few minutes late. Please be patient!*
+*Note that your TAs are students too; they may have class 
+right before their office hours, and they may run a few 
+minutes late. Please be patient!*
 
 | Section | Position | Name  | Email | Office Hours | Office Location |
 |----------|-------|-------|--------------|-----------------|----------------|
-| 002 | Instructor | Melissa Lee | melissa.lee@stat.ubc.ca | Tuesdays 4 - 5 PM (pacific time PT) | Zoom |
-| 002 | TA | Connor | NA | Wednesdays 2 - 3 PM (pacific time PT) |  Zoom |
-| 002 | TA | Rachel | NA | Thursdays 9:30 - 10:30 PM (*Note: this office hour is in the evening*) (pacific time PT) | Zoom |
-
+| 001 | Instructor | Trevor Campbell | trevor@stat.ubc.ca |  | Zoom |
 
 ## Assessment
 
-In each class (lecture and tutorial) there will be an assignment. **Lecture and tutorial worksheet due dates are posted on Canvas.** To open the assignment, click the link (e.g. `worksheet_01`) from Canvas. To submit your assignment, just make sure your work is saved (File -> Save and Checkpoint to be sure) **on our server** (i.e., using the link from Canvas) before the deadline. Our server will automatically snapshot at the due date/time.
+In each class (lecture and tutorial) there will be an assignment. 
+**Lecture and tutorial worksheet due dates are posted on Canvas.** To open the assignment,
+click the link (e.g. `worksheet_01`) from Canvas. To submit your assignment,
+just make sure your work is saved (File -> Save and Checkpoint to be sure) 
+**on our server** (i.e., using the link from Canvas) before the deadline. Our server
+will automatically snapshot at the due date/time.
 
 ### Course breakdown
 
@@ -74,8 +93,7 @@ In each class (lecture and tutorial) there will be an assignment. **Lecture and 
 | Lecture worksheets | 5 |
 | Tutorial problem sets | 15 |
 | Group project | 20 |
-| Two quizzes | 40 |
-| Final exam | 20 |
+| Three quizzes | 60 |
 
 > Due to the global pandemic, we will drop the lowest lecture worksheet grade, 
 as well as the lowest tutoral worksheet grade. We still recommend students 
@@ -95,12 +113,9 @@ due to the global pandemic.
 
 ## Schedule
 
-**Summer session:** *The schedule in the summer is double the pace of a regular semester. Generally, lectures taught by the instructor are conducted on Tuesdays. Tutorials taught by the TAs are held on Thursdays and build on the concepts learned in the lecture session. Some weeks deviate from this pattern. Please check Canvas for the exact schedule.* 
-
-
 | Topic | Description | 
 |-------|-------------|
-| Introduction to Data Science | Learn to use the R programming language and Jupyter notebooks as you walk through a real world data Science application that includes downloading data from the web, wrangling the data into a useable format and creating an effective data visualization. | 
+| Introduction | Learn to use the R programming language and Jupyter notebooks as you walk through a real world data Science application that includes downloading data from the web, wrangling the data into a useable format and creating an effective data visualization. | 
 | Reading in data locally and from the web |  Learn to read in various cases of data sets locally and from the web. Once read in, these data sets will be used to walk through a real world data Science application that includes wrangling the data into a useable format and creating an effective data visualization. | 
 | Cleaning and wrangling data | This week will be centered around tools for cleaning and wrangling data. Again, this will be in the context of a real world data science application and we will continue to practice working through a whole case study that includes downloading data from the web, wrangling the data into a useable format and creating an effective data visualization. |
 | Effective data visualization | Expand your data visualization knowledge and tool set beyond what we have seen and practiced so far. We will move beyond scatter plots and learn other effective ways to visualize data, as well as some general rules of thumb to follow when creating visualations. All visualization tasks this week will be applied to real world data sets. Again, this will be in the context of a real world data science application and we will continue to practice working through a whole case study that includes downloading data from the web, wrangling the data into a useable format and creating an effective data visualization. |

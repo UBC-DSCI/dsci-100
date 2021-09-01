@@ -5,3 +5,5 @@
 slides/.nbgrader.log
 .Rproj.user
 **.Rproj
+*.swp
+*.swo
